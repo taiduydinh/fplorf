@@ -9,7 +9,8 @@ from the player--gameweek panel, it performs the following stages:
 3. solve the two-stage and joint roster-selection models;
 4. evaluate static and fixed-squad sequential lineup policies over GW27--38;
 5. run feature-regularization, Pareto, and availability sensitivity analyses;
-6. regenerate every main-paper and supplementary figure; and
+6. regenerate every analytical main-paper and supplementary figure, while
+   copying the author-designed workflow PDF without redrawing it; and
 7. export tables, player-level rosters, provenance records, hashes, and a
    machine-readable completion marker.
 
@@ -53,7 +54,6 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager
 from matplotlib.colors import ListedColormap
 from matplotlib.lines import Line2D
-from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
 import numpy as np
 import pandas as pd
 
@@ -117,6 +117,15 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--data", type=Path, default=Path("merged_gw_2324.csv"))
     parser.add_argument("--output", type=Path, default=Path("fpl_paper_outputs_server"))
     parser.add_argument("--font", type=Path, default=here / "lmroman10-regular.otf")
+    parser.add_argument(
+        "--framework-figure",
+        type=Path,
+        default=here / "fpl_paper_outputs_final" / "main_figures" / "fig01_framework.pdf",
+        help=(
+            "Author-designed workflow PDF to copy as main figure 1. "
+            "The pipeline validates and preserves this file but does not draw it."
+        ),
+    )
     parser.add_argument(
         "--analysis-core", dest="analysis_core", type=Path,
         default=here / "fpl_regularization_experiments.py",
@@ -331,37 +340,6 @@ def available(results: pd.DataFrame, labels: list[str]) -> list[str]:
     return [label for label in labels if label in set(results.columns)]
 
 
-def draw_framework(path: Path) -> None:
-    """Draw the study workflow as a compact vector diagram."""
-    fig, ax = plt.subplots(figsize=(FULL_TEXT_WIDTH_IN, 6.4))
-    ax.set_xlim(0, 1)
-    ax.set_ylim(0, 1)
-    ax.axis("off")
-    boxes = [
-        (0.05, 0.72, 0.40, 0.20, "Player--gameweek panel", ["Player, club, and position", "Price, minutes, and points", "Historical performance features"]),
-        (0.55, 0.72, 0.40, 0.20, "Preprocessing", ["GW1--26 training window", "Type checks and deduplication", "Leakage-safe feature construction"]),
-        (0.05, 0.40, 0.40, 0.20, "Exploratory analysis", ["Position-specific correlations", "Feature redundancy", "Distributions and SHAP values"]),
-        (0.55, 0.40, 0.40, 0.20, "Forecasting", ["Averages and smoothing", "ARIMA and simulation", "Regularized feature models"]),
-        (0.05, 0.08, 0.40, 0.20, "Optimization", ["Two-stage baseline", "Joint 15-player MILP", "Pareto and robust variants"]),
-        (0.55, 0.08, 0.40, 0.20, "Outputs and evaluation", ["Squad, XI, captain, and bench", "Fixed-squad lineup updating", "GW27--38 scores and diagnostics"]),
-    ]
-    for x, y, w, h, heading, bullets in boxes:
-        ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.012", facecolor="#f7f9fb", edgecolor="#48576a", linewidth=1.1))
-        ax.text(x + 0.018, y + h - 0.035, heading, weight="bold", va="top", fontsize=10.5)
-        for idx, bullet in enumerate(bullets):
-            ax.text(x + 0.026, y + h - 0.078 - 0.040 * idx, f"• {bullet}", va="top", fontsize=8.7)
-    arrows = [
-        ((0.45, 0.82), (0.55, 0.82)),
-        ((0.75, 0.72), (0.25, 0.60)),
-        ((0.45, 0.50), (0.55, 0.50)),
-        ((0.75, 0.40), (0.25, 0.28)),
-        ((0.45, 0.18), (0.55, 0.18)),
-    ]
-    for start, end in arrows:
-        ax.add_patch(FancyArrowPatch(start, end, arrowstyle="-|>", mutation_scale=14, color="#48576a", linewidth=1.2))
-    save_pdf(fig, path)
-
-
 def eda_figures(data: pd.DataFrame, figures: Path, shap_sample: int, seed: int, skip_shap: bool) -> None:
     """Generate descriptive feature plots and position-specific SHAP panels."""
     train = data.loc[data["GW"] < TARGET_GW].copy()
@@ -523,173 +501,6 @@ def add_bottom_legend(
         frameon=True,
     )
     return min(0.14 + 0.055 * rows, 0.42)
-
-
-def supplementary_eda_figures(
-    data: pd.DataFrame,
-    output_dir: Path,
-    shap_sample: int,
-    seed: int,
-    skip_shap: bool,
-) -> None:
-    """Create the three consolidated EDA figures retained in the supplement."""
-    train = data.loc[data["GW"] < TARGET_GW].copy()
-    corr_features = [*FEATURES, "value"]
-
-    fig, axes = plt.subplots(2, 2, figsize=(FULL_TEXT_WIDTH_IN, 5.5), sharex=True)
-    for index, (ax, position) in enumerate(zip(axes.flat, POSITION_ORDER)):
-        subset = train.loc[train["position"] == position]
-        corrs = (
-            subset[corr_features + ["total_points"]]
-            .corr(numeric_only=True)["total_points"]
-            .drop("total_points")
-            .sort_values()
-        )
-        ax.barh(
-            [FEATURE_LABELS.get(feature, feature) for feature in corrs.index],
-            corrs.values,
-            color=np.where(corrs >= 0, "#D95F4E", "#4C78A8"),
-        )
-        ax.axvline(0, color="0.25", linewidth=0.7)
-        panel_label(ax, f"({chr(97 + index)}) {POSITION_NAMES[position]}")
-        ax.grid(axis="x", alpha=0.22)
-    fig.supxlabel("Pearson correlation with gameweek points")
-    save_pdf(fig, output_dir / "figS01_position_correlations.pdf")
-
-    distribution_features = [
-        "expected_assists",
-        "expected_goal_involvements",
-        "expected_goals",
-        "expected_goals_conceded",
-        "ict_index",
-        "value",
-    ]
-    colors = dict(zip(POSITION_ORDER, ["#4C78A8", "#59A14F", "#F28E2B", "#E15759"]))
-    fig, axes = plt.subplots(2, 3, figsize=(FULL_TEXT_WIDTH_IN, 5.2))
-    rng = np.random.default_rng(seed)
-    for index, (ax, feature) in enumerate(zip(axes.flat, distribution_features)):
-        arrays = [train.loc[train["position"] == position, feature].to_numpy(float) for position in POSITION_ORDER]
-        parts = ax.violinplot(arrays, positions=np.arange(1, 5), showextrema=False, widths=0.78)
-        for body, position in zip(parts["bodies"], POSITION_ORDER):
-            body.set_facecolor(colors[position])
-            body.set_edgecolor(colors[position])
-            body.set_alpha(0.23)
-        for xpos, values, position in zip(range(1, 5), arrays, POSITION_ORDER):
-            finite = values[np.isfinite(values)]
-            if len(finite) > 300:
-                finite = rng.choice(finite, 300, replace=False)
-            ax.scatter(
-                xpos + rng.uniform(-0.14, 0.14, len(finite)),
-                finite,
-                s=3,
-                alpha=0.12,
-                color=colors[position],
-                edgecolor="none",
-            )
-            if len(values):
-                q1, median, q3 = np.quantile(values, [0.25, 0.50, 0.75])
-                ax.plot([xpos, xpos], [q1, q3], color="0.15", linewidth=2.3)
-                ax.scatter([xpos], [median], color="white", edgecolor="0.15", s=18, zorder=4)
-        panel_label(ax, f"({chr(97 + index)})")
-        ax.set_xticks(range(1, 5), POSITION_ORDER)
-        ax.set_ylabel(FEATURE_LABELS[feature])
-        ax.grid(axis="y", alpha=0.20)
-    save_pdf(fig, output_dir / "figS02_feature_distributions.pdf")
-
-    shap_values_by_position = _compute_shap_values(
-        train,
-        sample_n=shap_sample,
-        seed=seed,
-        linear_fallback=skip_shap,
-    )
-    fig, axes = plt.subplots(2, 2, figsize=(FULL_TEXT_WIDTH_IN, 6.3))
-    shared_scatter = None
-    rng = np.random.default_rng(seed + 17)
-    for index, (ax, position) in enumerate(zip(axes.flat, POSITION_ORDER)):
-        values, feature_values = shap_values_by_position[position]
-        importance_order = np.argsort(np.mean(np.abs(values), axis=0))
-        for ypos, feature_index in enumerate(importance_order):
-            contribution = values[:, feature_index]
-            raw_feature = feature_values[:, feature_index]
-            normalized = (raw_feature - np.nanmin(raw_feature)) / (
-                np.nanmax(raw_feature) - np.nanmin(raw_feature) + 1e-12
-            )
-            shared_scatter = ax.scatter(
-                contribution,
-                ypos + rng.normal(0.0, 0.075, len(contribution)),
-                c=normalized,
-                cmap="coolwarm",
-                vmin=0,
-                vmax=1,
-                s=6,
-                alpha=0.42,
-                edgecolor="none",
-            )
-        ax.axvline(0, color="0.45", linewidth=0.7)
-        ax.set_yticks(
-            range(len(importance_order)),
-            [FEATURE_LABELS[FEATURES[j]] for j in importance_order],
-        )
-        ax.set_xlabel("SHAP value")
-        panel_label(ax, f"({chr(97 + index)}) {POSITION_NAMES[position]}")
-        ax.grid(axis="x", alpha=0.18)
-    if shared_scatter is not None:
-        colorbar = fig.colorbar(shared_scatter, ax=axes.ravel().tolist(), fraction=0.022, pad=0.02)
-        colorbar.set_label("Normalized feature value (low to high)")
-    save_pdf(fig, output_dir / "figS03_shap_by_position.pdf")
-
-
-def _compute_shap_values(
-    train: pd.DataFrame,
-    sample_n: int,
-    seed: int,
-    linear_fallback: bool,
-) -> dict[str, tuple[np.ndarray, np.ndarray]]:
-    """Return contribution and feature-value matrices for a 2x2 SHAP figure."""
-    if linear_fallback:
-        from sklearn.linear_model import Ridge
-        from sklearn.preprocessing import StandardScaler
-    else:
-        try:
-            import shap
-            from xgboost import XGBRegressor
-        except ImportError as exc:
-            raise SystemExit(
-                "Publication SHAP output requires xgboost and shap. Install "
-                "requirements_fpl_pipeline.txt; --skip-shap is smoke-test only."
-            ) from exc
-
-    rng = np.random.default_rng(seed)
-    output = {}
-    for position in POSITION_ORDER:
-        subset = train.loc[
-            train["position"] == position,
-            FEATURES + ["total_points"],
-        ].dropna()
-        if len(subset) > sample_n:
-            subset = subset.iloc[rng.choice(len(subset), sample_n, replace=False)]
-        X = subset[FEATURES].to_numpy(float)
-        y = subset["total_points"].to_numpy(float)
-        if linear_fallback:
-            scaler = StandardScaler().fit(X)
-            standardized = scaler.transform(X)
-            model = Ridge(alpha=1.0).fit(standardized, y)
-            contributions = standardized * model.coef_
-        else:
-            model = XGBRegressor(
-                n_estimators=240,
-                max_depth=3,
-                learning_rate=0.035,
-                subsample=0.85,
-                colsample_bytree=0.85,
-                objective="reg:squarederror",
-                random_state=seed,
-                n_jobs=1,
-            )
-            model.fit(X, y)
-            contributions = np.asarray(shap.TreeExplainer(model).shap_values(X))
-        output[position] = (contributions, X)
-    return output
 
 
 def cumulative_plot(results: pd.DataFrame, labels: list[str], path: Path, *, ncol: int = 3) -> None:
@@ -1440,13 +1251,22 @@ def validate_support_files(args: argparse.Namespace) -> None:
         "regularization analysis module": args.analysis_core,
         "roster-design analysis module": args.roster_design_runner,
         "internal experiment module": args.full_internal_runner,
+        "author-designed workflow PDF": args.framework_figure,
     }
     missing = [f"{label}: {path}" for label, path in required.items() if not path.is_file()]
     if missing:
         raise FileNotFoundError(
-            "Required analysis files are missing. Keep the repository files together:\n"
+            "Required support files are missing. Keep the repository files together:\n"
             + "\n".join(missing)
         )
+
+
+def read_valid_pdf(path: Path, label: str) -> bytes:
+    """Read a complete PDF asset and reject missing or truncated input."""
+    payload = path.read_bytes()
+    if not payload.startswith(b"%PDF-") or not payload.rstrip().endswith(b"%%EOF"):
+        raise ValueError(f"{label} is not a complete PDF: {path}")
+    return payload
 
 
 def run_supporting_experiments(args: argparse.Namespace, output: Path) -> tuple[Path, Path]:
@@ -1592,39 +1412,37 @@ def build_primary_comparison_table(roster_design_dir: Path, regularization_dir: 
 
 
 RETAINED_SUPPLEMENTARY_FIGURES = {
-    "fig02_position_correlations.pdf": "figS01_position_correlations.pdf",
-    "fig03_feature_correlation_heatmap.pdf": "figS02_feature_correlation_heatmap.pdf",
-    "fig04_feature_distributions.pdf": "figS03_feature_distributions.pdf",
-    "fig05a_shap_goalkeepers.pdf": "figS04a_shap_goalkeepers.pdf",
-    "fig05b_shap_defenders.pdf": "figS04b_shap_defenders.pdf",
-    "fig05c_shap_midfielders.pdf": "figS04c_shap_midfielders.pdf",
-    "fig05d_shap_forwards.pdf": "figS04d_shap_forwards.pdf",
-    "fig06_method_similarity.pdf": "figS05_method_similarity.pdf",
-    "fig07a_averaging_robust.pdf": "figS06a_averaging_robust.pdf",
-    "fig07b_simulation.pdf": "figS06b_simulation.pdf",
-    "fig08_arima_variants.pdf": "figS07_arima_variants.pdf",
-    "fig09_alternative_objectives.pdf": "figS08_alternative_objectives.pdf",
-    "fig10a_hybrid_averaging.pdf": "figS09a_hybrid_averaging.pdf",
-    "fig10b_hybrid_simulation.pdf": "figS09b_hybrid_simulation.pdf",
-    "fig11a_hybrid_arima.pdf": "figS10a_hybrid_arima.pdf",
-    "fig11b_hybrid_ict_linear.pdf": "figS10b_hybrid_ict_linear.pdf",
-    "fig12_simple_budget_ranks.pdf": "figS11_simple_budget_ranks.pdf",
-    "fig13_weighted_budget_ranks.pdf": "figS12_weighted_budget_ranks.pdf",
-    "fig14_arima100_sequential_budget_ranks.pdf": "figS13_arima100_sequential_budget_ranks.pdf",
-    "fig15_arima101_sequential_budget_ranks.pdf": "figS14_arima101_sequential_budget_ranks.pdf",
-    "fig16_arima001_budget_sensitivity.pdf": "figS15_arima001_budget_sensitivity.pdf",
-    "fig17_arima100_budget_sensitivity.pdf": "figS16_arima100_budget_sensitivity.pdf",
-    "fig18_arima101_budget_sensitivity.pdf": "figS17_arima101_budget_sensitivity.pdf",
-    "fig19_ict_budget_sensitivity.pdf": "figS18_ict_budget_sensitivity.pdf",
-    "fig20_hybrid_ict_budget_sensitivity.pdf": "figS19_hybrid_ict_budget_sensitivity.pdf",
-    "fig21_monte_carlo_budget_sensitivity.pdf": "figS20_monte_carlo_budget_sensitivity.pdf",
-    "fig22_simple_sequential_budget_sensitivity.pdf": "figS21_simple_sequential_budget_sensitivity.pdf",
-    "fig23_weighted_sequential_budget_sensitivity.pdf": "figS22_weighted_sequential_budget_sensitivity.pdf",
-    "fig24_arima001_sequential_budget_sensitivity.pdf": "figS23_arima001_sequential_budget_sensitivity.pdf",
-    "fig26_family_best_cumulative.pdf": "figS24_family_best_cumulative.pdf",
-    "fig27_family_uplift.pdf": "figS25_family_uplift.pdf",
-    "fig28_top10_weekly_distributions.pdf": "figS26_top10_weekly_distributions.pdf",
-    "fig29_external_benchmark.pdf": "figS27_fixed_split_external_benchmark.pdf",
+    "fig03_feature_correlation_heatmap.pdf": "figS01_feature_correlation_heatmap.pdf",
+    "fig04_feature_distributions.pdf": "figS02_feature_distributions.pdf",
+    "fig05a_shap_goalkeepers.pdf": "figS03a_shap_goalkeepers.pdf",
+    "fig05b_shap_defenders.pdf": "figS03b_shap_defenders.pdf",
+    "fig05c_shap_midfielders.pdf": "figS03c_shap_midfielders.pdf",
+    "fig05d_shap_forwards.pdf": "figS03d_shap_forwards.pdf",
+    "fig06_method_similarity.pdf": "figS04_method_similarity.pdf",
+    "fig07a_averaging_robust.pdf": "figS05a_averaging_robust.pdf",
+    "fig07b_simulation.pdf": "figS05b_simulation.pdf",
+    "fig09_alternative_objectives.pdf": "figS06_alternative_objectives.pdf",
+    "fig10a_hybrid_averaging.pdf": "figS07a_hybrid_averaging.pdf",
+    "fig10b_hybrid_simulation.pdf": "figS07b_hybrid_simulation.pdf",
+    "fig11a_hybrid_arima.pdf": "figS08a_hybrid_arima.pdf",
+    "fig11b_hybrid_ict_linear.pdf": "figS08b_hybrid_ict_linear.pdf",
+    "fig12_simple_budget_ranks.pdf": "figS09_simple_budget_ranks.pdf",
+    "fig13_weighted_budget_ranks.pdf": "figS10_weighted_budget_ranks.pdf",
+    "fig14_arima100_sequential_budget_ranks.pdf": "figS11_arima100_sequential_budget_ranks.pdf",
+    "fig15_arima101_sequential_budget_ranks.pdf": "figS12_arima101_sequential_budget_ranks.pdf",
+    "fig16_arima001_budget_sensitivity.pdf": "figS13_arima001_budget_sensitivity.pdf",
+    "fig17_arima100_budget_sensitivity.pdf": "figS14_arima100_budget_sensitivity.pdf",
+    "fig18_arima101_budget_sensitivity.pdf": "figS15_arima101_budget_sensitivity.pdf",
+    "fig19_ict_budget_sensitivity.pdf": "figS16_ict_budget_sensitivity.pdf",
+    "fig20_hybrid_ict_budget_sensitivity.pdf": "figS17_hybrid_ict_budget_sensitivity.pdf",
+    "fig21_monte_carlo_budget_sensitivity.pdf": "figS18_monte_carlo_budget_sensitivity.pdf",
+    "fig22_simple_sequential_budget_sensitivity.pdf": "figS19_simple_sequential_budget_sensitivity.pdf",
+    "fig23_weighted_sequential_budget_sensitivity.pdf": "figS20_weighted_sequential_budget_sensitivity.pdf",
+    "fig24_arima001_sequential_budget_sensitivity.pdf": "figS21_arima001_sequential_budget_sensitivity.pdf",
+    "fig26_family_best_cumulative.pdf": "figS22_family_best_cumulative.pdf",
+    "fig27_family_uplift.pdf": "figS23_family_uplift.pdf",
+    "fig28_top10_weekly_distributions.pdf": "figS24_top10_weekly_distributions.pdf",
+    "fig29_external_benchmark.pdf": "figS25_fixed_split_external_benchmark.pdf",
 }
 
 
@@ -1633,11 +1451,17 @@ def organize_retained_figures(
     main_dir: Path,
     supplementary_dir: Path,
 ) -> None:
-    """Move all 35 original figure files into the main/supplement structure."""
-    pareto_source = staging_dir / "fig25_pareto_frontier.pdf"
-    if not pareto_source.is_file():
-        raise RuntimeError("Retained Pareto figure was not generated.")
-    pareto_source.replace(main_dir / "fig05_pareto_frontier.pdf")
+    """Move recomputed figures into their final manuscript locations."""
+    promoted_main_figures = {
+        "fig02_position_correlations.pdf": "fig02_position_correlations.pdf",
+        "fig08_arima_variants.pdf": "fig05_arima_variants.pdf",
+        "fig25_pareto_frontier.pdf": "fig07_pareto_frontier.pdf",
+    }
+    for source_name, destination_name in promoted_main_figures.items():
+        source = staging_dir / source_name
+        if not source.is_file():
+            raise RuntimeError(f"Promoted main-paper figure was not generated: {source_name}")
+        source.replace(main_dir / destination_name)
     for source_name, destination_name in RETAINED_SUPPLEMENTARY_FIGURES.items():
         source = staging_dir / source_name
         if not source.is_file():
@@ -1663,46 +1487,46 @@ def remove_intermediate_pdfs(output_dir: Path) -> None:
 def figure_manifest(output_dir: Path) -> pd.DataFrame:
     """Validate every indexed PDF and record its caption, size, and hash."""
     captions = {
-        "main_figures/fig01_framework.pdf": "End-to-end data, forecasting, and optimization framework",
-        "main_figures/fig02_feature_regularization_evidence.pdf": "Feature redundancy, cost-vector stability, and LASSO selection",
-        "main_figures/fig03_primary_model_performance.pdf": "Corrected static and fixed-squad sequential performance",
-        "main_figures/fig04_budget_policy_sensitivity.pdf": "Controlled starting-XI cap and bench-budget-rule sensitivity",
-        "main_figures/fig05_pareto_frontier.pdf": "Epsilon-constraint starter--bench Pareto frontier",
-        "main_figures/fig06_external_benchmark.pdf": "Corrected joint-model comparison with Santoro strategies",
-        "main_figures/fig07_availability_sensitivity.pdf": "Stochastic starting-availability sensitivity analysis",
-        "supplementary_figures/figS01_position_correlations.pdf": "Position-specific feature--points correlations",
-        "supplementary_figures/figS02_feature_correlation_heatmap.pdf": "Pearson correlation heatmap of modeling features",
-        "supplementary_figures/figS03_feature_distributions.pdf": "Numeric feature distributions by position",
-        "supplementary_figures/figS04a_shap_goalkeepers.pdf": "SHAP summary for goalkeepers",
-        "supplementary_figures/figS04b_shap_defenders.pdf": "SHAP summary for defenders",
-        "supplementary_figures/figS04c_shap_midfielders.pdf": "SHAP summary for midfielders",
-        "supplementary_figures/figS04d_shap_forwards.pdf": "SHAP summary for forwards",
-        "supplementary_figures/figS05_method_similarity.pdf": "Hierarchical clustering of strategy scores",
-        "supplementary_figures/figS06a_averaging_robust.pdf": "Averaging and robust forecasting families",
-        "supplementary_figures/figS06b_simulation.pdf": "Simulation forecasting families",
-        "supplementary_figures/figS07_arima_variants.pdf": "ARIMA variants",
-        "supplementary_figures/figS08_alternative_objectives.pdf": "ICT, robust ICT, and involvement objectives",
-        "supplementary_figures/figS09a_hybrid_averaging.pdf": "Hybrid averaging methods",
-        "supplementary_figures/figS09b_hybrid_simulation.pdf": "Hybrid simulation methods",
-        "supplementary_figures/figS10a_hybrid_arima.pdf": "Hybrid ARIMA methods",
-        "supplementary_figures/figS10b_hybrid_ict_linear.pdf": "Hybrid ICT and linear methods",
-        "supplementary_figures/figS11_simple_budget_ranks.pdf": "Simple-average budget ranks",
-        "supplementary_figures/figS12_weighted_budget_ranks.pdf": "Weighted-average budget ranks",
-        "supplementary_figures/figS13_arima100_sequential_budget_ranks.pdf": "ARIMA(1,0,0) static and corrected sequential budget ranks",
-        "supplementary_figures/figS14_arima101_sequential_budget_ranks.pdf": "ARIMA(1,0,1) static and corrected sequential budget ranks",
-        "supplementary_figures/figS15_arima001_budget_sensitivity.pdf": "ARIMA(0,0,1) static budget sensitivity",
-        "supplementary_figures/figS16_arima100_budget_sensitivity.pdf": "ARIMA(1,0,0) static budget sensitivity",
-        "supplementary_figures/figS17_arima101_budget_sensitivity.pdf": "ARIMA(1,0,1) static budget sensitivity",
-        "supplementary_figures/figS18_ict_budget_sensitivity.pdf": "ICT budget sensitivity",
-        "supplementary_figures/figS19_hybrid_ict_budget_sensitivity.pdf": "Hybrid ICT budget sensitivity",
-        "supplementary_figures/figS20_monte_carlo_budget_sensitivity.pdf": "Monte Carlo budget sensitivity",
-        "supplementary_figures/figS21_simple_sequential_budget_sensitivity.pdf": "Corrected simple-average sequential budget sensitivity",
-        "supplementary_figures/figS22_weighted_sequential_budget_sensitivity.pdf": "Corrected weighted-average sequential budget sensitivity",
-        "supplementary_figures/figS23_arima001_sequential_budget_sensitivity.pdf": "Corrected ARIMA(0,0,1) sequential budget sensitivity",
-        "supplementary_figures/figS24_family_best_cumulative.pdf": "Best-performing methods across forecasting families",
-        "supplementary_figures/figS25_family_uplift.pdf": "Weekly method uplift relative to the corrected fixed-squad benchmark",
-        "supplementary_figures/figS26_top10_weekly_distributions.pdf": "Weekly score distributions for the leading methods",
-        "supplementary_figures/figS27_fixed_split_external_benchmark.pdf": "Fixed-split corrected sequential comparison with Santoro strategies",
+        "main_figures/fig01_framework.pdf": "Author-designed data, forecasting, and optimization workflow",
+        "main_figures/fig02_position_correlations.pdf": "Position-specific feature--points correlations",
+        "main_figures/fig03_feature_regularization_evidence.pdf": "Feature redundancy, cost-vector stability, and LASSO selection",
+        "main_figures/fig04_primary_model_performance.pdf": "Corrected static and fixed-squad sequential performance",
+        "main_figures/fig05_arima_variants.pdf": "ARIMA variants",
+        "main_figures/fig06_budget_policy_sensitivity.pdf": "Controlled starting-XI cap and bench-budget-rule sensitivity",
+        "main_figures/fig07_pareto_frontier.pdf": "Epsilon-constraint starter--bench Pareto frontier",
+        "main_figures/fig08_external_benchmark.pdf": "Corrected joint-model comparison with Santoro strategies",
+        "main_figures/fig09_availability_sensitivity.pdf": "Stochastic starting-availability sensitivity analysis",
+        "supplementary_figures/figS01_feature_correlation_heatmap.pdf": "Pearson correlation heatmap of modeling features",
+        "supplementary_figures/figS02_feature_distributions.pdf": "Numeric feature distributions by position",
+        "supplementary_figures/figS03a_shap_goalkeepers.pdf": "SHAP summary for goalkeepers",
+        "supplementary_figures/figS03b_shap_defenders.pdf": "SHAP summary for defenders",
+        "supplementary_figures/figS03c_shap_midfielders.pdf": "SHAP summary for midfielders",
+        "supplementary_figures/figS03d_shap_forwards.pdf": "SHAP summary for forwards",
+        "supplementary_figures/figS04_method_similarity.pdf": "Hierarchical clustering of strategy scores",
+        "supplementary_figures/figS05a_averaging_robust.pdf": "Averaging and robust forecasting families",
+        "supplementary_figures/figS05b_simulation.pdf": "Simulation forecasting families",
+        "supplementary_figures/figS06_alternative_objectives.pdf": "ICT, robust ICT, and involvement objectives",
+        "supplementary_figures/figS07a_hybrid_averaging.pdf": "Hybrid averaging methods",
+        "supplementary_figures/figS07b_hybrid_simulation.pdf": "Hybrid simulation methods",
+        "supplementary_figures/figS08a_hybrid_arima.pdf": "Hybrid ARIMA methods",
+        "supplementary_figures/figS08b_hybrid_ict_linear.pdf": "Hybrid ICT and linear methods",
+        "supplementary_figures/figS09_simple_budget_ranks.pdf": "Simple-average budget ranks",
+        "supplementary_figures/figS10_weighted_budget_ranks.pdf": "Weighted-average budget ranks",
+        "supplementary_figures/figS11_arima100_sequential_budget_ranks.pdf": "ARIMA(1,0,0) static and corrected sequential budget ranks",
+        "supplementary_figures/figS12_arima101_sequential_budget_ranks.pdf": "ARIMA(1,0,1) static and corrected sequential budget ranks",
+        "supplementary_figures/figS13_arima001_budget_sensitivity.pdf": "ARIMA(0,0,1) static budget sensitivity",
+        "supplementary_figures/figS14_arima100_budget_sensitivity.pdf": "ARIMA(1,0,0) static budget sensitivity",
+        "supplementary_figures/figS15_arima101_budget_sensitivity.pdf": "ARIMA(1,0,1) static budget sensitivity",
+        "supplementary_figures/figS16_ict_budget_sensitivity.pdf": "ICT budget sensitivity",
+        "supplementary_figures/figS17_hybrid_ict_budget_sensitivity.pdf": "Hybrid ICT budget sensitivity",
+        "supplementary_figures/figS18_monte_carlo_budget_sensitivity.pdf": "Monte Carlo budget sensitivity",
+        "supplementary_figures/figS19_simple_sequential_budget_sensitivity.pdf": "Corrected simple-average sequential budget sensitivity",
+        "supplementary_figures/figS20_weighted_sequential_budget_sensitivity.pdf": "Corrected weighted-average sequential budget sensitivity",
+        "supplementary_figures/figS21_arima001_sequential_budget_sensitivity.pdf": "Corrected ARIMA(0,0,1) sequential budget sensitivity",
+        "supplementary_figures/figS22_family_best_cumulative.pdf": "Best-performing methods across forecasting families",
+        "supplementary_figures/figS23_family_uplift.pdf": "Weekly method uplift relative to the corrected fixed-squad benchmark",
+        "supplementary_figures/figS24_top10_weekly_distributions.pdf": "Weekly score distributions for the leading methods",
+        "supplementary_figures/figS25_fixed_split_external_benchmark.pdf": "Fixed-split corrected sequential comparison with Santoro strategies",
     }
     rows = []
     for relative_path, caption in captions.items():
@@ -1750,13 +1574,11 @@ def write_readme(output: Path, args: argparse.Namespace) -> None:
 
 Data split: GW1--26 for training/development and GW27--38 for evaluation.
 
-The final publication set contains seven main-paper PDFs in `main_figures/`
-and 33 supplementary PDFs in `supplementary_figures/`. The 35 files from the
-original Figures 1--29 and their subpanels are all retained: the framework and
-Pareto frontier remain in the main paper, while the other 33 retained files
-are placed in the supplement. Five additional main figures provide the
-regularization, controlled-performance, budget-allocation, external-benchmark,
-and starting-availability evidence. Every PDF is
+The final publication set contains nine main-paper PDFs in `main_figures/`
+and 31 supplementary PDFs in `supplementary_figures/`. Figure 1 is the
+author-designed workflow supplied through `--framework-figure`; it is validated
+and copied without alteration, not drawn by the pipeline. The other 39 PDFs are
+recomputed and plotted from the analysis outputs. Every analytical PDF is
 title-free, uses stable manuscript/supplement indexing, and is saved as a
 vector PDF with 300-DPI raster metadata and a tight bounding box. Plot legends
 are outside the data panels. Portrait figures are designed for the manuscript's
@@ -1785,13 +1607,14 @@ def main() -> None:
     """Execute the end-to-end workflow and fail if any expected artifact is missing."""
     args = parse_args()
     started = time.perf_counter()
-    for attr in ["data", "output", "font", "analysis_core", "roster_design_runner", "full_internal_runner"]:
+    for attr in ["data", "output", "font", "framework_figure", "analysis_core", "roster_design_runner", "full_internal_runner"]:
         setattr(args, attr, getattr(args, attr).expanduser().resolve())
     for attr in ["existing_roster_design_dir", "existing_regularization_dir", "existing_full_internal_dir"]:
         if getattr(args, attr) is not None:
             setattr(args, attr, getattr(args, attr).expanduser().resolve())
     args.output.mkdir(parents=True, exist_ok=True)
     validate_support_files(args)
+    framework_payload = read_valid_pdf(args.framework_figure, "Author-designed workflow figure")
     for path, label in [(args.data, "dataset")]:
         if not path.is_file():
             raise FileNotFoundError(f"Missing {label}: {path}")
@@ -1807,6 +1630,7 @@ def main() -> None:
             stale_pdf.unlink()
         for stale_temporary in directory.glob(".*.writing.pdf"):
             stale_temporary.unlink()
+    (main_figures / "fig01_framework.pdf").write_bytes(framework_payload)
     font_name = configure_style(args.font)
     data = load_data(args.data)
     log(f"Loaded {len(data):,} player--gameweek rows; no historical Results CSV will be used.")
@@ -1838,28 +1662,27 @@ def main() -> None:
         }
     ).to_csv(results_dir / "external_benchmark_provenance.csv", index=False)
 
-    draw_framework(main_figures / "fig01_framework.pdf")
     regularization_evidence_figure(
         data,
         regularization_dir,
-        main_figures / "fig02_feature_regularization_evidence.pdf",
+        main_figures / "fig03_feature_regularization_evidence.pdf",
     )
     corrected_performance_figure(
         roster_design_dir,
         regularization_dir,
-        main_figures / "fig03_primary_model_performance.pdf",
+        main_figures / "fig04_primary_model_performance.pdf",
     )
     budget_policy_figure(
         roster_design_dir,
-        main_figures / "fig04_budget_policy_sensitivity.pdf",
+        main_figures / "fig06_budget_policy_sensitivity.pdf",
     )
     corrected_external_benchmark(
         roster_design_dir,
-        main_figures / "fig06_external_benchmark.pdf",
+        main_figures / "fig08_external_benchmark.pdf",
     )
     availability_figure(
         roster_design_dir,
-        main_figures / "fig07_availability_sensitivity.pdf",
+        main_figures / "fig09_availability_sensitivity.pdf",
     )
 
     eda_figures(
@@ -1896,8 +1719,9 @@ def main() -> None:
         "font": font_name, "workers": args.workers, "bootstrap": 4 if args.smoke_test else args.bootstrap,
         "simulation_draws": 20 if args.smoke_test else args.simulation_draws,
         "seed": args.seed, "shap_sample": min(args.shap_sample, 300 if args.smoke_test else args.shap_sample),
-        "smoke_test": args.smoke_test, "main_figure_files": 7, "supplementary_figure_files": 33,
-        "retained_original_figure_files": 35, "additional_main_figure_files": 5,
+        "smoke_test": args.smoke_test, "main_figure_files": 9, "supplementary_figure_files": 31,
+        "analytical_figure_files": 39, "author_supplied_figure_files": 1,
+        "framework_figure_source": str(args.framework_figure),
         "figure_full_text_width_in": FULL_TEXT_WIDTH_IN,
         "figure_landscape_width_in": LANDSCAPE_TEXT_WIDTH_IN,
         "base_font_size_pt": BASE_FONT_SIZE_PT,

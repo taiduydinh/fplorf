@@ -13,8 +13,8 @@ job on a Linux server. A server is helpful for speed but is not required.
 
 Keep the following files together in the repository root:
 
-- `run_fpl_paper_pipeline.py`: command-line entry point, figure generation,
-  output validation, and manifests.
+- `run_fpl_paper_pipeline.py`: command-line entry point, analytical figure
+  generation, workflow-asset copying, output validation, and manifests.
 - `fpl_roster_design_experiments.py`: forecasting, two-stage and joint roster
   models, Pareto analysis, policy evaluation, and availability sensitivity.
 - `fpl_regularization_experiments.py`: Ridge/LASSO tuning, player-cluster
@@ -26,8 +26,11 @@ Keep the following files together in the repository root:
 - `requirements_fpl_pipeline.txt`: minimum supported package versions.
 
 The committed `fpl_paper_outputs_final/` directory contains the validated
-reference outputs from the reported run. When reproducing the analysis, use a
-new output directory so the reference package remains unchanged.
+reference outputs from the reported run. Its
+`main_figures/fig01_framework.pdf` file is the author-designed workflow used in
+the manuscript. The pipeline preserves and copies that PDF rather than drawing
+a replacement. When reproducing the analysis, use a new output directory so
+the reference package remains unchanged.
 
 ## Software requirements
 
@@ -114,9 +117,10 @@ and `--seed 20260824` unchanged when reproducing the reported results.
 
 The full run is computationally intensive because it fits many ARIMA models,
 performs 500 player-cluster bootstrap replications, solves many mixed-integer
-programs, and regenerates every figure. The reported Linux server run completed
-in approximately 35.62 minutes with eight forecast workers; a laptop may take
-considerably longer. Keep the terminal open until the local run completes.
+programs, and regenerates all analytical figures. The reported Linux server run
+completed in approximately 35.62 minutes with eight forecast workers; a laptop
+may take considerably longer. Keep the terminal open until the local run
+completes.
 
 ## Full detached run on a Linux server
 
@@ -209,8 +213,9 @@ in the exported provenance.
 
 Each full run creates the following structure under the selected output path:
 
-- `main_figures/`: seven indexed main-paper PDFs.
-- `supplementary_figures/`: 33 indexed supplementary PDFs.
+- `main_figures/`: nine indexed main-paper PDFs, including the supplied
+  workflow figure.
+- `supplementary_figures/`: 31 indexed supplementary PDFs.
 - `tables/`: compact reporting tables and policy audits.
 - `results/`: weekly scores, cost vectors, rosters, and provenance records.
 - `analysis_outputs/roster_design/`: detailed roster-design and Pareto results.
@@ -221,17 +226,25 @@ Each full run creates the following structure under the selected output path:
 - `RUN_COMPLETED_SUCCESSFULLY.txt`: created only after all required outputs pass
   validation.
 
-All figures are title-free vector PDFs, specify 300 DPI for rasterized content,
-use tight bounding boxes, and place legends away from the plotted data. They
-are generated at their intended printed width: 6.70 inches for ordinary
-full-width figures and 9.70 inches for the landscape method-similarity matrix.
-Global labels are 9--10 pt, and no explicit annotation or legend text is below
-8 pt.
+All analytical figures are title-free vector PDFs, specify 300 DPI for
+rasterized content, use tight bounding boxes, and place legends away from the
+plotted data. They are generated at their intended printed width: 6.70 inches
+for ordinary full-width figures and 9.70 inches for the landscape
+method-similarity matrix. Global labels are 9--10 pt, and no explicit
+annotation or legend text is below 8 pt. Figure 1 retains the author-designed
+workflow artwork exactly as supplied.
 
 For LaTeX placement, use each portrait PDF at full text width. Place
-`figS05_method_similarity.pdf` alone on a landscape supplementary page. Do not
+`figS04_method_similarity.pdf` alone on a landscape supplementary page. Do not
 combine detailed supplementary figures into small half-width panels, because
 that would reduce their effective label size.
+
+If the workflow PDF is stored somewhere other than its default committed
+location, provide it explicitly:
+
+```bash
+python -u run_fpl_paper_pipeline.py --framework-figure /path/to/fig01_framework.pdf --data merged_gw_2324.csv --output fpl_paper_outputs_local --workers 4 --bootstrap 500 --simulation-draws 1000 --seed 20260824
+```
 
 ## Reproducibility safeguards
 
@@ -277,8 +290,10 @@ python -u run_fpl_paper_pipeline.py --font /path/to/font.otf --data merged_gw_23
 ### A previous output directory already exists
 
 Use a new output-directory name so that the validated reference outputs are
-not mixed with a new run. The pipeline never needs to read the committed
-`fpl_paper_outputs_final/` directory for a fresh reproduction.
+not mixed with a new run. The computational experiments do not read results
+from the committed `fpl_paper_outputs_final/` directory; by default, the
+pipeline reads only its author-designed `fig01_framework.pdf` asset and copies
+that file unchanged into the new output package.
 
 ## Data source and citation
 
