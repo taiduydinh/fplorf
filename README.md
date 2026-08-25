@@ -285,6 +285,20 @@ not mixed with a new run. The pipeline never needs to read the committed
 The included player--gameweek panel was constructed from the public 2023/24
 Fantasy Premier League data maintained in the
 [Fantasy-Premier-League repository](https://github.com/vaastav/Fantasy-Premier-League).
-Please cite the accompanying paper and acknowledge the upstream data source
-when reusing the code or data.
 
+This repository accompanies the following paper, which has been submitted to
+*Operations Research Forum* (Springer Nature) and is also available as an
+arXiv preprint:
+
+```bibtex
+@article{ramezani2025data,
+  title   = {A Data-Driven Framework for Team Selection in Fantasy Premier League},
+  author  = {Ramezani, Danial and Dinh, Tai},
+  journal = {arXiv preprint arXiv:2505.02170},
+  year    = {2025},
+  note    = {Submitted to Operations Research Forum (Springer Nature)}
+}
+```
+
+Please cite the paper and acknowledge the upstream data source when reusing
+the code or data.
