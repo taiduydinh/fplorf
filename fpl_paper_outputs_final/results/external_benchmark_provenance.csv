@@ -1,0 +1,5 @@
+series,source_type,source_note
+Santoro (mean-MIP-random alg),externally supplied benchmark,Santoro comparison series supplied by the cited study/first author; not derived from the FPL raw panel.
+Santoro (greedy alg),externally supplied benchmark,Santoro comparison series supplied by the cited study/first author; not derived from the FPL raw panel.
+Santoro (mean-MIP-rank),externally supplied benchmark,Santoro comparison series supplied by the cited study/first author; not derived from the FPL raw panel.
+Santoro (mean-MIP-online),externally supplied benchmark,Santoro comparison series supplied by the cited study/first author; not derived from the FPL raw panel.

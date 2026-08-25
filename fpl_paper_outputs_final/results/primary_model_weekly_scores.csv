@@ -1,0 +1,217 @@
+model,policy,GW,weekly_points,cumulative_points
+Simple average,static,27,84.0,84.0
+Simple average,static,28,41.0,125.0
+Simple average,static,29,10.0,135.0
+Simple average,static,30,54.0,189.0
+Simple average,static,31,40.0,229.0
+Simple average,static,32,70.0,299.0
+Simple average,static,33,35.0,334.0
+Simple average,static,34,85.0,419.0
+Simple average,static,35,44.0,463.0
+Simple average,static,36,62.0,525.0
+Simple average,static,37,58.0,583.0
+Simple average,static,38,42.0,625.0
+Simple average,sequential,27,84.0,84.0
+Simple average,sequential,28,43.0,127.0
+Simple average,sequential,29,10.0,137.0
+Simple average,sequential,30,54.0,191.0
+Simple average,sequential,31,40.0,231.0
+Simple average,sequential,32,70.0,301.0
+Simple average,sequential,33,35.0,336.0
+Simple average,sequential,34,85.0,421.0
+Simple average,sequential,35,34.0,455.0
+Simple average,sequential,36,62.0,517.0
+Simple average,sequential,37,58.0,575.0
+Simple average,sequential,38,43.0,618.0
+Weighted average,static,27,69.0,69.0
+Weighted average,static,28,46.0,115.0
+Weighted average,static,29,4.0,119.0
+Weighted average,static,30,56.0,175.0
+Weighted average,static,31,67.0,242.0
+Weighted average,static,32,70.0,312.0
+Weighted average,static,33,64.0,376.0
+Weighted average,static,34,102.0,478.0
+Weighted average,static,35,57.0,535.0
+Weighted average,static,36,69.0,604.0
+Weighted average,static,37,71.0,675.0
+Weighted average,static,38,46.0,721.0
+Weighted average,sequential,27,69.0,69.0
+Weighted average,sequential,28,46.0,115.0
+Weighted average,sequential,29,4.0,119.0
+Weighted average,sequential,30,56.0,175.0
+Weighted average,sequential,31,65.0,240.0
+Weighted average,sequential,32,70.0,310.0
+Weighted average,sequential,33,64.0,374.0
+Weighted average,sequential,34,102.0,476.0
+Weighted average,sequential,35,62.0,538.0
+Weighted average,sequential,36,73.0,611.0
+Weighted average,sequential,37,76.0,687.0
+Weighted average,sequential,38,41.0,728.0
+"ARIMA(0,0,1)",static,27,77.0,77.0
+"ARIMA(0,0,1)",static,28,55.0,132.0
+"ARIMA(0,0,1)",static,29,6.0,138.0
+"ARIMA(0,0,1)",static,30,68.0,206.0
+"ARIMA(0,0,1)",static,31,61.0,267.0
+"ARIMA(0,0,1)",static,32,77.0,344.0
+"ARIMA(0,0,1)",static,33,50.0,394.0
+"ARIMA(0,0,1)",static,34,107.0,501.0
+"ARIMA(0,0,1)",static,35,62.0,563.0
+"ARIMA(0,0,1)",static,36,84.0,647.0
+"ARIMA(0,0,1)",static,37,72.0,719.0
+"ARIMA(0,0,1)",static,38,46.0,765.0
+"ARIMA(0,0,1)",sequential,27,77.0,77.0
+"ARIMA(0,0,1)",sequential,28,55.0,132.0
+"ARIMA(0,0,1)",sequential,29,6.0,138.0
+"ARIMA(0,0,1)",sequential,30,68.0,206.0
+"ARIMA(0,0,1)",sequential,31,61.0,267.0
+"ARIMA(0,0,1)",sequential,32,77.0,344.0
+"ARIMA(0,0,1)",sequential,33,50.0,394.0
+"ARIMA(0,0,1)",sequential,34,107.0,501.0
+"ARIMA(0,0,1)",sequential,35,62.0,563.0
+"ARIMA(0,0,1)",sequential,36,84.0,647.0
+"ARIMA(0,0,1)",sequential,37,72.0,719.0
+"ARIMA(0,0,1)",sequential,38,46.0,765.0
+"ARIMA(1,0,0)",static,27,72.0,72.0
+"ARIMA(1,0,0)",static,28,52.0,124.0
+"ARIMA(1,0,0)",static,29,9.0,133.0
+"ARIMA(1,0,0)",static,30,66.0,199.0
+"ARIMA(1,0,0)",static,31,59.0,258.0
+"ARIMA(1,0,0)",static,32,70.0,328.0
+"ARIMA(1,0,0)",static,33,55.0,383.0
+"ARIMA(1,0,0)",static,34,91.0,474.0
+"ARIMA(1,0,0)",static,35,63.0,537.0
+"ARIMA(1,0,0)",static,36,87.0,624.0
+"ARIMA(1,0,0)",static,37,67.0,691.0
+"ARIMA(1,0,0)",static,38,52.0,743.0
+"ARIMA(1,0,0)",sequential,27,72.0,72.0
+"ARIMA(1,0,0)",sequential,28,54.0,126.0
+"ARIMA(1,0,0)",sequential,29,9.0,135.0
+"ARIMA(1,0,0)",sequential,30,66.0,201.0
+"ARIMA(1,0,0)",sequential,31,59.0,260.0
+"ARIMA(1,0,0)",sequential,32,70.0,330.0
+"ARIMA(1,0,0)",sequential,33,55.0,385.0
+"ARIMA(1,0,0)",sequential,34,91.0,476.0
+"ARIMA(1,0,0)",sequential,35,63.0,539.0
+"ARIMA(1,0,0)",sequential,36,87.0,626.0
+"ARIMA(1,0,0)",sequential,37,67.0,693.0
+"ARIMA(1,0,0)",sequential,38,48.0,741.0
+"ARIMA(1,0,1)",static,27,71.0,71.0
+"ARIMA(1,0,1)",static,28,58.0,129.0
+"ARIMA(1,0,1)",static,29,7.0,136.0
+"ARIMA(1,0,1)",static,30,61.0,197.0
+"ARIMA(1,0,1)",static,31,50.0,247.0
+"ARIMA(1,0,1)",static,32,76.0,323.0
+"ARIMA(1,0,1)",static,33,53.0,376.0
+"ARIMA(1,0,1)",static,34,91.0,467.0
+"ARIMA(1,0,1)",static,35,64.0,531.0
+"ARIMA(1,0,1)",static,36,79.0,610.0
+"ARIMA(1,0,1)",static,37,62.0,672.0
+"ARIMA(1,0,1)",static,38,65.0,737.0
+"ARIMA(1,0,1)",sequential,27,71.0,71.0
+"ARIMA(1,0,1)",sequential,28,57.0,128.0
+"ARIMA(1,0,1)",sequential,29,7.0,135.0
+"ARIMA(1,0,1)",sequential,30,60.0,195.0
+"ARIMA(1,0,1)",sequential,31,52.0,247.0
+"ARIMA(1,0,1)",sequential,32,82.0,329.0
+"ARIMA(1,0,1)",sequential,33,47.0,376.0
+"ARIMA(1,0,1)",sequential,34,107.0,483.0
+"ARIMA(1,0,1)",sequential,35,67.0,550.0
+"ARIMA(1,0,1)",sequential,36,76.0,626.0
+"ARIMA(1,0,1)",sequential,37,72.0,698.0
+"ARIMA(1,0,1)",sequential,38,63.0,761.0
+Full Ridge,static,27,70.0,70.0
+Full Ridge,static,28,36.0,106.0
+Full Ridge,static,29,18.0,124.0
+Full Ridge,static,30,39.0,163.0
+Full Ridge,static,31,69.0,232.0
+Full Ridge,static,32,59.0,291.0
+Full Ridge,static,33,35.0,326.0
+Full Ridge,static,34,67.0,393.0
+Full Ridge,static,35,61.0,454.0
+Full Ridge,static,36,66.0,520.0
+Full Ridge,static,37,63.0,583.0
+Full Ridge,static,38,57.0,640.0
+Full Ridge,sequential,27,70.0,70.0
+Full Ridge,sequential,28,25.0,95.0
+Full Ridge,sequential,29,18.0,113.0
+Full Ridge,sequential,30,40.0,153.0
+Full Ridge,sequential,31,69.0,222.0
+Full Ridge,sequential,32,59.0,281.0
+Full Ridge,sequential,33,35.0,316.0
+Full Ridge,sequential,34,67.0,383.0
+Full Ridge,sequential,35,62.0,445.0
+Full Ridge,sequential,36,75.0,520.0
+Full Ridge,sequential,37,62.0,582.0
+Full Ridge,sequential,38,57.0,639.0
+Reduced Ridge,static,27,70.0,70.0
+Reduced Ridge,static,28,36.0,106.0
+Reduced Ridge,static,29,18.0,124.0
+Reduced Ridge,static,30,39.0,163.0
+Reduced Ridge,static,31,69.0,232.0
+Reduced Ridge,static,32,59.0,291.0
+Reduced Ridge,static,33,35.0,326.0
+Reduced Ridge,static,34,67.0,393.0
+Reduced Ridge,static,35,61.0,454.0
+Reduced Ridge,static,36,66.0,520.0
+Reduced Ridge,static,37,63.0,583.0
+Reduced Ridge,static,38,57.0,640.0
+Reduced Ridge,sequential,27,70.0,70.0
+Reduced Ridge,sequential,28,25.0,95.0
+Reduced Ridge,sequential,29,18.0,113.0
+Reduced Ridge,sequential,30,40.0,153.0
+Reduced Ridge,sequential,31,69.0,222.0
+Reduced Ridge,sequential,32,59.0,281.0
+Reduced Ridge,sequential,33,35.0,316.0
+Reduced Ridge,sequential,34,67.0,383.0
+Reduced Ridge,sequential,35,62.0,445.0
+Reduced Ridge,sequential,36,75.0,520.0
+Reduced Ridge,sequential,37,62.0,582.0
+Reduced Ridge,sequential,38,57.0,639.0
+Parsimonious Ridge,static,27,87.0,87.0
+Parsimonious Ridge,static,28,33.0,120.0
+Parsimonious Ridge,static,29,8.0,128.0
+Parsimonious Ridge,static,30,37.0,165.0
+Parsimonious Ridge,static,31,55.0,220.0
+Parsimonious Ridge,static,32,79.0,299.0
+Parsimonious Ridge,static,33,34.0,333.0
+Parsimonious Ridge,static,34,98.0,431.0
+Parsimonious Ridge,static,35,61.0,492.0
+Parsimonious Ridge,static,36,74.0,566.0
+Parsimonious Ridge,static,37,67.0,633.0
+Parsimonious Ridge,static,38,54.0,687.0
+Parsimonious Ridge,sequential,27,87.0,87.0
+Parsimonious Ridge,sequential,28,33.0,120.0
+Parsimonious Ridge,sequential,29,8.0,128.0
+Parsimonious Ridge,sequential,30,37.0,165.0
+Parsimonious Ridge,sequential,31,55.0,220.0
+Parsimonious Ridge,sequential,32,79.0,299.0
+Parsimonious Ridge,sequential,33,34.0,333.0
+Parsimonious Ridge,sequential,34,98.0,431.0
+Parsimonious Ridge,sequential,35,62.0,493.0
+Parsimonious Ridge,sequential,36,74.0,567.0
+Parsimonious Ridge,sequential,37,68.0,635.0
+Parsimonious Ridge,sequential,38,54.0,689.0
+Full LASSO,static,27,68.0,68.0
+Full LASSO,static,28,35.0,103.0
+Full LASSO,static,29,11.0,114.0
+Full LASSO,static,30,29.0,143.0
+Full LASSO,static,31,65.0,208.0
+Full LASSO,static,32,59.0,267.0
+Full LASSO,static,33,26.0,293.0
+Full LASSO,static,34,63.0,356.0
+Full LASSO,static,35,46.0,402.0
+Full LASSO,static,36,44.0,446.0
+Full LASSO,static,37,46.0,492.0
+Full LASSO,static,38,64.0,556.0
+Full LASSO,sequential,27,68.0,68.0
+Full LASSO,sequential,28,35.0,103.0
+Full LASSO,sequential,29,11.0,114.0
+Full LASSO,sequential,30,35.0,149.0
+Full LASSO,sequential,31,65.0,214.0
+Full LASSO,sequential,32,59.0,273.0
+Full LASSO,sequential,33,27.0,300.0
+Full LASSO,sequential,34,57.0,357.0
+Full LASSO,sequential,35,47.0,404.0
+Full LASSO,sequential,36,54.0,458.0
+Full LASSO,sequential,37,36.0,494.0
+Full LASSO,sequential,38,64.0,558.0

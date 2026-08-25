@@ -1,0 +1,226 @@
+method,availability_design,name,team,position,value,raw_forecast,starting_probability,adjusted_cost,role,is_captain,is_vice_captain
+Simple average,Unadjusted joint $\delta=0$,Alphonse Areola,West Ham,GK,4.2,3.3076923076923075,0.8571428571428571,3.3076923076923075,Bench,False,False
+Simple average,Unadjusted joint $\delta=0$,Bukayo Saka,Arsenal,MID,9.1,6.5,0.9285714285714286,6.5,XI,False,True
+Simple average,Unadjusted joint $\delta=0$,Cameron Archer,Sheffield Utd,FWD,4.3,2.5384615384615383,0.6071428571428571,2.5384615384615383,Bench,False,False
+Simple average,Unadjusted joint $\delta=0$,Conor Bradley,Liverpool,DEF,4.1,2.75,0.14285714285714285,2.75,Bench,False,False
+Simple average,Unadjusted joint $\delta=0$,Dominic Solanke,Bournemouth,FWD,7.0,5.12,0.9285714285714286,5.12,XI,False,False
+Simple average,Unadjusted joint $\delta=0$,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,5.0,0.9285714285714286,5.0,XI,False,False
+Simple average,Unadjusted joint $\delta=0$,Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,3.6923076923076925,0.8214285714285714,3.6923076923076925,XI,False,False
+Simple average,Unadjusted joint $\delta=0$,Jamaal Lascelles,Newcastle,DEF,4.0,1.7307692307692308,0.4642857142857143,1.7307692307692308,Bench,False,False
+Simple average,Unadjusted joint $\delta=0$,Kieran Trippier,Newcastle,DEF,6.9,4.115384615384615,0.8928571428571429,4.115384615384615,XI,False,False
+Simple average,Unadjusted joint $\delta=0$,Mohamed Salah,Liverpool,MID,13.0,6.423076923076923,0.75,6.423076923076923,XI,False,False
+Simple average,Unadjusted joint $\delta=0$,Ollie Watkins,Aston Villa,FWD,8.8,6.538461538461538,0.9642857142857143,6.538461538461538,XI,True,False
+Simple average,Unadjusted joint $\delta=0$,Phil Foden,Man City,MID,8.1,5.5,0.8571428571428571,5.5,XI,False,False
+Simple average,Unadjusted joint $\delta=0$,Son Heung-min,Spurs,MID,9.6,5.68,0.7857142857142857,5.68,XI,False,False
+Simple average,Unadjusted joint $\delta=0$,William Saliba,Arsenal,DEF,5.7,4.0,0.9642857142857143,4.0,XI,False,False
+Simple average,Unadjusted joint $\delta=0$,Đorđe Petrović,Chelsea,GK,4.5,3.8,0.21428571428571427,3.8,XI,False,False
+Simple average,Expected availability,Alphonse Areola,West Ham,GK,4.2,3.3076923076923075,0.8571428571428571,2.835164835164835,Bench,False,False
+Simple average,Expected availability,Benjamin White,Arsenal,DEF,5.6,3.6538461538461537,0.8571428571428571,3.1318681318681314,XI,False,False
+Simple average,Expected availability,Bukayo Saka,Arsenal,MID,9.1,6.5,0.9285714285714286,6.035714285714286,XI,False,True
+Simple average,Expected availability,Carlton Morris,Luton,FWD,5.0,4.04,0.6428571428571429,2.5971428571428574,Bench,False,False
+Simple average,Expected availability,Dominic Solanke,Bournemouth,FWD,7.0,5.12,0.9285714285714286,4.7542857142857144,XI,False,False
+Simple average,Expected availability,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,5.0,0.9285714285714286,4.642857142857143,XI,False,False
+Simple average,Expected availability,James Tarkowski,Everton,DEF,4.6,3.1538461538461537,0.9642857142857143,3.041208791208791,Bench,False,False
+Simple average,Expected availability,Jarrad Branthwaite,Everton,DEF,4.2,2.923076923076923,0.8571428571428571,2.505494505494505,Bench,False,False
+Simple average,Expected availability,Jarrod Bowen,West Ham,MID,7.7,5.384615384615385,0.9285714285714286,5.000000000000001,XI,False,False
+Simple average,Expected availability,Jordan Pickford,Everton,GK,4.6,3.730769230769231,0.9642857142857143,3.5975274725274726,XI,False,False
+Simple average,Expected availability,Kieran Trippier,Newcastle,DEF,6.9,4.115384615384615,0.8928571428571429,3.6744505494505493,XI,False,False
+Simple average,Expected availability,Mohamed Salah,Liverpool,MID,13.0,6.423076923076923,0.75,4.8173076923076925,XI,False,False
+Simple average,Expected availability,Ollie Watkins,Aston Villa,FWD,8.8,6.538461538461538,0.9642857142857143,6.304945054945055,XI,True,False
+Simple average,Expected availability,Phil Foden,Man City,MID,8.1,5.5,0.8571428571428571,4.714285714285714,XI,False,False
+Simple average,Expected availability,William Saliba,Arsenal,DEF,5.7,4.0,0.9642857142857143,3.857142857142857,XI,False,False
+Simple average,Availability robust,André Onana,Man Utd,GK,4.8,3.5384615384615383,0.9642857142857143,3.083759599664141,Bench,False,False
+Simple average,Availability robust,Bukayo Saka,Arsenal,MID,9.1,6.5,0.9285714285714286,5.198711311053002,XI,False,True
+Simple average,Availability robust,Dominic Solanke,Bournemouth,FWD,7.0,5.12,0.9285714285714286,4.094984909629442,XI,False,False
+Simple average,Availability robust,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,5.0,0.9285714285714286,3.9990087008100024,XI,False,False
+Simple average,Availability robust,Fabian Schär,Newcastle,DEF,5.4,3.230769230769231,0.9642857142857143,2.8156065909976946,XI,False,False
+Simple average,Availability robust,James Tarkowski,Everton,DEF,4.6,3.1538461538461537,0.9642857142857143,2.7485683388310824,Bench,False,False
+Simple average,Availability robust,James Ward-Prowse,West Ham,MID,6.0,4.36,0.9285714285714286,3.487135587106322,Bench,False,False
+Simple average,Availability robust,Jarrod Bowen,West Ham,MID,7.7,5.384615384615385,0.9285714285714286,4.306624754718465,XI,False,False
+Simple average,Availability robust,Joachim Andersen,Crystal Palace,DEF,4.7,3.1538461538461537,0.9642857142857143,2.7485683388310824,Bench,False,False
+Simple average,Availability robust,Jordan Pickford,Everton,GK,4.6,3.730769230769231,0.9642857142857143,3.251355230080671,XI,False,False
+Simple average,Availability robust,Julián Álvarez,Man City,FWD,6.7,4.769230769230769,0.8928571428571429,3.5206926506231433,XI,False,False
+Simple average,Availability robust,Kieran Trippier,Newcastle,DEF,6.9,4.115384615384615,0.8928571428571429,3.0380170452957764,XI,False,False
+Simple average,Availability robust,Ollie Watkins,Aston Villa,FWD,8.8,6.538461538461538,0.9642857142857143,5.6982514341620005,XI,True,False
+Simple average,Availability robust,Phil Foden,Man City,MID,8.1,5.5,0.8571428571428571,3.7519861724780372,XI,False,False
+Simple average,Availability robust,William Saliba,Arsenal,DEF,5.7,4.0,0.9642857142857143,3.485989112663812,XI,False,False
+Weighted average,Unadjusted joint $\delta=0$,Bukayo Saka,Arsenal,MID,9.1,7.034188034188034,0.9285714285714286,7.034188034188034,XI,True,False
+Weighted average,Unadjusted joint $\delta=0$,Cole Palmer,Chelsea,MID,5.8,5.984615384615385,0.6428571428571429,5.984615384615385,XI,False,False
+Weighted average,Unadjusted joint $\delta=0$,Conor Bradley,Liverpool,DEF,4.1,3.4615384615384617,0.14285714285714285,3.4615384615384617,Bench,False,False
+Weighted average,Unadjusted joint $\delta=0$,Dominic Solanke,Bournemouth,FWD,7.0,5.381538461538462,0.9285714285714286,5.381538461538462,XI,False,False
+Weighted average,Unadjusted joint $\delta=0$,Ederson Santana de Moraes,Man City,GK,5.5,3.5128205128205128,0.8928571428571429,3.5128205128205128,Bench,False,False
+Weighted average,Unadjusted joint $\delta=0$,Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,4.401709401709402,0.8214285714285714,4.401709401709402,XI,False,False
+Weighted average,Unadjusted joint $\delta=0$,Jarrad Branthwaite,Everton,DEF,4.2,3.5925925925925926,0.8571428571428571,3.5925925925925926,Bench,False,False
+Weighted average,Unadjusted joint $\delta=0$,Jordan Pickford,Everton,GK,4.6,4.222222222222222,0.9642857142857143,4.222222222222222,XI,False,False
+Weighted average,Unadjusted joint $\delta=0$,Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,4.4586894586894585,0.8928571428571429,4.4586894586894585,Bench,False,False
+Weighted average,Unadjusted joint $\delta=0$,Mohamed Salah,Liverpool,MID,13.0,5.566951566951567,0.75,5.566951566951567,XI,False,False
+Weighted average,Unadjusted joint $\delta=0$,Ollie Watkins,Aston Villa,FWD,8.8,6.780626780626781,0.9642857142857143,6.780626780626781,XI,False,True
+Weighted average,Unadjusted joint $\delta=0$,Pascal Groß,Brighton,MID,6.5,5.356125356125356,0.8571428571428571,5.356125356125356,XI,False,False
+Weighted average,Unadjusted joint $\delta=0$,Phil Foden,Man City,MID,8.1,6.002849002849003,0.8571428571428571,6.002849002849003,XI,False,False
+Weighted average,Unadjusted joint $\delta=0$,Virgil van Dijk,Liverpool,DEF,6.4,3.9316239316239314,0.8571428571428571,3.9316239316239314,XI,False,False
+Weighted average,Unadjusted joint $\delta=0$,William Saliba,Arsenal,DEF,5.7,3.905982905982906,0.9642857142857143,3.905982905982906,XI,False,False
+Weighted average,Expected availability,André Onana,Man Utd,GK,4.8,3.49002849002849,0.9642857142857143,3.3653846153846154,Bench,False,False
+Weighted average,Expected availability,Bukayo Saka,Arsenal,MID,9.1,7.034188034188034,0.9285714285714286,6.531746031746032,XI,False,True
+Weighted average,Expected availability,Dominic Solanke,Bournemouth,FWD,7.0,5.381538461538462,0.9285714285714286,4.997142857142857,XI,False,False
+Weighted average,Expected availability,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,5.333333333333333,0.9285714285714286,4.9523809523809526,XI,False,False
+Weighted average,Expected availability,Fabian Schär,Newcastle,DEF,5.4,3.2279202279202277,0.9642857142857143,3.1126373626373627,Bench,False,False
+Weighted average,Expected availability,Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,4.401709401709402,0.8214285714285714,3.6156898656898657,XI,False,False
+Weighted average,Expected availability,Jarrod Bowen,West Ham,MID,7.7,5.185185185185185,0.9285714285714286,4.814814814814815,XI,False,False
+Weighted average,Expected availability,Jordan Pickford,Everton,GK,4.6,4.222222222222222,0.9642857142857143,4.071428571428571,XI,False,False
+Weighted average,Expected availability,Kieran Trippier,Newcastle,DEF,6.9,3.5014245014245016,0.8928571428571429,3.1262718762718764,Bench,False,False
+Weighted average,Expected availability,Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,4.4586894586894585,0.8928571428571429,3.980972730972731,Bench,False,False
+Weighted average,Expected availability,Ollie Watkins,Aston Villa,FWD,8.8,6.780626780626781,0.9642857142857143,6.538461538461538,XI,True,False
+Weighted average,Expected availability,Pascal Groß,Brighton,MID,6.5,5.356125356125356,0.8571428571428571,4.590964590964591,XI,False,False
+Weighted average,Expected availability,Phil Foden,Man City,MID,8.1,6.002849002849003,0.8571428571428571,5.145299145299146,XI,False,False
+Weighted average,Expected availability,Virgil van Dijk,Liverpool,DEF,6.4,3.9316239316239314,0.8571428571428571,3.3699633699633695,XI,False,False
+Weighted average,Expected availability,William Saliba,Arsenal,DEF,5.7,3.905982905982906,0.9642857142857143,3.7664835164835164,XI,False,False
+Weighted average,Availability robust,André Onana,Man Utd,GK,4.8,3.49002849002849,0.9642857142857143,3.04155032978146,Bench,False,False
+Weighted average,Availability robust,Bukayo Saka,Arsenal,MID,9.1,7.034188034188034,0.9285714285714286,5.6259558303703106,XI,False,True
+Weighted average,Availability robust,Declan Rice,Arsenal,MID,5.4,4.284900284900285,0.9642857142857143,3.734278935503115,XI,False,False
+Weighted average,Availability robust,Dominic Solanke,Bournemouth,FWD,7.0,5.381538461538462,0.9285714285714286,4.304163826287196,XI,False,False
+Weighted average,Availability robust,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,5.333333333333333,0.9285714285714286,4.265609280864002,XI,False,False
+Weighted average,Availability robust,Fabian Schär,Newcastle,DEF,5.4,3.2279202279202277,0.9642857142857143,2.8131236927693015,XI,False,False
+Weighted average,Availability robust,James Tarkowski,Everton,DEF,4.6,3.0256410256410255,0.9642857142857143,2.6368379185533963,Bench,False,False
+Weighted average,Availability robust,Jarrod Bowen,West Ham,MID,7.7,5.185185185185185,0.9285714285714286,4.147120134173336,XI,False,False
+Weighted average,Availability robust,Jordan Pickford,Everton,GK,4.6,4.222222222222222,0.9642857142857143,3.679655174478468,XI,False,False
+Weighted average,Availability robust,Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,4.4586894586894585,0.8928571428571429,3.2914480276136318,Bench,False,False
+Weighted average,Availability robust,Max Kilman,Wolves,DEF,4.5,3.091168091168091,0.9642857142857143,2.693944577806436,XI,False,False
+Weighted average,Availability robust,Ollie Watkins,Aston Villa,FWD,8.8,6.780626780626781,0.9642857142857143,5.909297783575408,XI,True,False
+Weighted average,Availability robust,Phil Foden,Man City,MID,8.1,6.002849002849003,0.8571428571428571,4.0950193553023695,XI,False,False
+Weighted average,Availability robust,Virgil van Dijk,Liverpool,DEF,6.4,3.9316239316239314,0.8571428571428571,2.682072477606677,Bench,False,False
+Weighted average,Availability robust,William Saliba,Arsenal,DEF,5.7,3.905982905982906,0.9642857142857143,3.404053471126842,XI,False,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Bukayo Saka,Arsenal,MID,9.1,6.654459682282244,0.9285714285714286,6.654459682282244,XI,True,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Cameron Archer,Sheffield Utd,FWD,4.3,3.0953126311569723,0.6071428571428571,3.0953126311569723,Bench,False,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Chris Richards,Crystal Palace,DEF,3.9,1.633429710858719,0.5357142857142857,1.633429710858719,Bench,False,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Cole Palmer,Chelsea,MID,5.8,4.963918652871374,0.6428571428571429,4.963918652871374,XI,False,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Conor Bradley,Liverpool,DEF,4.1,2.674172080048693,0.14285714285714285,2.674172080048693,Bench,False,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Dominic Solanke,Bournemouth,FWD,7.0,5.147229441910981,0.9285714285714286,5.147229441910981,XI,False,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,3.7447772485447355,0.8214285714285714,3.7447772485447355,XI,False,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Jordan Pickford,Everton,GK,4.6,3.7330103703165336,0.9642857142857143,3.7330103703165336,XI,False,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Kieran Trippier,Newcastle,DEF,6.9,3.958176431231566,0.8928571428571429,3.958176431231566,XI,False,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Matt Turner,Nott'm Forest,GK,3.9,1.5683905397333036,0.6428571428571429,1.5683905397333036,Bench,False,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Mohamed Salah,Liverpool,MID,13.0,6.507747702315204,0.75,6.507747702315204,XI,False,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Ollie Watkins,Aston Villa,FWD,8.8,6.517863273271979,0.9642857142857143,6.517863273271979,XI,False,True
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Phil Foden,Man City,MID,8.1,5.361564154300708,0.8571428571428571,5.361564154300708,XI,False,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,Son Heung-min,Spurs,MID,9.6,5.765943678372852,0.7857142857142857,5.765943678372852,XI,False,False
+"ARIMA(0,0,1)",Unadjusted joint $\delta=0$,William Saliba,Arsenal,DEF,5.7,4.012790688768956,0.9642857142857143,4.012790688768956,XI,False,False
+"ARIMA(0,0,1)",Expected availability,Alphonse Areola,West Ham,GK,4.2,3.192776067110868,0.8571428571428571,2.736665200380744,Bench,False,False
+"ARIMA(0,0,1)",Expected availability,Bukayo Saka,Arsenal,MID,9.1,6.654459682282244,0.9285714285714286,6.179141133547798,XI,False,True
+"ARIMA(0,0,1)",Expected availability,Dominic Solanke,Bournemouth,FWD,7.0,5.147229441910981,0.9285714285714286,4.779570196060197,XI,False,False
+"ARIMA(0,0,1)",Expected availability,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,4.693284525084277,0.9285714285714286,4.358049916149685,XI,False,False
+"ARIMA(0,0,1)",Expected availability,Emerson Palmieri dos Santos,West Ham,DEF,4.4,3.338799707469006,0.8928571428571429,2.9810711673830412,Bench,False,False
+"ARIMA(0,0,1)",Expected availability,James Tarkowski,Everton,DEF,4.6,3.1751472425536273,0.9642857142857143,3.0617491267481407,Bench,False,False
+"ARIMA(0,0,1)",Expected availability,Jarrod Bowen,West Ham,MID,7.7,4.937459334052974,0.9285714285714286,4.5847836673349045,XI,False,False
+"ARIMA(0,0,1)",Expected availability,Joachim Andersen,Crystal Palace,DEF,4.7,3.2916351864674254,0.9642857142857143,3.1740767869507316,XI,False,False
+"ARIMA(0,0,1)",Expected availability,Jordan Pickford,Everton,GK,4.6,3.7330103703165336,0.9642857142857143,3.5996885713766575,XI,False,False
+"ARIMA(0,0,1)",Expected availability,Kieran Trippier,Newcastle,DEF,6.9,3.958176431231566,0.8928571428571429,3.5340860993138983,XI,False,False
+"ARIMA(0,0,1)",Expected availability,Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,4.328624436058369,0.8928571428571429,3.864843246480687,Bench,False,False
+"ARIMA(0,0,1)",Expected availability,Mohamed Salah,Liverpool,MID,13.0,6.507747702315204,0.75,4.8808107767364035,XI,False,False
+"ARIMA(0,0,1)",Expected availability,Ollie Watkins,Aston Villa,FWD,8.8,6.517863273271979,0.9642857142857143,6.285082442083694,XI,True,False
+"ARIMA(0,0,1)",Expected availability,Phil Foden,Man City,MID,8.1,5.361564154300708,0.8571428571428571,4.595626417972035,XI,False,False
+"ARIMA(0,0,1)",Expected availability,William Saliba,Arsenal,DEF,5.7,4.012790688768956,0.9642857142857143,3.869476735598637,XI,False,False
+"ARIMA(0,0,1)",Availability robust,André Onana,Man Utd,GK,4.8,3.5442574098096813,0.9642857142857143,3.088810685768648,Bench,False,False
+"ARIMA(0,0,1)",Availability robust,Anthony Gordon,Newcastle,MID,6.1,4.749935097103997,0.8928571428571429,3.5064483973393967,Bench,False,False
+"ARIMA(0,0,1)",Availability robust,Bukayo Saka,Arsenal,MID,9.1,6.654459682282244,0.9285714285714286,5.322248433727211,XI,False,True
+"ARIMA(0,0,1)",Availability robust,Dominic Solanke,Bournemouth,FWD,7.0,5.147229441910981,0.9285714285714286,4.116763064653485,XI,False,False
+"ARIMA(0,0,1)",Availability robust,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,4.693284525084277,0.9285714285714286,3.753697130237792,XI,False,False
+"ARIMA(0,0,1)",Availability robust,Fabian Schär,Newcastle,DEF,5.4,3.2823961808006934,0.9642857142857143,2.860599337430124,Bench,False,False
+"ARIMA(0,0,1)",Availability robust,James Tarkowski,Everton,DEF,4.6,3.1751472425536273,0.9642857142857143,2.7671321796616173,Bench,False,False
+"ARIMA(0,0,1)",Availability robust,Jarrod Bowen,West Ham,MID,7.7,4.937459334052974,0.9285714285714286,3.9489885673546805,XI,False,False
+"ARIMA(0,0,1)",Availability robust,Joachim Andersen,Crystal Palace,DEF,4.7,3.2916351864674254,0.9642857142857143,2.8686511057216406,XI,False,False
+"ARIMA(0,0,1)",Availability robust,Jordan Pickford,Everton,GK,4.6,3.7330103703165336,0.9642857142857143,3.2533083770961353,XI,False,False
+"ARIMA(0,0,1)",Availability robust,Julián Álvarez,Man City,FWD,6.7,4.869651951362604,0.8928571428571429,3.5948245463115254,XI,False,False
+"ARIMA(0,0,1)",Availability robust,Kieran Trippier,Newcastle,DEF,6.9,3.958176431231566,0.8928571428571429,2.9219644310804402,XI,False,False
+"ARIMA(0,0,1)",Availability robust,Ollie Watkins,Aston Villa,FWD,8.8,6.517863273271979,0.9642857142857143,5.6803001021143595,XI,True,False
+"ARIMA(0,0,1)",Availability robust,Phil Foden,Man City,MID,8.1,5.361564154300708,0.8571428571428571,3.65754810359821,XI,False,False
+"ARIMA(0,0,1)",Availability robust,William Saliba,Arsenal,DEF,5.7,4.012790688768956,0.9642857142857143,3.4971361631118256,XI,False,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Alphonse Areola,West Ham,GK,4.2,3.1947768878877363,0.8571428571428571,3.1947768878877363,Bench,False,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Amari'i Bell,Luton,DEF,3.9,1.3631899960956482,0.6785714285714286,1.3631899960956482,Bench,False,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Bukayo Saka,Arsenal,MID,9.1,6.889276021980589,0.9285714285714286,6.889276021980589,XI,True,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Cameron Archer,Sheffield Utd,FWD,4.3,2.587877345394426,0.6071428571428571,2.587877345394426,Bench,False,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Chris Richards,Crystal Palace,DEF,3.9,3.292915506373225,0.5357142857142857,3.292915506373225,Bench,False,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Cole Palmer,Chelsea,MID,5.8,4.9625860101479695,0.6428571428571429,4.9625860101479695,XI,False,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Dominic Solanke,Bournemouth,FWD,7.0,5.166690308291283,0.9285714285714286,5.166690308291283,XI,False,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,3.719313524727714,0.8214285714285714,3.719313524727714,XI,False,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Kieran Trippier,Newcastle,DEF,6.9,3.846133239496449,0.8928571428571429,3.846133239496449,XI,False,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Mohamed Salah,Liverpool,MID,13.0,6.509131521625363,0.75,6.509131521625363,XI,False,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Ollie Watkins,Aston Villa,FWD,8.8,6.521280791806624,0.9642857142857143,6.521280791806624,XI,False,True
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Phil Foden,Man City,MID,8.1,5.429759354737169,0.8571428571428571,5.429759354737169,XI,False,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Son Heung-min,Spurs,MID,9.6,5.7718498486809935,0.7857142857142857,5.7718498486809935,XI,False,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,William Saliba,Arsenal,DEF,5.7,4.026783039564562,0.9642857142857143,4.026783039564562,XI,False,False
+"ARIMA(1,0,0)",Unadjusted joint $\delta=0$,Đorđe Petrović,Chelsea,GK,4.5,3.8461577296238474,0.21428571428571427,3.8461577296238474,XI,False,False
+"ARIMA(1,0,0)",Expected availability,Alphonse Areola,West Ham,GK,4.2,3.1947768878877363,0.8571428571428571,2.7383801896180597,Bench,False,False
+"ARIMA(1,0,0)",Expected availability,Bukayo Saka,Arsenal,MID,9.1,6.889276021980589,0.9285714285714286,6.397184877553404,XI,True,False
+"ARIMA(1,0,0)",Expected availability,Dominic Solanke,Bournemouth,FWD,7.0,5.166690308291283,0.9285714285714286,4.797641000556192,XI,False,False
+"ARIMA(1,0,0)",Expected availability,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,4.713835584186551,0.9285714285714286,4.37713304245894,XI,False,False
+"ARIMA(1,0,0)",Expected availability,Emerson Palmieri dos Santos,West Ham,DEF,4.4,3.3457141090091707,0.8928571428571429,2.98724474018676,Bench,False,False
+"ARIMA(1,0,0)",Expected availability,James Tarkowski,Everton,DEF,4.6,3.175959562477081,0.9642857142857143,3.062532435245757,Bench,False,False
+"ARIMA(1,0,0)",Expected availability,Jarrod Bowen,West Ham,MID,7.7,5.042891747482581,0.9285714285714286,4.682685194090968,XI,False,False
+"ARIMA(1,0,0)",Expected availability,Joachim Andersen,Crystal Palace,DEF,4.7,3.300563882087221,0.9642857142857143,3.182686600584106,XI,False,False
+"ARIMA(1,0,0)",Expected availability,Jordan Pickford,Everton,GK,4.6,3.7198934275200375,0.9642857142857143,3.587040090822893,XI,False,False
+"ARIMA(1,0,0)",Expected availability,Kieran Trippier,Newcastle,DEF,6.9,3.846133239496449,0.8928571428571429,3.434047535264687,XI,False,False
+"ARIMA(1,0,0)",Expected availability,Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,4.203009734992741,0.8928571428571429,3.752687263386376,Bench,False,False
+"ARIMA(1,0,0)",Expected availability,Mohamed Salah,Liverpool,MID,13.0,6.509131521625363,0.75,4.8818486412190225,XI,False,False
+"ARIMA(1,0,0)",Expected availability,Ollie Watkins,Aston Villa,FWD,8.8,6.521280791806624,0.9642857142857143,6.288377906384959,XI,False,True
+"ARIMA(1,0,0)",Expected availability,Phil Foden,Man City,MID,8.1,5.429759354737169,0.8571428571428571,4.6540794469175735,XI,False,False
+"ARIMA(1,0,0)",Expected availability,William Saliba,Arsenal,DEF,5.7,4.026783039564562,0.9642857142857143,3.882969359580114,XI,False,False
+"ARIMA(1,0,0)",Availability robust,André Onana,Man Utd,GK,4.8,3.5410898706271907,0.9642857142857143,3.0860501839926235,Bench,False,False
+"ARIMA(1,0,0)",Availability robust,Anthony Gordon,Newcastle,MID,6.1,4.719112049475669,0.8928571428571429,3.4836945230762804,Bench,False,False
+"ARIMA(1,0,0)",Availability robust,Bukayo Saka,Arsenal,MID,9.1,6.889276021980589,0.9285714285714286,5.510054950836419,XI,False,True
+"ARIMA(1,0,0)",Availability robust,Dominic Solanke,Bournemouth,FWD,7.0,5.166690308291283,0.9285714285714286,4.132327899449511,XI,False,False
+"ARIMA(1,0,0)",Availability robust,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,4.713835584186551,0.9285714285714286,3.770133903069963,XI,False,False
+"ARIMA(1,0,0)",Availability robust,Fabian Schär,Newcastle,DEF,5.4,3.280433028626252,0.9642857142857143,2.8588884556534726,XI,False,False
+"ARIMA(1,0,0)",Availability robust,James Tarkowski,Everton,DEF,4.6,3.175959562477081,0.9642857142857143,2.7678401142639073,Bench,False,False
+"ARIMA(1,0,0)",Availability robust,Jarrod Bowen,West Ham,MID,7.7,5.042891747482581,0.9285714285714286,4.0333135950851595,XI,False,False
+"ARIMA(1,0,0)",Availability robust,Joachim Andersen,Crystal Palace,DEF,4.7,3.300563882087221,0.9642857142857143,2.8764324396518646,XI,False,False
+"ARIMA(1,0,0)",Availability robust,Jordan Pickford,Everton,GK,4.6,3.7198934275200375,0.9642857142857143,3.2418769971511305,XI,False,False
+"ARIMA(1,0,0)",Availability robust,Julián Álvarez,Man City,FWD,6.7,4.865286094876097,0.8928571428571429,3.591601628489036,XI,False,False
+"ARIMA(1,0,0)",Availability robust,Kieran Trippier,Newcastle,DEF,6.9,3.846133239496449,0.8928571428571429,2.839253054596176,Bench,False,False
+"ARIMA(1,0,0)",Availability robust,Ollie Watkins,Aston Villa,FWD,8.8,6.521280791806624,0.9642857142857143,5.683278460215384,XI,True,False
+"ARIMA(1,0,0)",Availability robust,Phil Foden,Man City,MID,8.1,5.429759354737169,0.8571428571428571,3.7040694579740228,XI,False,False
+"ARIMA(1,0,0)",Availability robust,William Saliba,Arsenal,DEF,5.7,4.026783039564562,0.9642857142857143,3.5093304587453393,XI,False,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Bukayo Saka,Arsenal,MID,9.1,6.975393294884185,0.9285714285714286,6.975393294884185,XI,True,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Cameron Archer,Sheffield Utd,FWD,4.3,3.046040620163375,0.6071428571428571,3.046040620163375,Bench,False,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Chris Richards,Crystal Palace,DEF,3.9,3.3400655638178876,0.5357142857142857,3.3400655638178876,Bench,False,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Cole Palmer,Chelsea,MID,5.8,4.973795323387624,0.6428571428571429,4.973795323387624,XI,False,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Dominic Solanke,Bournemouth,FWD,7.0,4.945389090754579,0.9285714285714286,4.945389090754579,XI,False,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Jakub Kiwior,Arsenal,DEF,4.3,4.42838207362497,0.2857142857142857,4.42838207362497,XI,False,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Jarrad Branthwaite,Everton,DEF,4.2,2.9229890028211716,0.8571428571428571,2.9229890028211716,Bench,False,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Jordan Pickford,Everton,GK,4.6,3.729964038008132,0.9642857142857143,3.729964038008132,Bench,False,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Kieran Trippier,Newcastle,DEF,6.9,4.053769695113634,0.8928571428571429,4.053769695113634,XI,False,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Mohamed Salah,Liverpool,MID,13.0,6.472523981111602,0.75,6.472523981111602,XI,False,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Ollie Watkins,Aston Villa,FWD,8.8,6.530840568507672,0.9642857142857143,6.530840568507672,XI,False,True
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Pedro Porro,Spurs,DEF,5.8,4.081124152507548,0.8571428571428571,4.081124152507548,XI,False,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Phil Foden,Man City,MID,8.1,5.363630134559094,0.8571428571428571,5.363630134559094,XI,False,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Son Heung-min,Spurs,MID,9.6,5.763018581069041,0.7857142857142857,5.763018581069041,XI,False,False
+"ARIMA(1,0,1)",Unadjusted joint $\delta=0$,Đorđe Petrović,Chelsea,GK,4.5,4.160060006624626,0.21428571428571427,4.160060006624626,XI,False,False
+"ARIMA(1,0,1)",Expected availability,André Onana,Man Utd,GK,4.8,3.720040124205935,0.9642857142857143,3.5871815483414373,Bench,False,False
+"ARIMA(1,0,1)",Expected availability,Bukayo Saka,Arsenal,MID,9.1,6.975393294884185,0.9285714285714286,6.477150916678172,XI,True,False
+"ARIMA(1,0,1)",Expected availability,Cameron Archer,Sheffield Utd,FWD,4.3,3.046040620163375,0.6071428571428571,1.8493818050991917,Bench,False,False
+"ARIMA(1,0,1)",Expected availability,Dominic Solanke,Bournemouth,FWD,7.0,4.945389090754579,0.9285714285714286,4.592147012843538,XI,False,False
+"ARIMA(1,0,1)",Expected availability,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,4.752072515529853,0.9285714285714286,4.412638764420578,XI,False,False
+"ARIMA(1,0,1)",Expected availability,Emerson Palmieri dos Santos,West Ham,DEF,4.4,3.2575699509156717,0.8928571428571429,2.90854459903185,Bench,False,False
+"ARIMA(1,0,1)",Expected availability,Jarrad Branthwaite,Everton,DEF,4.2,2.9229890028211716,0.8571428571428571,2.50541914527529,Bench,False,False
+"ARIMA(1,0,1)",Expected availability,Jarrod Bowen,West Ham,MID,7.7,4.947683636157299,0.9285714285714286,4.594277662146063,XI,False,False
+"ARIMA(1,0,1)",Expected availability,Jordan Pickford,Everton,GK,4.6,3.729964038008132,0.9642857142857143,3.5967510366506987,XI,False,False
+"ARIMA(1,0,1)",Expected availability,Kieran Trippier,Newcastle,DEF,6.9,4.053769695113634,0.8928571428571429,3.619437227780031,XI,False,False
+"ARIMA(1,0,1)",Expected availability,Mohamed Salah,Liverpool,MID,13.0,6.472523981111602,0.75,4.854392985833702,XI,False,False
+"ARIMA(1,0,1)",Expected availability,Ollie Watkins,Aston Villa,FWD,8.8,6.530840568507672,0.9642857142857143,6.297596262489541,XI,False,True
+"ARIMA(1,0,1)",Expected availability,Pedro Porro,Spurs,DEF,5.8,4.081124152507548,0.8571428571428571,3.498106416435041,XI,False,False
+"ARIMA(1,0,1)",Expected availability,Phil Foden,Man City,MID,8.1,5.363630134559094,0.8571428571428571,4.597397258193509,XI,False,False
+"ARIMA(1,0,1)",Expected availability,William Saliba,Arsenal,DEF,5.7,3.846371829487311,0.9642857142857143,3.7090014070056214,XI,False,False
+"ARIMA(1,0,1)",Availability robust,André Onana,Man Utd,GK,4.8,3.720040124205935,0.9642857142857143,3.242004842913606,Bench,False,False
+"ARIMA(1,0,1)",Availability robust,Anthony Gordon,Newcastle,MID,6.1,4.808034328554537,0.8928571428571429,3.549337816424429,Bench,False,False
+"ARIMA(1,0,1)",Availability robust,Bukayo Saka,Arsenal,MID,9.1,6.975393294884185,0.9285714285714286,5.578931695562721,XI,False,True
+"ARIMA(1,0,1)",Availability robust,Dominic Solanke,Bournemouth,FWD,7.0,4.945389090754579,0.9285714285714286,3.955330800563686,XI,False,False
+"ARIMA(1,0,1)",Availability robust,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,4.752072515529853,0.9285714285714286,3.800715867296791,XI,False,False
+"ARIMA(1,0,1)",Availability robust,Fabian Schär,Newcastle,DEF,5.4,3.2530182537668293,0.9642857142857143,2.834996553981953,Bench,False,False
+"ARIMA(1,0,1)",Availability robust,Jarrod Bowen,West Ham,MID,7.7,4.947683636157299,0.9285714285714286,3.9571659819696614,XI,False,False
+"ARIMA(1,0,1)",Availability robust,Joachim Andersen,Crystal Palace,DEF,4.7,3.290620851883028,0.9642857142857143,2.867767115892189,XI,False,False
+"ARIMA(1,0,1)",Availability robust,Jordan Pickford,Everton,GK,4.6,3.729964038008132,0.9642857142857143,3.2506535067809743,XI,False,False
+"ARIMA(1,0,1)",Availability robust,Julián Álvarez,Man City,FWD,6.7,4.861613841494203,0.8928571428571429,3.5888907352405335,XI,False,False
+"ARIMA(1,0,1)",Availability robust,Kieran Trippier,Newcastle,DEF,6.9,4.053769695113634,0.8928571428571429,2.992532310447905,XI,False,False
+"ARIMA(1,0,1)",Availability robust,Ollie Watkins,Aston Villa,FWD,8.8,6.530840568507672,0.9642857142857143,5.691609779590221,XI,True,False
+"ARIMA(1,0,1)",Availability robust,Pedro Porro,Spurs,DEF,5.8,4.081124152507548,0.8571428571428571,2.784058434249903,Bench,False,False
+"ARIMA(1,0,1)",Availability robust,Phil Foden,Man City,MID,8.1,5.363630134559094,0.8571428571428571,3.6589574725731335,XI,False,False
+"ARIMA(1,0,1)",Availability robust,William Saliba,Arsenal,DEF,5.7,3.846371829487311,0.9642857142857143,3.3521025802123887,XI,False,False

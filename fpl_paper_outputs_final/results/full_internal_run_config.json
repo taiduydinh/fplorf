@@ -1,0 +1,32 @@
+{
+  "data": "/home/taidinh/fpl/merged_gw_2324.csv",
+  "data_sha256": "e9c09c8856f1c86b4f920f46ddd5033af83409439dfda53be925df2a3e7c8a9e",
+  "roster_design_dir": "/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design",
+  "output": "/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/full_internal_raw_recomputation",
+  "training_gameweeks": [
+    1,
+    26
+  ],
+  "evaluation_gameweeks": [
+    27,
+    38
+  ],
+  "internal_series": 94,
+  "static_series": 74,
+  "sequential_series": 20,
+  "external_series_included": 0,
+  "simulation_draws": 1000,
+  "workers": 8,
+  "seed": 20260824,
+  "smoke_test": false,
+  "uncertainty_single_observation_fallback": "position median empirical SD",
+  "hybrid_ridge_alpha": 1.0,
+  "python": "3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]",
+  "platform": "Linux-5.4.0-131-generic-x86_64-with-glibc2.39",
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "scipy": "1.17.1",
+  "sklearn": "1.9.0",
+  "statsmodels": "0.14.6",
+  "elapsed_minutes": 6.747441267346343
+}

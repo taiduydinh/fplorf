@@ -1,0 +1,75 @@
+method,final_total,rank,display_label
+"ARIMA (0,0,1, Budget = 75)",771.0,1,"ARIMA (0,0,1, Budget = 75)"
+"ARIMA (1,0,1, Budget = 80)",758.0,2,"ARIMA (1,0,1, Budget = 80)"
+"ARIMA (1,0,0, Budget = 75)",753.0,3,"ARIMA (1,0,0, Budget = 75)"
+"ARIMA (1,0,0, Budget = 70)",749.0,4,"ARIMA (1,0,0, Budget = 70)"
+ICT Score (Budget = 80),742.0,5,ICT Score (Budget = 80)
+ICT Score (Budget = 70),736.0,6,ICT Score (Budget = 70)
+Weighted Avg. (Budget = 80),728.0,7,Weighted Avg. (Budget = 80)
+"ARIMA (0,0,1, Budget = 70)",724.0,8,"ARIMA (0,0,1, Budget = 70)"
+Hybrid ICT Score (Budget = 80),724.0,8,Hybrid ICT Score (Budget = 80)
+"ARIMA (1,0,0, Budget = 80)",723.0,10,"ARIMA (1,0,0, Budget = 80)"
+"ARIMA (0,0,1, Budget = 80)",719.0,11,"ARIMA (0,0,1, Budget = 80)"
+"ARIMA (1,0,1)",717.0,12,"ARIMA (1,0,1)"
+Hybrid Weighted 1:2 (Higher Total Points),717.0,12,Hybrid Weighted 1:2 (Higher Total Points)
+Weighted Avg.,717.0,12,Weighted Avg.
+Simple Avg. (Budget = 80),713.0,15,Simple Avg. (Budget = 80)
+Weighted Avg. (Budget = 75),705.0,16,Weighted Avg. (Budget = 75)
+Hybrid Weighted 2:1 (Lower Total Points),701.0,17,Hybrid Weighted 2:1 (Lower Total Points)
+Hybrid ICT Score (Budget = 70),696.0,18,Hybrid ICT Score (Budget = 70)
+Weighted Avg. (Budget = 70),695.0,19,Weighted Avg. (Budget = 70)
+Monte Carlo (Budget = 75),694.0,20,Monte Carlo (Budget = 75)
+Simple Avg. (Budget = 75),694.0,20,Simple Avg. (Budget = 75)
+ICT Score (Budget = 75),693.0,22,ICT Score (Budget = 75)
+"ARIMA (1,0,1, Budget = 70)",691.0,23,"ARIMA (1,0,1, Budget = 70)"
+Linear Regression,688.0,24,Linear Regression
+Monte Carlo (Budget = 80),688.0,24,Monte Carlo (Budget = 80)
+Hybrid Linear Regression 1:2 (Higher Total Points),678.0,26,Hybrid Linear Regression 1:2 (Higher Total Points)
+Robust ICT Score,676.0,27,Robust ICT Score
+Hybrid ARIMA 1:2 (Higher Total Points),669.0,28,Hybrid ARIMA 1:2 (Higher Total Points)
+"ARIMA (0,0,1)",666.0,29,"ARIMA (0,0,1)"
+Monte Carlo (Budget = 70),665.0,30,Monte Carlo (Budget = 70)
+Simple Avg. (Budget = 70),665.0,30,Simple Avg. (Budget = 70)
+"ARIMA (1,0,1, Budget = 75)",663.0,32,"ARIMA (1,0,1, Budget = 75)"
+ICT Score,663.0,32,ICT Score
+Hybrid ICT Score (Budget = 65),662.0,34,Hybrid ICT Score (Budget = 65)
+"ARIMA (0,0,1, Budget = 65)",658.0,35,"ARIMA (0,0,1, Budget = 65)"
+Hybrid ICT Score 1:2 (Higher Total Points),658.0,35,Hybrid ICT Score 1:2 (Higher Total Points)
+Hybrid ICT Score 2:1 (Lower Total Points),658.0,35,Hybrid ICT Score 2:1 (Lower Total Points)
+Simple Avg. (Budget = 65),650.0,38,Simple Avg. (Budget = 65)
+Weighted Avg. (Budget = 65),648.0,39,Weighted Avg. (Budget = 65)
+Hybrid Linear Regression 2:1 (Lower Total Points),646.0,40,Hybrid Linear Regression 2:1 (Lower Total Points)
+"ARIMA (1,0,0)",643.0,41,"ARIMA (1,0,0)"
+Monte Carlo (Budget = 60),640.0,42,Monte Carlo (Budget = 60)
+Monte Carlo (Budget = 65),640.0,42,Monte Carlo (Budget = 65)
+"ARIMA (1,0,0, Budget = 60)",639.0,44,"ARIMA (1,0,0, Budget = 60)"
+Hybrid ARIMA 2:1 (Lower Total Points),639.0,44,Hybrid ARIMA 2:1 (Lower Total Points)
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),634.0,46,Hybrid Bootstrap simulation 2:1 (Lower Total Points)
+Hybrid Monte Carlo 1:2 (Higher Total Points),633.0,47,Hybrid Monte Carlo 1:2 (Higher Total Points)
+Hybrid Simple Avg. 1:2 (Higher Total Points),633.0,47,Hybrid Simple Avg. 1:2 (Higher Total Points)
+Hybrid Simple Avg. 2:1 (Lower Total Points),633.0,47,Hybrid Simple Avg. 2:1 (Lower Total Points)
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),633.0,47,Hybrid Bootstrap simulation 1:2 (Higher Total Points)
+Hybrid Monte Carlo 2:1 (Lower Total Points),630.0,51,Hybrid Monte Carlo 2:1 (Lower Total Points)
+Robust Weighted Avg.,630.0,51,Robust Weighted Avg.
+Simple Avg. (Budget = 60),630.0,51,Simple Avg. (Budget = 60)
+"ARIMA (1,0,1, Budget = 65)",628.0,54,"ARIMA (1,0,1, Budget = 65)"
+"ARIMA (1,0,1, Budget = 60)",626.0,55,"ARIMA (1,0,1, Budget = 60)"
+Simulation (Non Parametric),626.0,55,Bootstrap simulation
+Monte Carlo Simulation,625.0,57,Monte Carlo Simulation
+Simple Avg.,625.0,57,Simple Avg.
+Weighted Avg. (Budget = 60),623.0,59,Weighted Avg. (Budget = 60)
+"ARIMA (1,0,0, Budget = 65)",621.0,60,"ARIMA (1,0,0, Budget = 65)"
+Simple Avg. (Budget = 55),617.0,61,Simple Avg. (Budget = 55)
+Hybrid ICT Score (Budget = 75),611.0,62,Hybrid ICT Score (Budget = 75)
+"ARIMA (2,1,1)",553.0,63,"ARIMA (2,1,1)"
+"ARIMA (0,1,1)",552.0,64,"ARIMA (0,1,1)"
+"ARIMA (1,1,1)",552.0,64,"ARIMA (1,1,1)"
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),552.0,64,Hybrid Exponential Smoothing 1:2 (Higher Total Points)
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),544.0,67,Hybrid Exponential Smoothing 2:1 (Lower Total Points)
+Robust Simple Avg.,544.0,67,Robust Simple Avg.
+"ARIMA (2,1,2)",540.0,69,"ARIMA (2,1,2)"
+"ARIMA (1,1,2)",532.0,70,"ARIMA (1,1,2)"
+"ARIMA (1,1,0)",514.0,71,"ARIMA (1,1,0)"
+Exponential Smoothing,494.0,72,Exponential Smoothing
+Robust Exponential Smoothing,459.0,73,Robust Exponential Smoothing
+Involvement,437.0,74,Involvement

@@ -1,0 +1,61 @@
+model,name,team,position,value,cost_vector,role,is_captain,is_vice_captain
+Full Ridge,Alfie Doughty,Luton,DEF,4.6,4.0506552323239085,XI,False,False
+Full Ridge,Bukayo Saka,Arsenal,MID,9.1,8.553246033409394,XI,True,False
+Full Ridge,Caoimhin Kelleher,Liverpool,GK,3.7,2.59094575398312,Bench,False,False
+Full Ridge,Chris Richards,Crystal Palace,DEF,3.9,3.5794360669231295,Bench,False,False
+Full Ridge,Ederson Santana de Moraes,Man City,GK,5.5,4.9913922619631474,XI,False,False
+Full Ridge,Erling Haaland,Man City,FWD,14.4,6.119878940087894,XI,False,False
+Full Ridge,Jakub Kiwior,Arsenal,DEF,4.3,3.6568160097278652,Bench,False,False
+Full Ridge,Jarrod Bowen,West Ham,MID,7.7,5.94073291408817,XI,False,False
+Full Ridge,Lewis Dunk,Brighton,DEF,5.1,4.886264142517038,XI,False,False
+Full Ridge,Luis Díaz,Liverpool,MID,7.5,7.437450906612916,XI,False,False
+Full Ridge,Ollie Watkins,Aston Villa,FWD,8.8,7.224960443799813,XI,False,False
+Full Ridge,Pascal Groß,Brighton,MID,6.5,6.277865590158344,XI,False,False
+Full Ridge,Phil Foden,Man City,MID,8.1,7.629893587573609,XI,False,True
+Full Ridge,Rodrigo Muniz Carvalho,Fulham,FWD,4.4,4.214605595380037,Bench,False,False
+Full Ridge,Virgil van Dijk,Liverpool,DEF,6.4,4.387162073744025,XI,False,False
+Reduced Ridge,Alfie Doughty,Luton,DEF,4.6,3.999952546539938,XI,False,False
+Reduced Ridge,Bukayo Saka,Arsenal,MID,9.1,8.51851169685458,XI,True,False
+Reduced Ridge,Caoimhin Kelleher,Liverpool,GK,3.7,2.6144346301742143,Bench,False,False
+Reduced Ridge,Chris Richards,Crystal Palace,DEF,3.9,3.6244488164710367,Bench,False,False
+Reduced Ridge,Ederson Santana de Moraes,Man City,GK,5.5,5.037311706693229,XI,False,False
+Reduced Ridge,Erling Haaland,Man City,FWD,14.4,6.24058873890776,XI,False,False
+Reduced Ridge,Jakub Kiwior,Arsenal,DEF,4.3,3.666387524036456,Bench,False,False
+Reduced Ridge,Jarrod Bowen,West Ham,MID,7.7,6.088485732538882,XI,False,False
+Reduced Ridge,Lewis Dunk,Brighton,DEF,5.1,4.913152873840877,XI,False,False
+Reduced Ridge,Luis Díaz,Liverpool,MID,7.5,7.641800860588971,XI,False,False
+Reduced Ridge,Ollie Watkins,Aston Villa,FWD,8.8,7.254985612264496,XI,False,False
+Reduced Ridge,Pascal Groß,Brighton,MID,6.5,6.239209112688336,XI,False,False
+Reduced Ridge,Phil Foden,Man City,MID,8.1,7.779425453587995,XI,False,True
+Reduced Ridge,Rodrigo Muniz Carvalho,Fulham,FWD,4.4,4.244938592487342,Bench,False,False
+Reduced Ridge,Virgil van Dijk,Liverpool,DEF,6.4,4.468543760381915,XI,False,False
+Parsimonious Ridge,Alphonse Areola,West Ham,GK,4.2,3.060668108594397,Bench,False,False
+Parsimonious Ridge,Bukayo Saka,Arsenal,MID,9.1,8.81110334001198,XI,True,False
+Parsimonious Ridge,Carlton Morris,Luton,FWD,5.0,5.876152950895798,XI,False,False
+Parsimonious Ridge,Chris Richards,Crystal Palace,DEF,3.9,3.335605752389842,Bench,False,False
+Parsimonious Ridge,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,5.64447819178588,Bench,False,False
+Parsimonious Ridge,Ederson Santana de Moraes,Man City,GK,5.5,5.033869888961382,XI,False,False
+Parsimonious Ridge,Erling Haaland,Man City,FWD,14.4,6.316582115015471,XI,False,False
+Parsimonious Ridge,Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,3.6998570621638156,XI,False,False
+Parsimonious Ridge,Harry Maguire,Man Utd,DEF,4.2,3.513872089086103,Bench,False,False
+Parsimonious Ridge,Kai Havertz,Arsenal,MID,7.1,5.86681780614453,XI,False,False
+Parsimonious Ridge,Lewis Dunk,Brighton,DEF,5.1,4.264152948674532,XI,False,False
+Parsimonious Ridge,Luis Díaz,Liverpool,MID,7.5,7.64853224541991,XI,False,True
+Parsimonious Ridge,Ollie Watkins,Aston Villa,FWD,8.8,7.262441204890047,XI,False,False
+Parsimonious Ridge,Phil Foden,Man City,MID,8.1,7.063765989209195,XI,False,False
+Parsimonious Ridge,Virgil van Dijk,Liverpool,DEF,6.4,4.044514860210764,XI,False,False
+Full LASSO,Bukayo Saka,Arsenal,MID,9.1,7.367004876701575,XI,True,False
+Full LASSO,Carlton Morris,Luton,FWD,5.0,5.054752440315969,XI,False,False
+Full LASSO,Chiedozie Ogbene,Luton,FWD,4.9,4.831578332407899,Bench,False,False
+Full LASSO,Chris Richards,Crystal Palace,DEF,3.9,3.116388793558629,Bench,False,False
+Full LASSO,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,5.644371344811699,XI,False,False
+Full LASSO,Ederson Santana de Moraes,Man City,GK,5.5,4.069153265811209,XI,False,False
+Full LASSO,Emerson Palmieri dos Santos,West Ham,DEF,4.4,3.240112992740369,XI,False,False
+Full LASSO,Jakub Kiwior,Arsenal,DEF,4.3,3.2346640971489764,Bench,False,False
+Full LASSO,Lewis Dunk,Brighton,DEF,5.1,4.083638710611886,XI,False,False
+Full LASSO,Luis Díaz,Liverpool,MID,7.5,7.0946393257769245,XI,False,False
+Full LASSO,Ollie Watkins,Aston Villa,FWD,8.8,5.7010187578664135,XI,False,False
+Full LASSO,Pascal Groß,Brighton,MID,6.5,6.020150868599533,XI,False,False
+Full LASSO,Phil Foden,Man City,MID,8.1,7.211740954264413,XI,False,True
+Full LASSO,Thomas Kaminski,Luton,GK,4.5,3.1130733506052515,Bench,False,False
+Full LASSO,Virgil van Dijk,Liverpool,DEF,6.4,3.45230163707675,XI,False,False

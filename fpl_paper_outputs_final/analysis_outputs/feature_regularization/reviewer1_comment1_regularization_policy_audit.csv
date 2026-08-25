@@ -1,0 +1,9 @@
+model,policy,unique_squad_memberships,external_transfers,transfer_hit_points,unique_captains,unique_vice_captains,unique_starting_lineups,unique_bench_orders,audit_pass
+Full LASSO,sequential,1,0,0,1,1,9,10,True
+Full LASSO,static,1,0,0,1,1,1,1,True
+Full Ridge,sequential,1,0,0,1,1,12,12,True
+Full Ridge,static,1,0,0,1,1,1,1,True
+Parsimonious Ridge,sequential,1,0,0,1,1,4,6,True
+Parsimonious Ridge,static,1,0,0,1,1,1,1,True
+Reduced Ridge,sequential,1,0,0,1,1,12,12,True
+Reduced Ridge,static,1,0,0,1,1,1,1,True

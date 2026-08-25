@@ -1,0 +1,75 @@
+stored_label,publication_label
+Simple Avg.,Simple Avg.
+Weighted Avg.,Weighted Avg.
+Simulation (Non Parametric),Bootstrap simulation
+Monte Carlo Simulation,Monte Carlo Simulation
+Exponential Smoothing,Exponential Smoothing
+Robust Simple Avg.,Robust Simple Avg.
+Robust Weighted Avg.,Robust Weighted Avg.
+Robust Exponential Smoothing,Robust Exponential Smoothing
+"ARIMA (0,0,1)","ARIMA (0,0,1)"
+"ARIMA (1,0,0)","ARIMA (1,0,0)"
+"ARIMA (0,1,1)","ARIMA (0,1,1)"
+"ARIMA (1,0,1)","ARIMA (1,0,1)"
+"ARIMA (1,1,0)","ARIMA (1,1,0)"
+"ARIMA (1,1,1)","ARIMA (1,1,1)"
+"ARIMA (2,1,1)","ARIMA (2,1,1)"
+"ARIMA (1,1,2)","ARIMA (1,1,2)"
+"ARIMA (2,1,2)","ARIMA (2,1,2)"
+ICT Score,ICT Score
+Robust ICT Score,Robust ICT Score
+Involvement,Involvement
+Linear Regression,Linear Regression
+Hybrid Simple Avg. 1:2 (Higher Total Points),Hybrid Simple Avg. 1:2 (Higher Total Points)
+Hybrid Simple Avg. 2:1 (Lower Total Points),Hybrid Simple Avg. 2:1 (Lower Total Points)
+Hybrid Weighted 1:2 (Higher Total Points),Hybrid Weighted 1:2 (Higher Total Points)
+Hybrid Weighted 2:1 (Lower Total Points),Hybrid Weighted 2:1 (Lower Total Points)
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Hybrid Exponential Smoothing 1:2 (Higher Total Points)
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Hybrid Exponential Smoothing 2:1 (Lower Total Points)
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Hybrid Bootstrap simulation 1:2 (Higher Total Points)
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Hybrid Bootstrap simulation 2:1 (Lower Total Points)
+Hybrid Monte Carlo 1:2 (Higher Total Points),Hybrid Monte Carlo 1:2 (Higher Total Points)
+Hybrid Monte Carlo 2:1 (Lower Total Points),Hybrid Monte Carlo 2:1 (Lower Total Points)
+Hybrid ARIMA 1:2 (Higher Total Points),Hybrid ARIMA 1:2 (Higher Total Points)
+Hybrid ARIMA 2:1 (Lower Total Points),Hybrid ARIMA 2:1 (Lower Total Points)
+Hybrid ICT Score 1:2 (Higher Total Points),Hybrid ICT Score 1:2 (Higher Total Points)
+Hybrid ICT Score 2:1 (Lower Total Points),Hybrid ICT Score 2:1 (Lower Total Points)
+Hybrid Linear Regression 1:2 (Higher Total Points),Hybrid Linear Regression 1:2 (Higher Total Points)
+Hybrid Linear Regression 2:1 (Lower Total Points),Hybrid Linear Regression 2:1 (Lower Total Points)
+Simple Avg. (Budget = 55),Simple Avg. (Budget = 55)
+Simple Avg. (Budget = 60),Simple Avg. (Budget = 60)
+Simple Avg. (Budget = 65),Simple Avg. (Budget = 65)
+Simple Avg. (Budget = 70),Simple Avg. (Budget = 70)
+Simple Avg. (Budget = 75),Simple Avg. (Budget = 75)
+Simple Avg. (Budget = 80),Simple Avg. (Budget = 80)
+Weighted Avg. (Budget = 60),Weighted Avg. (Budget = 60)
+Monte Carlo (Budget = 60),Monte Carlo (Budget = 60)
+"ARIMA (1,0,0, Budget = 60)","ARIMA (1,0,0, Budget = 60)"
+"ARIMA (1,0,1, Budget = 60)","ARIMA (1,0,1, Budget = 60)"
+Weighted Avg. (Budget = 65),Weighted Avg. (Budget = 65)
+Monte Carlo (Budget = 65),Monte Carlo (Budget = 65)
+"ARIMA (1,0,0, Budget = 65)","ARIMA (1,0,0, Budget = 65)"
+"ARIMA (1,0,1, Budget = 65)","ARIMA (1,0,1, Budget = 65)"
+Weighted Avg. (Budget = 70),Weighted Avg. (Budget = 70)
+Monte Carlo (Budget = 70),Monte Carlo (Budget = 70)
+"ARIMA (1,0,0, Budget = 70)","ARIMA (1,0,0, Budget = 70)"
+"ARIMA (1,0,1, Budget = 70)","ARIMA (1,0,1, Budget = 70)"
+Weighted Avg. (Budget = 75),Weighted Avg. (Budget = 75)
+Monte Carlo (Budget = 75),Monte Carlo (Budget = 75)
+"ARIMA (1,0,0, Budget = 75)","ARIMA (1,0,0, Budget = 75)"
+"ARIMA (1,0,1, Budget = 75)","ARIMA (1,0,1, Budget = 75)"
+Weighted Avg. (Budget = 80),Weighted Avg. (Budget = 80)
+Monte Carlo (Budget = 80),Monte Carlo (Budget = 80)
+"ARIMA (1,0,0, Budget = 80)","ARIMA (1,0,0, Budget = 80)"
+"ARIMA (1,0,1, Budget = 80)","ARIMA (1,0,1, Budget = 80)"
+"ARIMA (0,0,1, Budget = 65)","ARIMA (0,0,1, Budget = 65)"
+Hybrid ICT Score (Budget = 65),Hybrid ICT Score (Budget = 65)
+"ARIMA (0,0,1, Budget = 70)","ARIMA (0,0,1, Budget = 70)"
+Hybrid ICT Score (Budget = 70),Hybrid ICT Score (Budget = 70)
+"ARIMA (0,0,1, Budget = 75)","ARIMA (0,0,1, Budget = 75)"
+Hybrid ICT Score (Budget = 75),Hybrid ICT Score (Budget = 75)
+"ARIMA (0,0,1, Budget = 80)","ARIMA (0,0,1, Budget = 80)"
+Hybrid ICT Score (Budget = 80),Hybrid ICT Score (Budget = 80)
+ICT Score (Budget = 70),ICT Score (Budget = 70)
+ICT Score (Budget = 75),ICT Score (Budget = 75)
+ICT Score (Budget = 80),ICT Score (Budget = 80)

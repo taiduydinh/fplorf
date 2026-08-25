@@ -1,0 +1,19 @@
+model,policy,realized_points,total_autosubs,substitute_points,experiment
+"ARIMA(0,0,1)",sequential,765.0,14.0,47.0,Joint δ=0 roster design
+"ARIMA(1,0,1)",sequential,761.0,14.0,47.0,Joint δ=0 roster design
+"ARIMA(1,0,0)",sequential,741.0,14.0,45.0,Joint δ=0 roster design
+Weighted average,sequential,728.0,8.0,23.0,Joint δ=0 roster design
+Parsimonious Ridge,sequential,689.0,,,Regularization comparison
+Full Ridge,sequential,639.0,,,Regularization comparison
+Reduced Ridge,sequential,639.0,,,Regularization comparison
+Simple average,sequential,618.0,15.0,39.0,Joint δ=0 roster design
+Full LASSO,sequential,558.0,,,Regularization comparison
+"ARIMA(0,0,1)",static,765.0,14.0,47.0,Joint δ=0 roster design
+"ARIMA(1,0,0)",static,743.0,12.0,43.0,Joint δ=0 roster design
+"ARIMA(1,0,1)",static,737.0,18.0,75.0,Joint δ=0 roster design
+Weighted average,static,721.0,8.0,23.0,Joint δ=0 roster design
+Parsimonious Ridge,static,687.0,,,Regularization comparison
+Full Ridge,static,640.0,,,Regularization comparison
+Reduced Ridge,static,640.0,,,Regularization comparison
+Simple average,static,625.0,12.0,30.0,Joint δ=0 roster design
+Full LASSO,static,556.0,,,Regularization comparison

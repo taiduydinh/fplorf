@@ -1,0 +1,889 @@
+series,policy,GW,weekly_points,base_points,captain_bonus,captain_used,autosubs_used,substitute_points,cumulative_points
+Simple Avg.,static,27,84.0,71.0,13.0,Ollie Watkins,1,8.0,84.0
+Simple Avg.,static,28,41.0,39.0,2.0,Ollie Watkins,1,2.0,125.0
+Simple Avg.,static,29,10.0,8.0,2.0,Ollie Watkins,1,3.0,135.0
+Simple Avg.,static,30,54.0,53.0,1.0,Ollie Watkins,1,4.0,189.0
+Simple Avg.,static,31,40.0,40.0,0.0,,1,0.0,229.0
+Simple Avg.,static,32,70.0,57.0,13.0,Ollie Watkins,2,5.0,299.0
+Simple Avg.,static,33,35.0,28.0,7.0,Ollie Watkins,2,2.0,334.0
+Simple Avg.,static,34,85.0,76.0,9.0,Ollie Watkins,1,3.0,419.0
+Simple Avg.,static,35,44.0,42.0,2.0,Ollie Watkins,1,2.0,463.0
+Simple Avg.,static,36,62.0,60.0,2.0,Ollie Watkins,0,0.0,525.0
+Simple Avg.,static,37,58.0,53.0,5.0,Ollie Watkins,0,0.0,583.0
+Simple Avg.,static,38,42.0,40.0,2.0,Ollie Watkins,1,1.0,625.0
+Weighted Avg.,static,27,76.0,69.0,7.0,Bukayo Saka,1,8.0,76.0
+Weighted Avg.,static,28,46.0,44.0,2.0,Bukayo Saka,0,0.0,122.0
+Weighted Avg.,static,29,7.0,5.0,2.0,Ollie Watkins,1,3.0,129.0
+Weighted Avg.,static,30,56.0,53.0,3.0,Bukayo Saka,0,0.0,185.0
+Weighted Avg.,static,31,64.0,64.0,0.0,,1,0.0,249.0
+Weighted Avg.,static,32,71.0,61.0,10.0,Bukayo Saka,1,1.0,320.0
+Weighted Avg.,static,33,53.0,51.0,2.0,Bukayo Saka,1,1.0,373.0
+Weighted Avg.,static,34,105.0,96.0,9.0,Bukayo Saka,1,3.0,478.0
+Weighted Avg.,static,35,54.0,42.0,12.0,Bukayo Saka,1,2.0,532.0
+Weighted Avg.,static,36,69.0,59.0,10.0,Bukayo Saka,0,0.0,601.0
+Weighted Avg.,static,37,71.0,69.0,2.0,Bukayo Saka,0,0.0,672.0
+Weighted Avg.,static,38,45.0,43.0,2.0,Ollie Watkins,1,1.0,717.0
+Simulation (Non Parametric),static,27,84.0,71.0,13.0,Ollie Watkins,1,8.0,84.0
+Simulation (Non Parametric),static,28,41.0,39.0,2.0,Ollie Watkins,1,2.0,125.0
+Simulation (Non Parametric),static,29,10.0,8.0,2.0,Ollie Watkins,1,3.0,135.0
+Simulation (Non Parametric),static,30,54.0,53.0,1.0,Ollie Watkins,1,4.0,189.0
+Simulation (Non Parametric),static,31,41.0,40.0,1.0,Mohamed Salah,1,0.0,230.0
+Simulation (Non Parametric),static,32,70.0,57.0,13.0,Ollie Watkins,2,5.0,300.0
+Simulation (Non Parametric),static,33,35.0,28.0,7.0,Ollie Watkins,2,2.0,335.0
+Simulation (Non Parametric),static,34,85.0,76.0,9.0,Ollie Watkins,1,3.0,420.0
+Simulation (Non Parametric),static,35,44.0,42.0,2.0,Ollie Watkins,1,2.0,464.0
+Simulation (Non Parametric),static,36,62.0,60.0,2.0,Ollie Watkins,0,0.0,526.0
+Simulation (Non Parametric),static,37,58.0,53.0,5.0,Ollie Watkins,0,0.0,584.0
+Simulation (Non Parametric),static,38,42.0,40.0,2.0,Ollie Watkins,1,1.0,626.0
+Monte Carlo Simulation,static,27,84.0,71.0,13.0,Ollie Watkins,1,8.0,84.0
+Monte Carlo Simulation,static,28,41.0,39.0,2.0,Ollie Watkins,1,2.0,125.0
+Monte Carlo Simulation,static,29,10.0,8.0,2.0,Ollie Watkins,1,3.0,135.0
+Monte Carlo Simulation,static,30,54.0,53.0,1.0,Ollie Watkins,1,4.0,189.0
+Monte Carlo Simulation,static,31,40.0,40.0,0.0,,1,0.0,229.0
+Monte Carlo Simulation,static,32,70.0,57.0,13.0,Ollie Watkins,2,5.0,299.0
+Monte Carlo Simulation,static,33,35.0,28.0,7.0,Ollie Watkins,2,2.0,334.0
+Monte Carlo Simulation,static,34,85.0,76.0,9.0,Ollie Watkins,1,3.0,419.0
+Monte Carlo Simulation,static,35,44.0,42.0,2.0,Ollie Watkins,1,2.0,463.0
+Monte Carlo Simulation,static,36,62.0,60.0,2.0,Ollie Watkins,0,0.0,525.0
+Monte Carlo Simulation,static,37,58.0,53.0,5.0,Ollie Watkins,0,0.0,583.0
+Monte Carlo Simulation,static,38,42.0,40.0,2.0,Ollie Watkins,1,1.0,625.0
+Exponential Smoothing,static,27,31.0,30.0,1.0,Chris Richards,1,0.0,31.0
+Exponential Smoothing,static,28,36.0,34.0,2.0,Chris Richards,1,1.0,67.0
+Exponential Smoothing,static,29,1.0,1.0,0.0,,0,0.0,68.0
+Exponential Smoothing,static,30,46.0,44.0,2.0,Chris Richards,1,2.0,114.0
+Exponential Smoothing,static,31,43.0,41.0,2.0,Daniel Muñoz,1,3.0,157.0
+Exponential Smoothing,static,32,28.0,28.0,0.0,Daniel Muñoz,2,3.0,185.0
+Exponential Smoothing,static,33,50.0,44.0,6.0,Daniel Muñoz,1,1.0,235.0
+Exponential Smoothing,static,34,52.0,46.0,6.0,Chris Richards,1,1.0,287.0
+Exponential Smoothing,static,35,41.0,39.0,2.0,Chris Richards,1,2.0,328.0
+Exponential Smoothing,static,36,77.0,66.0,11.0,Chris Richards,1,1.0,405.0
+Exponential Smoothing,static,37,49.0,47.0,2.0,Chris Richards,1,1.0,454.0
+Exponential Smoothing,static,38,40.0,34.0,6.0,Chris Richards,1,1.0,494.0
+Robust Simple Avg.,static,27,71.0,64.0,7.0,Bukayo Saka,1,8.0,71.0
+Robust Simple Avg.,static,28,33.0,31.0,2.0,Bukayo Saka,0,0.0,104.0
+Robust Simple Avg.,static,29,21.0,21.0,0.0,,1,2.0,125.0
+Robust Simple Avg.,static,30,30.0,27.0,3.0,Bukayo Saka,1,4.0,155.0
+Robust Simple Avg.,static,31,30.0,28.0,2.0,Adam Wharton,2,1.0,185.0
+Robust Simple Avg.,static,32,76.0,66.0,10.0,Bukayo Saka,0,0.0,261.0
+Robust Simple Avg.,static,33,35.0,33.0,2.0,Bukayo Saka,0,0.0,296.0
+Robust Simple Avg.,static,34,60.0,51.0,9.0,Bukayo Saka,0,0.0,356.0
+Robust Simple Avg.,static,35,47.0,35.0,12.0,Bukayo Saka,0,0.0,403.0
+Robust Simple Avg.,static,36,51.0,41.0,10.0,Bukayo Saka,1,1.0,454.0
+Robust Simple Avg.,static,37,53.0,51.0,2.0,Bukayo Saka,1,2.0,507.0
+Robust Simple Avg.,static,38,37.0,34.0,3.0,Adam Wharton,2,4.0,544.0
+Robust Weighted Avg.,static,27,79.0,72.0,7.0,Bukayo Saka,1,8.0,79.0
+Robust Weighted Avg.,static,28,42.0,40.0,2.0,Bukayo Saka,1,2.0,121.0
+Robust Weighted Avg.,static,29,17.0,17.0,0.0,,1,3.0,138.0
+Robust Weighted Avg.,static,30,33.0,30.0,3.0,Bukayo Saka,0,0.0,171.0
+Robust Weighted Avg.,static,31,43.0,41.0,2.0,Adam Wharton,1,0.0,214.0
+Robust Weighted Avg.,static,32,70.0,60.0,10.0,Bukayo Saka,1,1.0,284.0
+Robust Weighted Avg.,static,33,33.0,31.0,2.0,Bukayo Saka,1,1.0,317.0
+Robust Weighted Avg.,static,34,98.0,89.0,9.0,Bukayo Saka,1,6.0,415.0
+Robust Weighted Avg.,static,35,56.0,44.0,12.0,Bukayo Saka,1,2.0,471.0
+Robust Weighted Avg.,static,36,51.0,41.0,10.0,Bukayo Saka,0,0.0,522.0
+Robust Weighted Avg.,static,37,62.0,60.0,2.0,Bukayo Saka,0,0.0,584.0
+Robust Weighted Avg.,static,38,46.0,43.0,3.0,Adam Wharton,1,1.0,630.0
+Robust Exponential Smoothing,static,27,39.0,38.0,1.0,Chris Richards,1,8.0,39.0
+Robust Exponential Smoothing,static,28,27.0,25.0,2.0,Chris Richards,2,4.0,66.0
+Robust Exponential Smoothing,static,29,15.0,15.0,0.0,,1,13.0,81.0
+Robust Exponential Smoothing,static,30,51.0,49.0,2.0,Chris Richards,3,18.0,132.0
+Robust Exponential Smoothing,static,31,27.0,25.0,2.0,Daniel Muñoz,3,4.0,159.0
+Robust Exponential Smoothing,static,32,35.0,35.0,0.0,Daniel Muñoz,4,8.0,194.0
+Robust Exponential Smoothing,static,33,29.0,23.0,6.0,Daniel Muñoz,3,4.0,223.0
+Robust Exponential Smoothing,static,34,58.0,52.0,6.0,Chris Richards,1,5.0,281.0
+Robust Exponential Smoothing,static,35,42.0,40.0,2.0,Chris Richards,2,8.0,323.0
+Robust Exponential Smoothing,static,36,63.0,52.0,11.0,Chris Richards,2,4.0,386.0
+Robust Exponential Smoothing,static,37,31.0,29.0,2.0,Chris Richards,2,4.0,417.0
+Robust Exponential Smoothing,static,38,42.0,36.0,6.0,Chris Richards,4,6.0,459.0
+"ARIMA (0,0,1)",static,27,76.0,69.0,7.0,Bukayo Saka,1,8.0,76.0
+"ARIMA (0,0,1)",static,28,44.0,42.0,2.0,Bukayo Saka,1,2.0,120.0
+"ARIMA (0,0,1)",static,29,10.0,8.0,2.0,Ollie Watkins,1,3.0,130.0
+"ARIMA (0,0,1)",static,30,56.0,53.0,3.0,Bukayo Saka,1,4.0,186.0
+"ARIMA (0,0,1)",static,31,42.0,42.0,0.0,,1,0.0,228.0
+"ARIMA (0,0,1)",static,32,73.0,63.0,10.0,Bukayo Saka,2,5.0,301.0
+"ARIMA (0,0,1)",static,33,24.0,22.0,2.0,Bukayo Saka,2,2.0,325.0
+"ARIMA (0,0,1)",static,34,107.0,98.0,9.0,Bukayo Saka,2,9.0,432.0
+"ARIMA (0,0,1)",static,35,55.0,43.0,12.0,Bukayo Saka,2,4.0,487.0
+"ARIMA (0,0,1)",static,36,78.0,68.0,10.0,Bukayo Saka,1,11.0,565.0
+"ARIMA (0,0,1)",static,37,60.0,58.0,2.0,Bukayo Saka,0,0.0,625.0
+"ARIMA (0,0,1)",static,38,41.0,39.0,2.0,Ollie Watkins,1,2.0,666.0
+"ARIMA (1,0,0)",static,27,71.0,64.0,7.0,Bukayo Saka,1,1.0,71.0
+"ARIMA (1,0,0)",static,28,41.0,39.0,2.0,Bukayo Saka,1,2.0,112.0
+"ARIMA (1,0,0)",static,29,10.0,8.0,2.0,Ollie Watkins,1,3.0,122.0
+"ARIMA (1,0,0)",static,30,54.0,51.0,3.0,Bukayo Saka,1,2.0,176.0
+"ARIMA (1,0,0)",static,31,40.0,40.0,0.0,,1,0.0,216.0
+"ARIMA (1,0,0)",static,32,67.0,57.0,10.0,Bukayo Saka,2,5.0,283.0
+"ARIMA (1,0,0)",static,33,30.0,28.0,2.0,Bukayo Saka,2,2.0,313.0
+"ARIMA (1,0,0)",static,34,91.0,82.0,9.0,Bukayo Saka,2,9.0,404.0
+"ARIMA (1,0,0)",static,35,56.0,44.0,12.0,Bukayo Saka,2,4.0,460.0
+"ARIMA (1,0,0)",static,36,81.0,71.0,10.0,Bukayo Saka,1,11.0,541.0
+"ARIMA (1,0,0)",static,37,55.0,53.0,2.0,Bukayo Saka,0,0.0,596.0
+"ARIMA (1,0,0)",static,38,47.0,45.0,2.0,Ollie Watkins,1,6.0,643.0
+"ARIMA (0,1,1)",static,27,61.0,60.0,1.0,Chris Richards,1,1.0,61.0
+"ARIMA (0,1,1)",static,28,36.0,34.0,2.0,Chris Richards,1,1.0,97.0
+"ARIMA (0,1,1)",static,29,6.0,4.0,2.0,Emerson Palmieri dos Santos,0,0.0,103.0
+"ARIMA (0,1,1)",static,30,41.0,39.0,2.0,Chris Richards,1,2.0,144.0
+"ARIMA (0,1,1)",static,31,34.0,32.0,2.0,Emerson Palmieri dos Santos,3,5.0,178.0
+"ARIMA (0,1,1)",static,32,62.0,58.0,4.0,Emerson Palmieri dos Santos,3,7.0,240.0
+"ARIMA (0,1,1)",static,33,28.0,27.0,1.0,Emerson Palmieri dos Santos,2,2.0,268.0
+"ARIMA (0,1,1)",static,34,77.0,71.0,6.0,Chris Richards,0,0.0,345.0
+"ARIMA (0,1,1)",static,35,50.0,48.0,2.0,Chris Richards,0,0.0,395.0
+"ARIMA (0,1,1)",static,36,61.0,50.0,11.0,Chris Richards,1,2.0,456.0
+"ARIMA (0,1,1)",static,37,49.0,47.0,2.0,Chris Richards,0,0.0,505.0
+"ARIMA (0,1,1)",static,38,47.0,41.0,6.0,Chris Richards,1,2.0,552.0
+"ARIMA (1,0,1)",static,27,78.0,71.0,7.0,Bukayo Saka,2,9.0,78.0
+"ARIMA (1,0,1)",static,28,58.0,56.0,2.0,Bukayo Saka,1,2.0,136.0
+"ARIMA (1,0,1)",static,29,10.0,8.0,2.0,Ollie Watkins,1,3.0,146.0
+"ARIMA (1,0,1)",static,30,61.0,58.0,3.0,Bukayo Saka,1,2.0,207.0
+"ARIMA (1,0,1)",static,31,48.0,48.0,0.0,,1,0.0,255.0
+"ARIMA (1,0,1)",static,32,71.0,61.0,10.0,Bukayo Saka,2,5.0,326.0
+"ARIMA (1,0,1)",static,33,55.0,53.0,2.0,Bukayo Saka,2,2.0,381.0
+"ARIMA (1,0,1)",static,34,71.0,62.0,9.0,Bukayo Saka,2,9.0,452.0
+"ARIMA (1,0,1)",static,35,64.0,52.0,12.0,Bukayo Saka,2,4.0,516.0
+"ARIMA (1,0,1)",static,36,74.0,64.0,10.0,Bukayo Saka,1,11.0,590.0
+"ARIMA (1,0,1)",static,37,62.0,60.0,2.0,Bukayo Saka,0,0.0,652.0
+"ARIMA (1,0,1)",static,38,65.0,63.0,2.0,Ollie Watkins,2,8.0,717.0
+"ARIMA (1,1,0)",static,27,55.0,54.0,1.0,Daniel Muñoz,0,0.0,55.0
+"ARIMA (1,1,0)",static,28,36.0,32.0,4.0,Daniel Muñoz,1,1.0,91.0
+"ARIMA (1,1,0)",static,29,14.0,12.0,2.0,Jarrod Bowen,0,0.0,105.0
+"ARIMA (1,1,0)",static,30,28.0,26.0,2.0,Daniel Muñoz,1,2.0,133.0
+"ARIMA (1,1,0)",static,31,31.0,29.0,2.0,Daniel Muñoz,2,4.0,164.0
+"ARIMA (1,1,0)",static,32,50.0,50.0,0.0,Daniel Muñoz,2,3.0,214.0
+"ARIMA (1,1,0)",static,33,37.0,31.0,6.0,Daniel Muñoz,1,1.0,251.0
+"ARIMA (1,1,0)",static,34,68.0,61.0,7.0,Daniel Muñoz,1,1.0,319.0
+"ARIMA (1,1,0)",static,35,53.0,51.0,2.0,Daniel Muñoz,0,0.0,372.0
+"ARIMA (1,1,0)",static,36,70.0,57.0,13.0,Daniel Muñoz,0,0.0,442.0
+"ARIMA (1,1,0)",static,37,35.0,34.0,1.0,Daniel Muñoz,0,0.0,477.0
+"ARIMA (1,1,0)",static,38,37.0,27.0,10.0,Daniel Muñoz,0,0.0,514.0
+"ARIMA (1,1,1)",static,27,54.0,53.0,1.0,Daniel Muñoz,1,2.0,54.0
+"ARIMA (1,1,1)",static,28,35.0,31.0,4.0,Daniel Muñoz,1,1.0,89.0
+"ARIMA (1,1,1)",static,29,3.0,3.0,0.0,,1,1.0,92.0
+"ARIMA (1,1,1)",static,30,36.0,34.0,2.0,Daniel Muñoz,1,2.0,128.0
+"ARIMA (1,1,1)",static,31,35.0,33.0,2.0,Daniel Muñoz,3,10.0,163.0
+"ARIMA (1,1,1)",static,32,52.0,52.0,0.0,Daniel Muñoz,2,4.0,215.0
+"ARIMA (1,1,1)",static,33,33.0,27.0,6.0,Daniel Muñoz,1,2.0,248.0
+"ARIMA (1,1,1)",static,34,82.0,75.0,7.0,Daniel Muñoz,0,0.0,330.0
+"ARIMA (1,1,1)",static,35,44.0,42.0,2.0,Daniel Muñoz,0,0.0,374.0
+"ARIMA (1,1,1)",static,36,83.0,70.0,13.0,Daniel Muñoz,1,15.0,457.0
+"ARIMA (1,1,1)",static,37,45.0,44.0,1.0,Daniel Muñoz,0,0.0,502.0
+"ARIMA (1,1,1)",static,38,50.0,40.0,10.0,Daniel Muñoz,3,4.0,552.0
+"ARIMA (2,1,1)",static,27,66.0,65.0,1.0,Daniel Muñoz,1,11.0,66.0
+"ARIMA (2,1,1)",static,28,42.0,38.0,4.0,Daniel Muñoz,0,0.0,108.0
+"ARIMA (2,1,1)",static,29,17.0,17.0,0.0,,1,13.0,125.0
+"ARIMA (2,1,1)",static,30,35.0,33.0,2.0,Daniel Muñoz,1,2.0,160.0
+"ARIMA (2,1,1)",static,31,30.0,28.0,2.0,Daniel Muñoz,2,5.0,190.0
+"ARIMA (2,1,1)",static,32,46.0,46.0,0.0,Daniel Muñoz,2,4.0,236.0
+"ARIMA (2,1,1)",static,33,34.0,28.0,6.0,Daniel Muñoz,3,4.0,270.0
+"ARIMA (2,1,1)",static,34,79.0,72.0,7.0,Daniel Muñoz,1,5.0,349.0
+"ARIMA (2,1,1)",static,35,52.0,50.0,2.0,Daniel Muñoz,0,0.0,401.0
+"ARIMA (2,1,1)",static,36,70.0,57.0,13.0,Daniel Muñoz,1,2.0,471.0
+"ARIMA (2,1,1)",static,37,41.0,40.0,1.0,Daniel Muñoz,0,0.0,512.0
+"ARIMA (2,1,1)",static,38,41.0,31.0,10.0,Daniel Muñoz,2,3.0,553.0
+"ARIMA (1,1,2)",static,27,57.0,56.0,1.0,Chris Richards,1,3.0,57.0
+"ARIMA (1,1,2)",static,28,42.0,40.0,2.0,Chris Richards,1,2.0,99.0
+"ARIMA (1,1,2)",static,29,13.0,13.0,0.0,,1,8.0,112.0
+"ARIMA (1,1,2)",static,30,32.0,30.0,2.0,Chris Richards,1,2.0,144.0
+"ARIMA (1,1,2)",static,31,24.0,22.0,2.0,Daniel Muñoz,2,4.0,168.0
+"ARIMA (1,1,2)",static,32,48.0,48.0,0.0,Daniel Muñoz,3,6.0,216.0
+"ARIMA (1,1,2)",static,33,39.0,33.0,6.0,Daniel Muñoz,2,4.0,255.0
+"ARIMA (1,1,2)",static,34,76.0,70.0,6.0,Chris Richards,1,3.0,331.0
+"ARIMA (1,1,2)",static,35,41.0,39.0,2.0,Chris Richards,1,2.0,372.0
+"ARIMA (1,1,2)",static,36,70.0,59.0,11.0,Chris Richards,2,5.0,442.0
+"ARIMA (1,1,2)",static,37,52.0,50.0,2.0,Chris Richards,0,0.0,494.0
+"ARIMA (1,1,2)",static,38,38.0,32.0,6.0,Chris Richards,1,2.0,532.0
+"ARIMA (2,1,2)",static,27,54.0,53.0,1.0,Daniel Muñoz,2,12.0,54.0
+"ARIMA (2,1,2)",static,28,45.0,41.0,4.0,Daniel Muñoz,1,2.0,99.0
+"ARIMA (2,1,2)",static,29,15.0,15.0,0.0,,1,13.0,114.0
+"ARIMA (2,1,2)",static,30,28.0,26.0,2.0,Daniel Muñoz,2,8.0,142.0
+"ARIMA (2,1,2)",static,31,36.0,34.0,2.0,Daniel Muñoz,3,8.0,178.0
+"ARIMA (2,1,2)",static,32,50.0,50.0,0.0,Daniel Muñoz,3,5.0,228.0
+"ARIMA (2,1,2)",static,33,34.0,28.0,6.0,Daniel Muñoz,2,5.0,262.0
+"ARIMA (2,1,2)",static,34,79.0,72.0,7.0,Daniel Muñoz,1,5.0,341.0
+"ARIMA (2,1,2)",static,35,46.0,44.0,2.0,Daniel Muñoz,1,6.0,387.0
+"ARIMA (2,1,2)",static,36,67.0,54.0,13.0,Daniel Muñoz,1,2.0,454.0
+"ARIMA (2,1,2)",static,37,46.0,45.0,1.0,Daniel Muñoz,2,11.0,500.0
+"ARIMA (2,1,2)",static,38,40.0,30.0,10.0,Daniel Muñoz,2,2.0,540.0
+ICT Score,static,27,75.0,68.0,7.0,Bukayo Saka,1,8.0,75.0
+ICT Score,static,28,52.0,50.0,2.0,Bukayo Saka,1,2.0,127.0
+ICT Score,static,29,7.0,7.0,0.0,,1,3.0,134.0
+ICT Score,static,30,33.0,30.0,3.0,Bukayo Saka,2,6.0,167.0
+ICT Score,static,31,67.0,47.0,20.0,Phil Foden,1,0.0,234.0
+ICT Score,static,32,67.0,57.0,10.0,Bukayo Saka,2,5.0,301.0
+ICT Score,static,33,41.0,39.0,2.0,Bukayo Saka,2,2.0,342.0
+ICT Score,static,34,99.0,90.0,9.0,Bukayo Saka,2,9.0,441.0
+ICT Score,static,35,44.0,32.0,12.0,Bukayo Saka,3,5.0,485.0
+ICT Score,static,36,52.0,42.0,10.0,Bukayo Saka,3,16.0,537.0
+ICT Score,static,37,56.0,54.0,2.0,Bukayo Saka,1,2.0,593.0
+ICT Score,static,38,70.0,55.0,15.0,Phil Foden,2,5.0,663.0
+Robust ICT Score,static,27,72.0,65.0,7.0,Bukayo Saka,0,0.0,72.0
+Robust ICT Score,static,28,38.0,36.0,2.0,Bukayo Saka,1,2.0,110.0
+Robust ICT Score,static,29,16.0,16.0,0.0,,1,3.0,126.0
+Robust ICT Score,static,30,27.0,24.0,3.0,Bukayo Saka,2,6.0,153.0
+Robust ICT Score,static,31,68.0,48.0,20.0,Phil Foden,1,0.0,221.0
+Robust ICT Score,static,32,58.0,48.0,10.0,Bukayo Saka,2,5.0,279.0
+Robust ICT Score,static,33,57.0,55.0,2.0,Bukayo Saka,2,2.0,336.0
+Robust ICT Score,static,34,105.0,96.0,9.0,Bukayo Saka,1,6.0,441.0
+Robust ICT Score,static,35,55.0,43.0,12.0,Bukayo Saka,2,4.0,496.0
+Robust ICT Score,static,36,76.0,66.0,10.0,Bukayo Saka,2,13.0,572.0
+Robust ICT Score,static,37,43.0,41.0,2.0,Bukayo Saka,0,0.0,615.0
+Robust ICT Score,static,38,61.0,46.0,15.0,Phil Foden,2,3.0,676.0
+Involvement,static,27,56.0,49.0,7.0,Bukayo Saka,3,22.0,56.0
+Involvement,static,28,26.0,24.0,2.0,Bukayo Saka,3,6.0,82.0
+Involvement,static,29,5.0,5.0,0.0,,1,3.0,87.0
+Involvement,static,30,22.0,19.0,3.0,Bukayo Saka,3,8.0,109.0
+Involvement,static,31,12.0,11.0,1.0,Enes Ünal,1,0.0,121.0
+Involvement,static,32,50.0,40.0,10.0,Bukayo Saka,2,5.0,171.0
+Involvement,static,33,24.0,22.0,2.0,Bukayo Saka,2,2.0,195.0
+Involvement,static,34,51.0,42.0,9.0,Bukayo Saka,2,9.0,246.0
+Involvement,static,35,55.0,43.0,12.0,Bukayo Saka,2,3.0,301.0
+Involvement,static,36,68.0,58.0,10.0,Bukayo Saka,3,16.0,369.0
+Involvement,static,37,39.0,37.0,2.0,Bukayo Saka,3,6.0,408.0
+Involvement,static,38,29.0,24.0,5.0,Enes Ünal,4,13.0,437.0
+Linear Regression,static,27,58.0,57.0,1.0,Daniel Muñoz,2,1.0,58.0
+Linear Regression,static,28,44.0,40.0,4.0,Daniel Muñoz,2,3.0,102.0
+Linear Regression,static,29,3.0,3.0,0.0,,0,0.0,105.0
+Linear Regression,static,30,42.0,40.0,2.0,Daniel Muñoz,0,0.0,147.0
+Linear Regression,static,31,61.0,59.0,2.0,Daniel Muñoz,1,2.0,208.0
+Linear Regression,static,32,53.0,53.0,0.0,Daniel Muñoz,1,6.0,261.0
+Linear Regression,static,33,52.0,46.0,6.0,Daniel Muñoz,1,-1.0,313.0
+Linear Regression,static,34,113.0,106.0,7.0,Daniel Muñoz,2,26.0,426.0
+Linear Regression,static,35,52.0,50.0,2.0,Daniel Muñoz,2,8.0,478.0
+Linear Regression,static,36,79.0,66.0,13.0,Daniel Muñoz,1,5.0,557.0
+Linear Regression,static,37,69.0,68.0,1.0,Daniel Muñoz,2,8.0,626.0
+Linear Regression,static,38,62.0,52.0,10.0,Daniel Muñoz,2,7.0,688.0
+Hybrid Simple Avg. 1:2 (Higher Total Points),static,27,80.0,67.0,13.0,Ollie Watkins,1,8.0,80.0
+Hybrid Simple Avg. 1:2 (Higher Total Points),static,28,29.0,27.0,2.0,Ollie Watkins,1,2.0,109.0
+Hybrid Simple Avg. 1:2 (Higher Total Points),static,29,11.0,9.0,2.0,Ollie Watkins,2,5.0,120.0
+Hybrid Simple Avg. 1:2 (Higher Total Points),static,30,53.0,52.0,1.0,Ollie Watkins,2,6.0,173.0
+Hybrid Simple Avg. 1:2 (Higher Total Points),static,31,47.0,47.0,0.0,,2,1.0,220.0
+Hybrid Simple Avg. 1:2 (Higher Total Points),static,32,70.0,57.0,13.0,Ollie Watkins,2,2.0,290.0
+Hybrid Simple Avg. 1:2 (Higher Total Points),static,33,33.0,26.0,7.0,Ollie Watkins,2,2.0,323.0
+Hybrid Simple Avg. 1:2 (Higher Total Points),static,34,104.0,95.0,9.0,Ollie Watkins,0,0.0,427.0
+Hybrid Simple Avg. 1:2 (Higher Total Points),static,35,49.0,47.0,2.0,Ollie Watkins,1,3.0,476.0
+Hybrid Simple Avg. 1:2 (Higher Total Points),static,36,57.0,55.0,2.0,Ollie Watkins,0,0.0,533.0
+Hybrid Simple Avg. 1:2 (Higher Total Points),static,37,65.0,60.0,5.0,Ollie Watkins,0,0.0,598.0
+Hybrid Simple Avg. 1:2 (Higher Total Points),static,38,35.0,33.0,2.0,Ollie Watkins,2,4.0,633.0
+Hybrid Simple Avg. 2:1 (Lower Total Points),static,27,80.0,67.0,13.0,Ollie Watkins,1,8.0,80.0
+Hybrid Simple Avg. 2:1 (Lower Total Points),static,28,29.0,27.0,2.0,Ollie Watkins,1,2.0,109.0
+Hybrid Simple Avg. 2:1 (Lower Total Points),static,29,11.0,9.0,2.0,Ollie Watkins,2,5.0,120.0
+Hybrid Simple Avg. 2:1 (Lower Total Points),static,30,53.0,52.0,1.0,Ollie Watkins,2,6.0,173.0
+Hybrid Simple Avg. 2:1 (Lower Total Points),static,31,47.0,47.0,0.0,,2,1.0,220.0
+Hybrid Simple Avg. 2:1 (Lower Total Points),static,32,70.0,57.0,13.0,Ollie Watkins,2,2.0,290.0
+Hybrid Simple Avg. 2:1 (Lower Total Points),static,33,33.0,26.0,7.0,Ollie Watkins,2,2.0,323.0
+Hybrid Simple Avg. 2:1 (Lower Total Points),static,34,104.0,95.0,9.0,Ollie Watkins,0,0.0,427.0
+Hybrid Simple Avg. 2:1 (Lower Total Points),static,35,49.0,47.0,2.0,Ollie Watkins,1,3.0,476.0
+Hybrid Simple Avg. 2:1 (Lower Total Points),static,36,57.0,55.0,2.0,Ollie Watkins,0,0.0,533.0
+Hybrid Simple Avg. 2:1 (Lower Total Points),static,37,65.0,60.0,5.0,Ollie Watkins,0,0.0,598.0
+Hybrid Simple Avg. 2:1 (Lower Total Points),static,38,35.0,33.0,2.0,Ollie Watkins,2,4.0,633.0
+Hybrid Weighted 1:2 (Higher Total Points),static,27,76.0,69.0,7.0,Bukayo Saka,1,8.0,76.0
+Hybrid Weighted 1:2 (Higher Total Points),static,28,46.0,44.0,2.0,Bukayo Saka,0,0.0,122.0
+Hybrid Weighted 1:2 (Higher Total Points),static,29,7.0,5.0,2.0,Ollie Watkins,1,3.0,129.0
+Hybrid Weighted 1:2 (Higher Total Points),static,30,56.0,53.0,3.0,Bukayo Saka,0,0.0,185.0
+Hybrid Weighted 1:2 (Higher Total Points),static,31,64.0,64.0,0.0,,1,0.0,249.0
+Hybrid Weighted 1:2 (Higher Total Points),static,32,71.0,61.0,10.0,Bukayo Saka,1,1.0,320.0
+Hybrid Weighted 1:2 (Higher Total Points),static,33,53.0,51.0,2.0,Bukayo Saka,1,1.0,373.0
+Hybrid Weighted 1:2 (Higher Total Points),static,34,105.0,96.0,9.0,Bukayo Saka,1,3.0,478.0
+Hybrid Weighted 1:2 (Higher Total Points),static,35,54.0,42.0,12.0,Bukayo Saka,1,2.0,532.0
+Hybrid Weighted 1:2 (Higher Total Points),static,36,69.0,59.0,10.0,Bukayo Saka,0,0.0,601.0
+Hybrid Weighted 1:2 (Higher Total Points),static,37,71.0,69.0,2.0,Bukayo Saka,0,0.0,672.0
+Hybrid Weighted 1:2 (Higher Total Points),static,38,45.0,43.0,2.0,Ollie Watkins,1,1.0,717.0
+Hybrid Weighted 2:1 (Lower Total Points),static,27,63.0,56.0,7.0,Bukayo Saka,1,1.0,63.0
+Hybrid Weighted 2:1 (Lower Total Points),static,28,45.0,43.0,2.0,Bukayo Saka,1,1.0,108.0
+Hybrid Weighted 2:1 (Lower Total Points),static,29,7.0,5.0,2.0,Ollie Watkins,1,3.0,115.0
+Hybrid Weighted 2:1 (Lower Total Points),static,30,50.0,47.0,3.0,Bukayo Saka,1,1.0,165.0
+Hybrid Weighted 2:1 (Lower Total Points),static,31,59.0,59.0,0.0,,1,2.0,224.0
+Hybrid Weighted 2:1 (Lower Total Points),static,32,75.0,65.0,10.0,Bukayo Saka,2,10.0,299.0
+Hybrid Weighted 2:1 (Lower Total Points),static,33,51.0,49.0,2.0,Bukayo Saka,1,-1.0,350.0
+Hybrid Weighted 2:1 (Lower Total Points),static,34,118.0,109.0,9.0,Bukayo Saka,1,20.0,468.0
+Hybrid Weighted 2:1 (Lower Total Points),static,35,58.0,46.0,12.0,Bukayo Saka,1,6.0,526.0
+Hybrid Weighted 2:1 (Lower Total Points),static,36,63.0,53.0,10.0,Bukayo Saka,0,0.0,589.0
+Hybrid Weighted 2:1 (Lower Total Points),static,37,63.0,61.0,2.0,Bukayo Saka,0,0.0,652.0
+Hybrid Weighted 2:1 (Lower Total Points),static,38,49.0,47.0,2.0,Ollie Watkins,1,1.0,701.0
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),static,27,52.0,51.0,1.0,Daniel Muñoz,1,1.0,52.0
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),static,28,41.0,37.0,4.0,Daniel Muñoz,1,1.0,93.0
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),static,29,3.0,3.0,0.0,,0,0.0,96.0
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),static,30,49.0,47.0,2.0,Daniel Muñoz,1,2.0,145.0
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),static,31,43.0,41.0,2.0,Daniel Muñoz,3,5.0,188.0
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),static,32,44.0,44.0,0.0,Daniel Muñoz,3,7.0,232.0
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),static,33,57.0,51.0,6.0,Daniel Muñoz,2,2.0,289.0
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),static,34,58.0,51.0,7.0,Daniel Muñoz,2,4.0,347.0
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),static,35,41.0,39.0,2.0,Daniel Muñoz,1,2.0,388.0
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),static,36,79.0,66.0,13.0,Daniel Muñoz,1,2.0,467.0
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),static,37,45.0,44.0,1.0,Daniel Muñoz,1,2.0,512.0
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),static,38,40.0,30.0,10.0,Daniel Muñoz,1,2.0,552.0
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),static,27,68.0,67.0,1.0,Daniel Muñoz,1,1.0,68.0
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),static,28,24.0,20.0,4.0,Daniel Muñoz,1,1.0,92.0
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),static,29,3.0,3.0,0.0,,0,0.0,95.0
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),static,30,42.0,40.0,2.0,Daniel Muñoz,1,2.0,137.0
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),static,31,42.0,40.0,2.0,Daniel Muñoz,3,5.0,179.0
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),static,32,44.0,44.0,0.0,Daniel Muñoz,3,7.0,223.0
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),static,33,28.0,22.0,6.0,Daniel Muñoz,2,2.0,251.0
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),static,34,86.0,79.0,7.0,Daniel Muñoz,2,4.0,337.0
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),static,35,34.0,32.0,2.0,Daniel Muñoz,2,3.0,371.0
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),static,36,76.0,63.0,13.0,Daniel Muñoz,1,2.0,447.0
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),static,37,47.0,46.0,1.0,Daniel Muñoz,1,2.0,494.0
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),static,38,50.0,40.0,10.0,Daniel Muñoz,1,2.0,544.0
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),static,27,80.0,67.0,13.0,Ollie Watkins,1,8.0,80.0
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),static,28,29.0,27.0,2.0,Ollie Watkins,1,2.0,109.0
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),static,29,11.0,9.0,2.0,Ollie Watkins,2,5.0,120.0
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),static,30,53.0,52.0,1.0,Ollie Watkins,2,6.0,173.0
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),static,31,47.0,47.0,0.0,,2,1.0,220.0
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),static,32,70.0,57.0,13.0,Ollie Watkins,2,2.0,290.0
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),static,33,33.0,26.0,7.0,Ollie Watkins,2,2.0,323.0
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),static,34,104.0,95.0,9.0,Ollie Watkins,0,0.0,427.0
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),static,35,49.0,47.0,2.0,Ollie Watkins,1,3.0,476.0
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),static,36,57.0,55.0,2.0,Ollie Watkins,0,0.0,533.0
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),static,37,65.0,60.0,5.0,Ollie Watkins,0,0.0,598.0
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),static,38,35.0,33.0,2.0,Ollie Watkins,2,4.0,633.0
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),static,27,80.0,67.0,13.0,Ollie Watkins,1,8.0,80.0
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),static,28,29.0,27.0,2.0,Ollie Watkins,1,2.0,109.0
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),static,29,11.0,9.0,2.0,Ollie Watkins,2,5.0,120.0
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),static,30,53.0,52.0,1.0,Ollie Watkins,2,6.0,173.0
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),static,31,48.0,47.0,1.0,Mohamed Salah,2,1.0,221.0
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),static,32,70.0,57.0,13.0,Ollie Watkins,2,2.0,291.0
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),static,33,33.0,26.0,7.0,Ollie Watkins,2,2.0,324.0
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),static,34,104.0,95.0,9.0,Ollie Watkins,0,0.0,428.0
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),static,35,49.0,47.0,2.0,Ollie Watkins,1,3.0,477.0
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),static,36,57.0,55.0,2.0,Ollie Watkins,0,0.0,534.0
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),static,37,65.0,60.0,5.0,Ollie Watkins,0,0.0,599.0
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),static,38,35.0,33.0,2.0,Ollie Watkins,2,4.0,634.0
+Hybrid Monte Carlo 1:2 (Higher Total Points),static,27,80.0,67.0,13.0,Ollie Watkins,1,8.0,80.0
+Hybrid Monte Carlo 1:2 (Higher Total Points),static,28,29.0,27.0,2.0,Ollie Watkins,1,2.0,109.0
+Hybrid Monte Carlo 1:2 (Higher Total Points),static,29,11.0,9.0,2.0,Ollie Watkins,2,5.0,120.0
+Hybrid Monte Carlo 1:2 (Higher Total Points),static,30,53.0,52.0,1.0,Ollie Watkins,2,6.0,173.0
+Hybrid Monte Carlo 1:2 (Higher Total Points),static,31,47.0,47.0,0.0,,2,1.0,220.0
+Hybrid Monte Carlo 1:2 (Higher Total Points),static,32,70.0,57.0,13.0,Ollie Watkins,2,2.0,290.0
+Hybrid Monte Carlo 1:2 (Higher Total Points),static,33,33.0,26.0,7.0,Ollie Watkins,2,2.0,323.0
+Hybrid Monte Carlo 1:2 (Higher Total Points),static,34,104.0,95.0,9.0,Ollie Watkins,0,0.0,427.0
+Hybrid Monte Carlo 1:2 (Higher Total Points),static,35,49.0,47.0,2.0,Ollie Watkins,1,3.0,476.0
+Hybrid Monte Carlo 1:2 (Higher Total Points),static,36,57.0,55.0,2.0,Ollie Watkins,0,0.0,533.0
+Hybrid Monte Carlo 1:2 (Higher Total Points),static,37,65.0,60.0,5.0,Ollie Watkins,0,0.0,598.0
+Hybrid Monte Carlo 1:2 (Higher Total Points),static,38,35.0,33.0,2.0,Ollie Watkins,2,4.0,633.0
+Hybrid Monte Carlo 2:1 (Lower Total Points),static,27,75.0,62.0,13.0,Ollie Watkins,2,9.0,75.0
+Hybrid Monte Carlo 2:1 (Lower Total Points),static,28,35.0,33.0,2.0,Ollie Watkins,1,2.0,110.0
+Hybrid Monte Carlo 2:1 (Lower Total Points),static,29,12.0,10.0,2.0,Ollie Watkins,2,5.0,122.0
+Hybrid Monte Carlo 2:1 (Lower Total Points),static,30,49.0,48.0,1.0,Ollie Watkins,2,6.0,171.0
+Hybrid Monte Carlo 2:1 (Lower Total Points),static,31,43.0,43.0,0.0,,2,1.0,214.0
+Hybrid Monte Carlo 2:1 (Lower Total Points),static,32,75.0,62.0,13.0,Ollie Watkins,2,2.0,289.0
+Hybrid Monte Carlo 2:1 (Lower Total Points),static,33,33.0,26.0,7.0,Ollie Watkins,2,2.0,322.0
+Hybrid Monte Carlo 2:1 (Lower Total Points),static,34,92.0,83.0,9.0,Ollie Watkins,0,0.0,414.0
+Hybrid Monte Carlo 2:1 (Lower Total Points),static,35,50.0,48.0,2.0,Ollie Watkins,1,3.0,464.0
+Hybrid Monte Carlo 2:1 (Lower Total Points),static,36,50.0,48.0,2.0,Ollie Watkins,0,0.0,514.0
+Hybrid Monte Carlo 2:1 (Lower Total Points),static,37,68.0,63.0,5.0,Ollie Watkins,0,0.0,582.0
+Hybrid Monte Carlo 2:1 (Lower Total Points),static,38,48.0,46.0,2.0,Ollie Watkins,2,4.0,630.0
+Hybrid ARIMA 1:2 (Higher Total Points),static,27,76.0,69.0,7.0,Bukayo Saka,1,8.0,76.0
+Hybrid ARIMA 1:2 (Higher Total Points),static,28,44.0,42.0,2.0,Bukayo Saka,1,2.0,120.0
+Hybrid ARIMA 1:2 (Higher Total Points),static,29,8.0,8.0,0.0,,1,3.0,128.0
+Hybrid ARIMA 1:2 (Higher Total Points),static,30,56.0,53.0,3.0,Bukayo Saka,1,4.0,184.0
+Hybrid ARIMA 1:2 (Higher Total Points),static,31,43.0,42.0,1.0,Mohamed Salah,1,0.0,227.0
+Hybrid ARIMA 1:2 (Higher Total Points),static,32,73.0,63.0,10.0,Bukayo Saka,2,5.0,300.0
+Hybrid ARIMA 1:2 (Higher Total Points),static,33,24.0,22.0,2.0,Bukayo Saka,2,2.0,324.0
+Hybrid ARIMA 1:2 (Higher Total Points),static,34,107.0,98.0,9.0,Bukayo Saka,2,9.0,431.0
+Hybrid ARIMA 1:2 (Higher Total Points),static,35,55.0,43.0,12.0,Bukayo Saka,2,4.0,486.0
+Hybrid ARIMA 1:2 (Higher Total Points),static,36,78.0,68.0,10.0,Bukayo Saka,1,11.0,564.0
+Hybrid ARIMA 1:2 (Higher Total Points),static,37,60.0,58.0,2.0,Bukayo Saka,0,0.0,624.0
+Hybrid ARIMA 1:2 (Higher Total Points),static,38,45.0,39.0,6.0,Mohamed Salah,1,2.0,669.0
+Hybrid ARIMA 2:1 (Lower Total Points),static,27,74.0,67.0,7.0,Bukayo Saka,1,8.0,74.0
+Hybrid ARIMA 2:1 (Lower Total Points),static,28,29.0,27.0,2.0,Bukayo Saka,1,2.0,103.0
+Hybrid ARIMA 2:1 (Lower Total Points),static,29,9.0,9.0,0.0,,2,5.0,112.0
+Hybrid ARIMA 2:1 (Lower Total Points),static,30,55.0,52.0,3.0,Bukayo Saka,2,6.0,167.0
+Hybrid ARIMA 2:1 (Lower Total Points),static,31,48.0,47.0,1.0,Mohamed Salah,2,1.0,215.0
+Hybrid ARIMA 2:1 (Lower Total Points),static,32,67.0,57.0,10.0,Bukayo Saka,2,2.0,282.0
+Hybrid ARIMA 2:1 (Lower Total Points),static,33,28.0,26.0,2.0,Bukayo Saka,2,2.0,310.0
+Hybrid ARIMA 2:1 (Lower Total Points),static,34,104.0,95.0,9.0,Bukayo Saka,0,0.0,414.0
+Hybrid ARIMA 2:1 (Lower Total Points),static,35,59.0,47.0,12.0,Bukayo Saka,1,3.0,473.0
+Hybrid ARIMA 2:1 (Lower Total Points),static,36,65.0,55.0,10.0,Bukayo Saka,0,0.0,538.0
+Hybrid ARIMA 2:1 (Lower Total Points),static,37,62.0,60.0,2.0,Bukayo Saka,0,0.0,600.0
+Hybrid ARIMA 2:1 (Lower Total Points),static,38,39.0,33.0,6.0,Mohamed Salah,2,4.0,639.0
+Hybrid ICT Score 1:2 (Higher Total Points),static,27,73.0,60.0,13.0,Ollie Watkins,1,1.0,73.0
+Hybrid ICT Score 1:2 (Higher Total Points),static,28,28.0,26.0,2.0,Ollie Watkins,1,1.0,101.0
+Hybrid ICT Score 1:2 (Higher Total Points),static,29,6.0,4.0,2.0,Ollie Watkins,0,0.0,107.0
+Hybrid ICT Score 1:2 (Higher Total Points),static,30,52.0,51.0,1.0,Ollie Watkins,2,5.0,159.0
+Hybrid ICT Score 1:2 (Higher Total Points),static,31,50.0,50.0,0.0,,3,4.0,209.0
+Hybrid ICT Score 1:2 (Higher Total Points),static,32,75.0,62.0,13.0,Ollie Watkins,2,7.0,284.0
+Hybrid ICT Score 1:2 (Higher Total Points),static,33,32.0,25.0,7.0,Ollie Watkins,3,1.0,316.0
+Hybrid ICT Score 1:2 (Higher Total Points),static,34,130.0,121.0,9.0,Ollie Watkins,2,26.0,446.0
+Hybrid ICT Score 1:2 (Higher Total Points),static,35,52.0,50.0,2.0,Ollie Watkins,1,6.0,498.0
+Hybrid ICT Score 1:2 (Higher Total Points),static,36,62.0,60.0,2.0,Ollie Watkins,1,5.0,560.0
+Hybrid ICT Score 1:2 (Higher Total Points),static,37,65.0,60.0,5.0,Ollie Watkins,0,0.0,625.0
+Hybrid ICT Score 1:2 (Higher Total Points),static,38,33.0,31.0,2.0,Ollie Watkins,2,2.0,658.0
+Hybrid ICT Score 2:1 (Lower Total Points),static,27,73.0,60.0,13.0,Ollie Watkins,1,1.0,73.0
+Hybrid ICT Score 2:1 (Lower Total Points),static,28,28.0,26.0,2.0,Ollie Watkins,1,1.0,101.0
+Hybrid ICT Score 2:1 (Lower Total Points),static,29,6.0,4.0,2.0,Ollie Watkins,0,0.0,107.0
+Hybrid ICT Score 2:1 (Lower Total Points),static,30,52.0,51.0,1.0,Ollie Watkins,2,5.0,159.0
+Hybrid ICT Score 2:1 (Lower Total Points),static,31,50.0,50.0,0.0,,3,4.0,209.0
+Hybrid ICT Score 2:1 (Lower Total Points),static,32,75.0,62.0,13.0,Ollie Watkins,2,7.0,284.0
+Hybrid ICT Score 2:1 (Lower Total Points),static,33,32.0,25.0,7.0,Ollie Watkins,3,1.0,316.0
+Hybrid ICT Score 2:1 (Lower Total Points),static,34,130.0,121.0,9.0,Ollie Watkins,2,26.0,446.0
+Hybrid ICT Score 2:1 (Lower Total Points),static,35,52.0,50.0,2.0,Ollie Watkins,1,6.0,498.0
+Hybrid ICT Score 2:1 (Lower Total Points),static,36,62.0,60.0,2.0,Ollie Watkins,1,5.0,560.0
+Hybrid ICT Score 2:1 (Lower Total Points),static,37,65.0,60.0,5.0,Ollie Watkins,0,0.0,625.0
+Hybrid ICT Score 2:1 (Lower Total Points),static,38,33.0,31.0,2.0,Ollie Watkins,2,2.0,658.0
+Hybrid Linear Regression 1:2 (Higher Total Points),static,27,56.0,55.0,1.0,Daniel Muñoz,2,11.0,56.0
+Hybrid Linear Regression 1:2 (Higher Total Points),static,28,51.0,47.0,4.0,Daniel Muñoz,2,4.0,107.0
+Hybrid Linear Regression 1:2 (Higher Total Points),static,29,14.0,14.0,0.0,,1,13.0,121.0
+Hybrid Linear Regression 1:2 (Higher Total Points),static,30,42.0,40.0,2.0,Daniel Muñoz,0,0.0,163.0
+Hybrid Linear Regression 1:2 (Higher Total Points),static,31,79.0,77.0,2.0,Daniel Muñoz,1,2.0,242.0
+Hybrid Linear Regression 1:2 (Higher Total Points),static,32,37.0,37.0,0.0,Daniel Muñoz,1,2.0,279.0
+Hybrid Linear Regression 1:2 (Higher Total Points),static,33,52.0,46.0,6.0,Daniel Muñoz,1,2.0,331.0
+Hybrid Linear Regression 1:2 (Higher Total Points),static,34,92.0,85.0,7.0,Daniel Muñoz,2,11.0,423.0
+Hybrid Linear Regression 1:2 (Higher Total Points),static,35,51.0,49.0,2.0,Daniel Muñoz,2,8.0,474.0
+Hybrid Linear Regression 1:2 (Higher Total Points),static,36,81.0,68.0,13.0,Daniel Muñoz,1,2.0,555.0
+Hybrid Linear Regression 1:2 (Higher Total Points),static,37,62.0,61.0,1.0,Daniel Muñoz,2,4.0,617.0
+Hybrid Linear Regression 1:2 (Higher Total Points),static,38,61.0,51.0,10.0,Daniel Muñoz,2,7.0,678.0
+Hybrid Linear Regression 2:1 (Lower Total Points),static,27,58.0,57.0,1.0,Daniel Muñoz,2,11.0,58.0
+Hybrid Linear Regression 2:1 (Lower Total Points),static,28,52.0,48.0,4.0,Daniel Muñoz,2,4.0,110.0
+Hybrid Linear Regression 2:1 (Lower Total Points),static,29,16.0,16.0,0.0,,1,13.0,126.0
+Hybrid Linear Regression 2:1 (Lower Total Points),static,30,41.0,39.0,2.0,Daniel Muñoz,0,0.0,167.0
+Hybrid Linear Regression 2:1 (Lower Total Points),static,31,78.0,76.0,2.0,Daniel Muñoz,1,2.0,245.0
+Hybrid Linear Regression 2:1 (Lower Total Points),static,32,31.0,31.0,0.0,Daniel Muñoz,1,2.0,276.0
+Hybrid Linear Regression 2:1 (Lower Total Points),static,33,55.0,49.0,6.0,Daniel Muñoz,1,2.0,331.0
+Hybrid Linear Regression 2:1 (Lower Total Points),static,34,75.0,68.0,7.0,Daniel Muñoz,2,11.0,406.0
+Hybrid Linear Regression 2:1 (Lower Total Points),static,35,43.0,41.0,2.0,Daniel Muñoz,2,8.0,449.0
+Hybrid Linear Regression 2:1 (Lower Total Points),static,36,81.0,68.0,13.0,Daniel Muñoz,1,2.0,530.0
+Hybrid Linear Regression 2:1 (Lower Total Points),static,37,56.0,55.0,1.0,Daniel Muñoz,2,4.0,586.0
+Hybrid Linear Regression 2:1 (Lower Total Points),static,38,60.0,50.0,10.0,Daniel Muñoz,2,7.0,646.0
+Simple Avg. (Budget = 55),static,27,57.0,53.0,4.0,Douglas Luiz Soares de Paulo,0,0.0,57.0
+Simple Avg. (Budget = 55),static,28,38.0,36.0,2.0,Douglas Luiz Soares de Paulo,0,0.0,95.0
+Simple Avg. (Budget = 55),static,29,6.0,5.0,1.0,Douglas Luiz Soares de Paulo,1,2.0,101.0
+Simple Avg. (Budget = 55),static,30,49.0,46.0,3.0,Douglas Luiz Soares de Paulo,1,1.0,150.0
+Simple Avg. (Budget = 55),static,31,37.0,36.0,1.0,Douglas Luiz Soares de Paulo,0,0.0,187.0
+Simple Avg. (Budget = 55),static,32,57.0,56.0,1.0,Douglas Luiz Soares de Paulo,1,13.0,244.0
+Simple Avg. (Budget = 55),static,33,95.0,69.0,26.0,Cole Palmer,2,17.0,339.0
+Simple Avg. (Budget = 55),static,34,65.0,65.0,0.0,,1,9.0,404.0
+Simple Avg. (Budget = 55),static,35,54.0,53.0,1.0,Douglas Luiz Soares de Paulo,1,2.0,458.0
+Simple Avg. (Budget = 55),static,36,75.0,73.0,2.0,Douglas Luiz Soares de Paulo,2,23.0,533.0
+Simple Avg. (Budget = 55),static,37,57.0,55.0,2.0,Douglas Luiz Soares de Paulo,2,7.0,590.0
+Simple Avg. (Budget = 55),static,38,27.0,26.0,1.0,Douglas Luiz Soares de Paulo,2,4.0,617.0
+Simple Avg. (Budget = 60),static,27,78.0,65.0,13.0,Ollie Watkins,1,7.0,78.0
+Simple Avg. (Budget = 60),static,28,39.0,37.0,2.0,Ollie Watkins,1,2.0,117.0
+Simple Avg. (Budget = 60),static,29,7.0,5.0,2.0,Ollie Watkins,0,0.0,124.0
+Simple Avg. (Budget = 60),static,30,49.0,48.0,1.0,Ollie Watkins,2,10.0,173.0
+Simple Avg. (Budget = 60),static,31,37.0,36.0,1.0,Douglas Luiz Soares de Paulo,1,7.0,210.0
+Simple Avg. (Budget = 60),static,32,62.0,49.0,13.0,Ollie Watkins,0,0.0,272.0
+Simple Avg. (Budget = 60),static,33,79.0,72.0,7.0,Ollie Watkins,1,2.0,351.0
+Simple Avg. (Budget = 60),static,34,77.0,68.0,9.0,Ollie Watkins,2,23.0,428.0
+Simple Avg. (Budget = 60),static,35,58.0,56.0,2.0,Ollie Watkins,1,1.0,486.0
+Simple Avg. (Budget = 60),static,36,52.0,50.0,2.0,Ollie Watkins,1,6.0,538.0
+Simple Avg. (Budget = 60),static,37,66.0,61.0,5.0,Ollie Watkins,2,11.0,604.0
+Simple Avg. (Budget = 60),static,38,26.0,24.0,2.0,Ollie Watkins,2,3.0,630.0
+Simple Avg. (Budget = 65),static,27,69.0,56.0,13.0,Ollie Watkins,1,1.0,69.0
+Simple Avg. (Budget = 65),static,28,31.0,29.0,2.0,Ollie Watkins,1,1.0,100.0
+Simple Avg. (Budget = 65),static,29,7.0,5.0,2.0,Ollie Watkins,0,0.0,107.0
+Simple Avg. (Budget = 65),static,30,50.0,49.0,1.0,Ollie Watkins,1,7.0,157.0
+Simple Avg. (Budget = 65),static,31,37.0,37.0,0.0,,1,1.0,194.0
+Simple Avg. (Budget = 65),static,32,74.0,61.0,13.0,Ollie Watkins,0,0.0,268.0
+Simple Avg. (Budget = 65),static,33,80.0,73.0,7.0,Ollie Watkins,1,2.0,348.0
+Simple Avg. (Budget = 65),static,34,86.0,77.0,9.0,Ollie Watkins,2,13.0,434.0
+Simple Avg. (Budget = 65),static,35,66.0,64.0,2.0,Ollie Watkins,1,1.0,500.0
+Simple Avg. (Budget = 65),static,36,51.0,49.0,2.0,Ollie Watkins,1,0.0,551.0
+Simple Avg. (Budget = 65),static,37,62.0,57.0,5.0,Ollie Watkins,1,2.0,613.0
+Simple Avg. (Budget = 65),static,38,37.0,35.0,2.0,Ollie Watkins,3,13.0,650.0
+Simple Avg. (Budget = 70),static,27,72.0,59.0,13.0,Ollie Watkins,0,0.0,72.0
+Simple Avg. (Budget = 70),static,28,36.0,34.0,2.0,Ollie Watkins,0,0.0,108.0
+Simple Avg. (Budget = 70),static,29,7.0,5.0,2.0,Ollie Watkins,0,0.0,115.0
+Simple Avg. (Budget = 70),static,30,63.0,62.0,1.0,Ollie Watkins,0,0.0,178.0
+Simple Avg. (Budget = 70),static,31,46.0,46.0,0.0,,1,2.0,224.0
+Simple Avg. (Budget = 70),static,32,69.0,56.0,13.0,Ollie Watkins,0,0.0,293.0
+Simple Avg. (Budget = 70),static,33,78.0,71.0,7.0,Ollie Watkins,2,6.0,371.0
+Simple Avg. (Budget = 70),static,34,87.0,78.0,9.0,Ollie Watkins,2,16.0,458.0
+Simple Avg. (Budget = 70),static,35,64.0,62.0,2.0,Ollie Watkins,1,1.0,522.0
+Simple Avg. (Budget = 70),static,36,53.0,51.0,2.0,Ollie Watkins,1,0.0,575.0
+Simple Avg. (Budget = 70),static,37,65.0,60.0,5.0,Ollie Watkins,1,2.0,640.0
+Simple Avg. (Budget = 70),static,38,25.0,23.0,2.0,Ollie Watkins,2,7.0,665.0
+Simple Avg. (Budget = 75),static,27,79.0,66.0,13.0,Ollie Watkins,0,0.0,79.0
+Simple Avg. (Budget = 75),static,28,37.0,35.0,2.0,Ollie Watkins,1,1.0,116.0
+Simple Avg. (Budget = 75),static,29,7.0,5.0,2.0,Ollie Watkins,0,0.0,123.0
+Simple Avg. (Budget = 75),static,30,58.0,57.0,1.0,Ollie Watkins,0,0.0,181.0
+Simple Avg. (Budget = 75),static,31,66.0,66.0,0.0,,2,4.0,247.0
+Simple Avg. (Budget = 75),static,32,68.0,55.0,13.0,Ollie Watkins,2,10.0,315.0
+Simple Avg. (Budget = 75),static,33,61.0,54.0,7.0,Ollie Watkins,3,5.0,376.0
+Simple Avg. (Budget = 75),static,34,102.0,93.0,9.0,Ollie Watkins,3,23.0,478.0
+Simple Avg. (Budget = 75),static,35,56.0,54.0,2.0,Ollie Watkins,2,3.0,534.0
+Simple Avg. (Budget = 75),static,36,52.0,50.0,2.0,Ollie Watkins,1,0.0,586.0
+Simple Avg. (Budget = 75),static,37,68.0,63.0,5.0,Ollie Watkins,0,0.0,654.0
+Simple Avg. (Budget = 75),static,38,40.0,38.0,2.0,Ollie Watkins,1,6.0,694.0
+Simple Avg. (Budget = 80),static,27,82.0,69.0,13.0,Ollie Watkins,1,8.0,82.0
+Simple Avg. (Budget = 80),static,28,42.0,40.0,2.0,Ollie Watkins,1,7.0,124.0
+Simple Avg. (Budget = 80),static,29,8.0,6.0,2.0,Ollie Watkins,2,3.0,132.0
+Simple Avg. (Budget = 80),static,30,57.0,56.0,1.0,Ollie Watkins,1,2.0,189.0
+Simple Avg. (Budget = 80),static,31,64.0,64.0,0.0,,3,6.0,253.0
+Simple Avg. (Budget = 80),static,32,84.0,71.0,13.0,Ollie Watkins,2,19.0,337.0
+Simple Avg. (Budget = 80),static,33,59.0,52.0,7.0,Ollie Watkins,3,1.0,396.0
+Simple Avg. (Budget = 80),static,34,91.0,82.0,9.0,Ollie Watkins,2,9.0,487.0
+Simple Avg. (Budget = 80),static,35,50.0,48.0,2.0,Ollie Watkins,2,9.0,537.0
+Simple Avg. (Budget = 80),static,36,63.0,61.0,2.0,Ollie Watkins,1,0.0,600.0
+Simple Avg. (Budget = 80),static,37,68.0,63.0,5.0,Ollie Watkins,0,0.0,668.0
+Simple Avg. (Budget = 80),static,38,45.0,43.0,2.0,Ollie Watkins,1,5.0,713.0
+Weighted Avg. (Budget = 60),static,27,53.0,46.0,7.0,Bukayo Saka,0,0.0,53.0
+Weighted Avg. (Budget = 60),static,28,42.0,40.0,2.0,Bukayo Saka,1,2.0,95.0
+Weighted Avg. (Budget = 60),static,29,9.0,9.0,0.0,,1,2.0,104.0
+Weighted Avg. (Budget = 60),static,30,43.0,40.0,3.0,Bukayo Saka,0,0.0,147.0
+Weighted Avg. (Budget = 60),static,31,62.0,42.0,20.0,Cole Palmer,1,2.0,209.0
+Weighted Avg. (Budget = 60),static,32,66.0,56.0,10.0,Bukayo Saka,0,0.0,275.0
+Weighted Avg. (Budget = 60),static,33,49.0,47.0,2.0,Bukayo Saka,1,7.0,324.0
+Weighted Avg. (Budget = 60),static,34,102.0,93.0,9.0,Bukayo Saka,3,19.0,426.0
+Weighted Avg. (Budget = 60),static,35,63.0,51.0,12.0,Bukayo Saka,1,2.0,489.0
+Weighted Avg. (Budget = 60),static,36,52.0,42.0,10.0,Bukayo Saka,1,2.0,541.0
+Weighted Avg. (Budget = 60),static,37,54.0,52.0,2.0,Bukayo Saka,1,5.0,595.0
+Weighted Avg. (Budget = 60),static,38,28.0,22.0,6.0,Cole Palmer,2,3.0,623.0
+Monte Carlo (Budget = 60),static,27,76.0,63.0,13.0,Ollie Watkins,0,0.0,76.0
+Monte Carlo (Budget = 60),static,28,38.0,36.0,2.0,Ollie Watkins,0,0.0,114.0
+Monte Carlo (Budget = 60),static,29,8.0,6.0,2.0,Ollie Watkins,0,0.0,122.0
+Monte Carlo (Budget = 60),static,30,49.0,48.0,1.0,Ollie Watkins,1,7.0,171.0
+Monte Carlo (Budget = 60),static,31,39.0,38.0,1.0,Douglas Luiz Soares de Paulo,1,7.0,210.0
+Monte Carlo (Budget = 60),static,32,73.0,60.0,13.0,Ollie Watkins,0,0.0,283.0
+Monte Carlo (Budget = 60),static,33,78.0,71.0,7.0,Ollie Watkins,1,10.0,361.0
+Monte Carlo (Budget = 60),static,34,77.0,68.0,9.0,Ollie Watkins,1,14.0,438.0
+Monte Carlo (Budget = 60),static,35,55.0,53.0,2.0,Ollie Watkins,1,1.0,493.0
+Monte Carlo (Budget = 60),static,36,54.0,52.0,2.0,Ollie Watkins,1,6.0,547.0
+Monte Carlo (Budget = 60),static,37,66.0,61.0,5.0,Ollie Watkins,2,11.0,613.0
+Monte Carlo (Budget = 60),static,38,27.0,25.0,2.0,Ollie Watkins,2,3.0,640.0
+"ARIMA (1,0,0, Budget = 60)",static,27,73.0,66.0,7.0,Bukayo Saka,2,19.0,73.0
+"ARIMA (1,0,0, Budget = 60)",static,28,32.0,30.0,2.0,Bukayo Saka,2,4.0,105.0
+"ARIMA (1,0,0, Budget = 60)",static,29,7.0,7.0,0.0,,1,2.0,112.0
+"ARIMA (1,0,0, Budget = 60)",static,30,52.0,49.0,3.0,Bukayo Saka,2,8.0,164.0
+"ARIMA (1,0,0, Budget = 60)",static,31,54.0,34.0,20.0,Cole Palmer,1,7.0,218.0
+"ARIMA (1,0,0, Budget = 60)",static,32,61.0,51.0,10.0,Bukayo Saka,2,18.0,279.0
+"ARIMA (1,0,0, Budget = 60)",static,33,77.0,75.0,2.0,Bukayo Saka,2,8.0,356.0
+"ARIMA (1,0,0, Budget = 60)",static,34,58.0,49.0,9.0,Bukayo Saka,2,23.0,414.0
+"ARIMA (1,0,0, Budget = 60)",static,35,76.0,64.0,12.0,Bukayo Saka,0,0.0,490.0
+"ARIMA (1,0,0, Budget = 60)",static,36,69.0,59.0,10.0,Bukayo Saka,1,6.0,559.0
+"ARIMA (1,0,0, Budget = 60)",static,37,43.0,41.0,2.0,Bukayo Saka,0,0.0,602.0
+"ARIMA (1,0,0, Budget = 60)",static,38,37.0,31.0,6.0,Cole Palmer,3,5.0,639.0
+"ARIMA (1,0,1, Budget = 60)",static,27,67.0,60.0,7.0,Bukayo Saka,1,13.0,67.0
+"ARIMA (1,0,1, Budget = 60)",static,28,39.0,37.0,2.0,Bukayo Saka,1,2.0,106.0
+"ARIMA (1,0,1, Budget = 60)",static,29,6.0,6.0,0.0,,2,3.0,112.0
+"ARIMA (1,0,1, Budget = 60)",static,30,47.0,44.0,3.0,Bukayo Saka,1,1.0,159.0
+"ARIMA (1,0,1, Budget = 60)",static,31,60.0,40.0,20.0,Cole Palmer,1,2.0,219.0
+"ARIMA (1,0,1, Budget = 60)",static,32,58.0,48.0,10.0,Bukayo Saka,1,11.0,277.0
+"ARIMA (1,0,1, Budget = 60)",static,33,79.0,77.0,2.0,Bukayo Saka,2,7.0,356.0
+"ARIMA (1,0,1, Budget = 60)",static,34,47.0,38.0,9.0,Bukayo Saka,1,9.0,403.0
+"ARIMA (1,0,1, Budget = 60)",static,35,70.0,58.0,12.0,Bukayo Saka,0,0.0,473.0
+"ARIMA (1,0,1, Budget = 60)",static,36,65.0,55.0,10.0,Bukayo Saka,1,0.0,538.0
+"ARIMA (1,0,1, Budget = 60)",static,37,42.0,40.0,2.0,Bukayo Saka,0,0.0,580.0
+"ARIMA (1,0,1, Budget = 60)",static,38,46.0,40.0,6.0,Cole Palmer,3,17.0,626.0
+Weighted Avg. (Budget = 65),static,27,58.0,51.0,7.0,Bukayo Saka,1,2.0,58.0
+Weighted Avg. (Budget = 65),static,28,46.0,44.0,2.0,Bukayo Saka,1,8.0,104.0
+Weighted Avg. (Budget = 65),static,29,7.0,5.0,2.0,Ollie Watkins,0,0.0,111.0
+Weighted Avg. (Budget = 65),static,30,49.0,46.0,3.0,Bukayo Saka,1,7.0,160.0
+Weighted Avg. (Budget = 65),static,31,41.0,41.0,0.0,,2,4.0,201.0
+Weighted Avg. (Budget = 65),static,32,67.0,57.0,10.0,Bukayo Saka,0,0.0,268.0
+Weighted Avg. (Budget = 65),static,33,65.0,63.0,2.0,Bukayo Saka,1,7.0,333.0
+Weighted Avg. (Budget = 65),static,34,116.0,107.0,9.0,Bukayo Saka,3,24.0,449.0
+Weighted Avg. (Budget = 65),static,35,61.0,49.0,12.0,Bukayo Saka,1,1.0,510.0
+Weighted Avg. (Budget = 65),static,36,54.0,44.0,10.0,Bukayo Saka,1,1.0,564.0
+Weighted Avg. (Budget = 65),static,37,58.0,56.0,2.0,Bukayo Saka,1,1.0,622.0
+Weighted Avg. (Budget = 65),static,38,26.0,24.0,2.0,Ollie Watkins,2,7.0,648.0
+Monte Carlo (Budget = 65),static,27,69.0,56.0,13.0,Ollie Watkins,0,0.0,69.0
+Monte Carlo (Budget = 65),static,28,44.0,42.0,2.0,Ollie Watkins,0,0.0,113.0
+Monte Carlo (Budget = 65),static,29,7.0,5.0,2.0,Ollie Watkins,0,0.0,120.0
+Monte Carlo (Budget = 65),static,30,53.0,52.0,1.0,Ollie Watkins,0,0.0,173.0
+Monte Carlo (Budget = 65),static,31,46.0,44.0,2.0,Dominic Solanke,0,0.0,219.0
+Monte Carlo (Budget = 65),static,32,68.0,55.0,13.0,Ollie Watkins,0,0.0,287.0
+Monte Carlo (Budget = 65),static,33,77.0,70.0,7.0,Ollie Watkins,1,2.0,364.0
+Monte Carlo (Budget = 65),static,34,85.0,76.0,9.0,Ollie Watkins,2,19.0,449.0
+Monte Carlo (Budget = 65),static,35,48.0,46.0,2.0,Ollie Watkins,1,1.0,497.0
+Monte Carlo (Budget = 65),static,36,45.0,43.0,2.0,Ollie Watkins,1,0.0,542.0
+Monte Carlo (Budget = 65),static,37,66.0,61.0,5.0,Ollie Watkins,1,2.0,608.0
+Monte Carlo (Budget = 65),static,38,32.0,30.0,2.0,Ollie Watkins,2,7.0,640.0
+"ARIMA (1,0,0, Budget = 65)",static,27,67.0,60.0,7.0,Bukayo Saka,1,6.0,67.0
+"ARIMA (1,0,0, Budget = 65)",static,28,37.0,35.0,2.0,Bukayo Saka,2,3.0,104.0
+"ARIMA (1,0,0, Budget = 65)",static,29,7.0,5.0,2.0,Ollie Watkins,0,0.0,111.0
+"ARIMA (1,0,0, Budget = 65)",static,30,57.0,54.0,3.0,Bukayo Saka,1,7.0,168.0
+"ARIMA (1,0,0, Budget = 65)",static,31,35.0,35.0,0.0,,2,8.0,203.0
+"ARIMA (1,0,0, Budget = 65)",static,32,55.0,45.0,10.0,Bukayo Saka,1,5.0,258.0
+"ARIMA (1,0,0, Budget = 65)",static,33,83.0,81.0,2.0,Bukayo Saka,2,3.0,341.0
+"ARIMA (1,0,0, Budget = 65)",static,34,65.0,56.0,9.0,Bukayo Saka,2,17.0,406.0
+"ARIMA (1,0,0, Budget = 65)",static,35,67.0,55.0,12.0,Bukayo Saka,0,0.0,473.0
+"ARIMA (1,0,0, Budget = 65)",static,36,64.0,54.0,10.0,Bukayo Saka,1,6.0,537.0
+"ARIMA (1,0,0, Budget = 65)",static,37,51.0,49.0,2.0,Bukayo Saka,0,0.0,588.0
+"ARIMA (1,0,0, Budget = 65)",static,38,33.0,31.0,2.0,Ollie Watkins,3,9.0,621.0
+"ARIMA (1,0,1, Budget = 65)",static,27,69.0,62.0,7.0,Bukayo Saka,0,0.0,69.0
+"ARIMA (1,0,1, Budget = 65)",static,28,39.0,37.0,2.0,Bukayo Saka,0,0.0,108.0
+"ARIMA (1,0,1, Budget = 65)",static,29,8.0,6.0,2.0,Ollie Watkins,1,1.0,116.0
+"ARIMA (1,0,1, Budget = 65)",static,30,53.0,50.0,3.0,Bukayo Saka,1,7.0,169.0
+"ARIMA (1,0,1, Budget = 65)",static,31,36.0,36.0,0.0,,2,3.0,205.0
+"ARIMA (1,0,1, Budget = 65)",static,32,66.0,56.0,10.0,Bukayo Saka,1,11.0,271.0
+"ARIMA (1,0,1, Budget = 65)",static,33,72.0,70.0,2.0,Bukayo Saka,2,2.0,343.0
+"ARIMA (1,0,1, Budget = 65)",static,34,53.0,44.0,9.0,Bukayo Saka,1,3.0,396.0
+"ARIMA (1,0,1, Budget = 65)",static,35,69.0,57.0,12.0,Bukayo Saka,0,0.0,465.0
+"ARIMA (1,0,1, Budget = 65)",static,36,69.0,59.0,10.0,Bukayo Saka,1,0.0,534.0
+"ARIMA (1,0,1, Budget = 65)",static,37,48.0,46.0,2.0,Bukayo Saka,0,0.0,582.0
+"ARIMA (1,0,1, Budget = 65)",static,38,46.0,44.0,2.0,Ollie Watkins,3,21.0,628.0
+Weighted Avg. (Budget = 70),static,27,69.0,62.0,7.0,Bukayo Saka,0,0.0,69.0
+Weighted Avg. (Budget = 70),static,28,46.0,44.0,2.0,Bukayo Saka,0,0.0,115.0
+Weighted Avg. (Budget = 70),static,29,5.0,3.0,2.0,Ollie Watkins,0,0.0,120.0
+Weighted Avg. (Budget = 70),static,30,49.0,46.0,3.0,Bukayo Saka,0,0.0,169.0
+Weighted Avg. (Budget = 70),static,31,60.0,60.0,0.0,,2,3.0,229.0
+Weighted Avg. (Budget = 70),static,32,64.0,54.0,10.0,Bukayo Saka,1,0.0,293.0
+Weighted Avg. (Budget = 70),static,33,61.0,59.0,2.0,Bukayo Saka,2,14.0,354.0
+Weighted Avg. (Budget = 70),static,34,119.0,110.0,9.0,Bukayo Saka,3,16.0,473.0
+Weighted Avg. (Budget = 70),static,35,62.0,50.0,12.0,Bukayo Saka,2,6.0,535.0
+Weighted Avg. (Budget = 70),static,36,57.0,47.0,10.0,Bukayo Saka,1,1.0,592.0
+Weighted Avg. (Budget = 70),static,37,68.0,66.0,2.0,Bukayo Saka,1,1.0,660.0
+Weighted Avg. (Budget = 70),static,38,35.0,33.0,2.0,Ollie Watkins,1,2.0,695.0
+Monte Carlo (Budget = 70),static,27,72.0,59.0,13.0,Ollie Watkins,0,0.0,72.0
+Monte Carlo (Budget = 70),static,28,36.0,34.0,2.0,Ollie Watkins,0,0.0,108.0
+Monte Carlo (Budget = 70),static,29,7.0,5.0,2.0,Ollie Watkins,0,0.0,115.0
+Monte Carlo (Budget = 70),static,30,63.0,62.0,1.0,Ollie Watkins,0,0.0,178.0
+Monte Carlo (Budget = 70),static,31,46.0,46.0,0.0,,1,2.0,224.0
+Monte Carlo (Budget = 70),static,32,69.0,56.0,13.0,Ollie Watkins,0,0.0,293.0
+Monte Carlo (Budget = 70),static,33,78.0,71.0,7.0,Ollie Watkins,2,6.0,371.0
+Monte Carlo (Budget = 70),static,34,87.0,78.0,9.0,Ollie Watkins,2,16.0,458.0
+Monte Carlo (Budget = 70),static,35,64.0,62.0,2.0,Ollie Watkins,1,1.0,522.0
+Monte Carlo (Budget = 70),static,36,53.0,51.0,2.0,Ollie Watkins,1,0.0,575.0
+Monte Carlo (Budget = 70),static,37,65.0,60.0,5.0,Ollie Watkins,1,2.0,640.0
+Monte Carlo (Budget = 70),static,38,25.0,23.0,2.0,Ollie Watkins,2,7.0,665.0
+"ARIMA (1,0,0, Budget = 70)",static,27,76.0,69.0,7.0,Bukayo Saka,0,0.0,76.0
+"ARIMA (1,0,0, Budget = 70)",static,28,37.0,35.0,2.0,Bukayo Saka,0,0.0,113.0
+"ARIMA (1,0,0, Budget = 70)",static,29,8.0,6.0,2.0,Ollie Watkins,2,3.0,121.0
+"ARIMA (1,0,0, Budget = 70)",static,30,60.0,57.0,3.0,Bukayo Saka,0,0.0,181.0
+"ARIMA (1,0,0, Budget = 70)",static,31,61.0,61.0,0.0,,2,4.0,242.0
+"ARIMA (1,0,0, Budget = 70)",static,32,76.0,66.0,10.0,Bukayo Saka,2,19.0,318.0
+"ARIMA (1,0,0, Budget = 70)",static,33,79.0,77.0,2.0,Bukayo Saka,3,11.0,397.0
+"ARIMA (1,0,0, Budget = 70)",static,34,84.0,75.0,9.0,Bukayo Saka,1,-2.0,481.0
+"ARIMA (1,0,0, Budget = 70)",static,35,67.0,55.0,12.0,Bukayo Saka,1,5.0,548.0
+"ARIMA (1,0,0, Budget = 70)",static,36,75.0,65.0,10.0,Bukayo Saka,0,0.0,623.0
+"ARIMA (1,0,0, Budget = 70)",static,37,71.0,69.0,2.0,Bukayo Saka,0,0.0,694.0
+"ARIMA (1,0,0, Budget = 70)",static,38,55.0,53.0,2.0,Ollie Watkins,2,16.0,749.0
+"ARIMA (1,0,1, Budget = 70)",static,27,76.0,69.0,7.0,Bukayo Saka,1,1.0,76.0
+"ARIMA (1,0,1, Budget = 70)",static,28,42.0,40.0,2.0,Bukayo Saka,0,0.0,118.0
+"ARIMA (1,0,1, Budget = 70)",static,29,6.0,4.0,2.0,Ollie Watkins,0,0.0,124.0
+"ARIMA (1,0,1, Budget = 70)",static,30,49.0,46.0,3.0,Bukayo Saka,1,2.0,173.0
+"ARIMA (1,0,1, Budget = 70)",static,31,53.0,53.0,0.0,,0,0.0,226.0
+"ARIMA (1,0,1, Budget = 70)",static,32,66.0,56.0,10.0,Bukayo Saka,1,8.0,292.0
+"ARIMA (1,0,1, Budget = 70)",static,33,78.0,76.0,2.0,Bukayo Saka,1,10.0,370.0
+"ARIMA (1,0,1, Budget = 70)",static,34,64.0,55.0,9.0,Bukayo Saka,1,6.0,434.0
+"ARIMA (1,0,1, Budget = 70)",static,35,67.0,55.0,12.0,Bukayo Saka,1,5.0,501.0
+"ARIMA (1,0,1, Budget = 70)",static,36,72.0,62.0,10.0,Bukayo Saka,1,11.0,573.0
+"ARIMA (1,0,1, Budget = 70)",static,37,66.0,64.0,2.0,Bukayo Saka,0,0.0,639.0
+"ARIMA (1,0,1, Budget = 70)",static,38,52.0,50.0,2.0,Ollie Watkins,3,9.0,691.0
+Weighted Avg. (Budget = 75),static,27,72.0,65.0,7.0,Bukayo Saka,0,0.0,72.0
+Weighted Avg. (Budget = 75),static,28,47.0,45.0,2.0,Bukayo Saka,0,0.0,119.0
+Weighted Avg. (Budget = 75),static,29,5.0,3.0,2.0,Ollie Watkins,0,0.0,124.0
+Weighted Avg. (Budget = 75),static,30,52.0,49.0,3.0,Bukayo Saka,0,0.0,176.0
+Weighted Avg. (Budget = 75),static,31,67.0,67.0,0.0,,2,3.0,243.0
+Weighted Avg. (Budget = 75),static,32,63.0,53.0,10.0,Bukayo Saka,1,0.0,306.0
+Weighted Avg. (Budget = 75),static,33,63.0,61.0,2.0,Bukayo Saka,2,13.0,369.0
+Weighted Avg. (Budget = 75),static,34,109.0,100.0,9.0,Bukayo Saka,2,10.0,478.0
+Weighted Avg. (Budget = 75),static,35,57.0,45.0,12.0,Bukayo Saka,1,5.0,535.0
+Weighted Avg. (Budget = 75),static,36,58.0,48.0,10.0,Bukayo Saka,0,0.0,593.0
+Weighted Avg. (Budget = 75),static,37,71.0,69.0,2.0,Bukayo Saka,0,0.0,664.0
+Weighted Avg. (Budget = 75),static,38,41.0,39.0,2.0,Ollie Watkins,1,2.0,705.0
+Monte Carlo (Budget = 75),static,27,79.0,66.0,13.0,Ollie Watkins,0,0.0,79.0
+Monte Carlo (Budget = 75),static,28,37.0,35.0,2.0,Ollie Watkins,1,1.0,116.0
+Monte Carlo (Budget = 75),static,29,7.0,5.0,2.0,Ollie Watkins,0,0.0,123.0
+Monte Carlo (Budget = 75),static,30,58.0,57.0,1.0,Ollie Watkins,0,0.0,181.0
+Monte Carlo (Budget = 75),static,31,66.0,66.0,0.0,,2,4.0,247.0
+Monte Carlo (Budget = 75),static,32,68.0,55.0,13.0,Ollie Watkins,2,10.0,315.0
+Monte Carlo (Budget = 75),static,33,61.0,54.0,7.0,Ollie Watkins,3,5.0,376.0
+Monte Carlo (Budget = 75),static,34,102.0,93.0,9.0,Ollie Watkins,3,23.0,478.0
+Monte Carlo (Budget = 75),static,35,56.0,54.0,2.0,Ollie Watkins,2,3.0,534.0
+Monte Carlo (Budget = 75),static,36,52.0,50.0,2.0,Ollie Watkins,1,0.0,586.0
+Monte Carlo (Budget = 75),static,37,68.0,63.0,5.0,Ollie Watkins,0,0.0,654.0
+Monte Carlo (Budget = 75),static,38,40.0,38.0,2.0,Ollie Watkins,1,6.0,694.0
+"ARIMA (1,0,0, Budget = 75)",static,27,76.0,69.0,7.0,Bukayo Saka,0,0.0,76.0
+"ARIMA (1,0,0, Budget = 75)",static,28,58.0,56.0,2.0,Bukayo Saka,1,7.0,134.0
+"ARIMA (1,0,0, Budget = 75)",static,29,11.0,9.0,2.0,Ollie Watkins,2,3.0,145.0
+"ARIMA (1,0,0, Budget = 75)",static,30,67.0,64.0,3.0,Bukayo Saka,1,10.0,212.0
+"ARIMA (1,0,0, Budget = 75)",static,31,69.0,69.0,0.0,,2,7.0,281.0
+"ARIMA (1,0,0, Budget = 75)",static,32,65.0,55.0,10.0,Bukayo Saka,1,1.0,346.0
+"ARIMA (1,0,0, Budget = 75)",static,33,58.0,56.0,2.0,Bukayo Saka,1,0.0,404.0
+"ARIMA (1,0,0, Budget = 75)",static,34,83.0,74.0,9.0,Bukayo Saka,0,0.0,487.0
+"ARIMA (1,0,0, Budget = 75)",static,35,74.0,62.0,12.0,Bukayo Saka,1,13.0,561.0
+"ARIMA (1,0,0, Budget = 75)",static,36,67.0,57.0,10.0,Bukayo Saka,0,0.0,628.0
+"ARIMA (1,0,0, Budget = 75)",static,37,70.0,68.0,2.0,Bukayo Saka,0,0.0,698.0
+"ARIMA (1,0,0, Budget = 75)",static,38,55.0,53.0,2.0,Ollie Watkins,2,15.0,753.0
+"ARIMA (1,0,1, Budget = 75)",static,27,63.0,56.0,7.0,Bukayo Saka,2,5.0,63.0
+"ARIMA (1,0,1, Budget = 75)",static,28,47.0,45.0,2.0,Bukayo Saka,0,0.0,110.0
+"ARIMA (1,0,1, Budget = 75)",static,29,6.0,4.0,2.0,Ollie Watkins,0,0.0,116.0
+"ARIMA (1,0,1, Budget = 75)",static,30,58.0,55.0,3.0,Bukayo Saka,0,0.0,174.0
+"ARIMA (1,0,1, Budget = 75)",static,31,43.0,43.0,0.0,,2,9.0,217.0
+"ARIMA (1,0,1, Budget = 75)",static,32,71.0,61.0,10.0,Bukayo Saka,1,5.0,288.0
+"ARIMA (1,0,1, Budget = 75)",static,33,78.0,76.0,2.0,Bukayo Saka,2,6.0,366.0
+"ARIMA (1,0,1, Budget = 75)",static,34,67.0,58.0,9.0,Bukayo Saka,2,20.0,433.0
+"ARIMA (1,0,1, Budget = 75)",static,35,63.0,51.0,12.0,Bukayo Saka,0,0.0,496.0
+"ARIMA (1,0,1, Budget = 75)",static,36,72.0,62.0,10.0,Bukayo Saka,1,6.0,568.0
+"ARIMA (1,0,1, Budget = 75)",static,37,57.0,55.0,2.0,Bukayo Saka,0,0.0,625.0
+"ARIMA (1,0,1, Budget = 75)",static,38,38.0,36.0,2.0,Ollie Watkins,2,3.0,663.0
+Weighted Avg. (Budget = 80),static,27,72.0,65.0,7.0,Bukayo Saka,1,1.0,72.0
+Weighted Avg. (Budget = 80),static,28,40.0,38.0,2.0,Bukayo Saka,0,0.0,112.0
+Weighted Avg. (Budget = 80),static,29,5.0,3.0,2.0,Ollie Watkins,0,0.0,117.0
+Weighted Avg. (Budget = 80),static,30,58.0,55.0,3.0,Bukayo Saka,0,0.0,175.0
+Weighted Avg. (Budget = 80),static,31,65.0,65.0,0.0,,2,3.0,240.0
+Weighted Avg. (Budget = 80),static,32,69.0,59.0,10.0,Bukayo Saka,1,0.0,309.0
+Weighted Avg. (Budget = 80),static,33,60.0,58.0,2.0,Bukayo Saka,2,11.0,369.0
+Weighted Avg. (Budget = 80),static,34,120.0,111.0,9.0,Bukayo Saka,2,20.0,489.0
+Weighted Avg. (Budget = 80),static,35,56.0,44.0,12.0,Bukayo Saka,1,5.0,545.0
+Weighted Avg. (Budget = 80),static,36,69.0,59.0,10.0,Bukayo Saka,0,0.0,614.0
+Weighted Avg. (Budget = 80),static,37,69.0,67.0,2.0,Bukayo Saka,0,0.0,683.0
+Weighted Avg. (Budget = 80),static,38,45.0,43.0,2.0,Ollie Watkins,1,2.0,728.0
+Monte Carlo (Budget = 80),static,27,78.0,65.0,13.0,Ollie Watkins,1,4.0,78.0
+Monte Carlo (Budget = 80),static,28,36.0,34.0,2.0,Ollie Watkins,1,1.0,114.0
+Monte Carlo (Budget = 80),static,29,5.0,3.0,2.0,Ollie Watkins,0,0.0,119.0
+Monte Carlo (Budget = 80),static,30,59.0,58.0,1.0,Ollie Watkins,1,4.0,178.0
+Monte Carlo (Budget = 80),static,31,62.0,62.0,0.0,,3,4.0,240.0
+Monte Carlo (Budget = 80),static,32,75.0,62.0,13.0,Ollie Watkins,2,10.0,315.0
+Monte Carlo (Budget = 80),static,33,63.0,56.0,7.0,Ollie Watkins,3,5.0,378.0
+Monte Carlo (Budget = 80),static,34,95.0,86.0,9.0,Ollie Watkins,2,13.0,473.0
+Monte Carlo (Budget = 80),static,35,43.0,41.0,2.0,Ollie Watkins,1,2.0,516.0
+Monte Carlo (Budget = 80),static,36,63.0,61.0,2.0,Ollie Watkins,0,0.0,579.0
+Monte Carlo (Budget = 80),static,37,68.0,63.0,5.0,Ollie Watkins,0,0.0,647.0
+Monte Carlo (Budget = 80),static,38,41.0,39.0,2.0,Ollie Watkins,1,1.0,688.0
+"ARIMA (1,0,0, Budget = 80)",static,27,71.0,64.0,7.0,Bukayo Saka,1,4.0,71.0
+"ARIMA (1,0,0, Budget = 80)",static,28,53.0,51.0,2.0,Bukayo Saka,1,2.0,124.0
+"ARIMA (1,0,0, Budget = 80)",static,29,8.0,6.0,2.0,Ollie Watkins,0,0.0,132.0
+"ARIMA (1,0,0, Budget = 80)",static,30,60.0,57.0,3.0,Bukayo Saka,0,0.0,192.0
+"ARIMA (1,0,0, Budget = 80)",static,31,59.0,59.0,0.0,,2,4.0,251.0
+"ARIMA (1,0,0, Budget = 80)",static,32,72.0,62.0,10.0,Bukayo Saka,2,8.0,323.0
+"ARIMA (1,0,0, Budget = 80)",static,33,59.0,57.0,2.0,Bukayo Saka,2,4.0,382.0
+"ARIMA (1,0,0, Budget = 80)",static,34,86.0,77.0,9.0,Bukayo Saka,2,12.0,468.0
+"ARIMA (1,0,0, Budget = 80)",static,35,63.0,51.0,12.0,Bukayo Saka,1,2.0,531.0
+"ARIMA (1,0,0, Budget = 80)",static,36,79.0,69.0,10.0,Bukayo Saka,0,0.0,610.0
+"ARIMA (1,0,0, Budget = 80)",static,37,61.0,59.0,2.0,Bukayo Saka,0,0.0,671.0
+"ARIMA (1,0,0, Budget = 80)",static,38,52.0,50.0,2.0,Ollie Watkins,1,1.0,723.0
+"ARIMA (1,0,1, Budget = 80)",static,27,70.0,63.0,7.0,Bukayo Saka,3,4.0,70.0
+"ARIMA (1,0,1, Budget = 80)",static,28,63.0,61.0,2.0,Bukayo Saka,1,8.0,133.0
+"ARIMA (1,0,1, Budget = 80)",static,29,7.0,5.0,2.0,Ollie Watkins,0,0.0,140.0
+"ARIMA (1,0,1, Budget = 80)",static,30,60.0,57.0,3.0,Bukayo Saka,1,7.0,200.0
+"ARIMA (1,0,1, Budget = 80)",static,31,58.0,58.0,0.0,,2,4.0,258.0
+"ARIMA (1,0,1, Budget = 80)",static,32,67.0,57.0,10.0,Bukayo Saka,2,2.0,325.0
+"ARIMA (1,0,1, Budget = 80)",static,33,74.0,72.0,2.0,Bukayo Saka,2,13.0,399.0
+"ARIMA (1,0,1, Budget = 80)",static,34,75.0,66.0,9.0,Bukayo Saka,3,21.0,474.0
+"ARIMA (1,0,1, Budget = 80)",static,35,66.0,54.0,12.0,Bukayo Saka,1,2.0,540.0
+"ARIMA (1,0,1, Budget = 80)",static,36,83.0,73.0,10.0,Bukayo Saka,1,13.0,623.0
+"ARIMA (1,0,1, Budget = 80)",static,37,61.0,59.0,2.0,Bukayo Saka,0,0.0,684.0
+"ARIMA (1,0,1, Budget = 80)",static,38,74.0,72.0,2.0,Ollie Watkins,3,17.0,758.0
+"ARIMA (0,0,1, Budget = 65)",static,27,67.0,60.0,7.0,Bukayo Saka,1,6.0,67.0
+"ARIMA (0,0,1, Budget = 65)",static,28,35.0,33.0,2.0,Bukayo Saka,2,3.0,102.0
+"ARIMA (0,0,1, Budget = 65)",static,29,9.0,7.0,2.0,Ollie Watkins,0,0.0,111.0
+"ARIMA (0,0,1, Budget = 65)",static,30,52.0,49.0,3.0,Bukayo Saka,1,7.0,163.0
+"ARIMA (0,0,1, Budget = 65)",static,31,44.0,44.0,0.0,,2,8.0,207.0
+"ARIMA (0,0,1, Budget = 65)",static,32,68.0,58.0,10.0,Bukayo Saka,0,0.0,275.0
+"ARIMA (0,0,1, Budget = 65)",static,33,79.0,77.0,2.0,Bukayo Saka,1,2.0,354.0
+"ARIMA (0,0,1, Budget = 65)",static,34,86.0,77.0,9.0,Bukayo Saka,2,17.0,440.0
+"ARIMA (0,0,1, Budget = 65)",static,35,70.0,58.0,12.0,Bukayo Saka,0,0.0,510.0
+"ARIMA (0,0,1, Budget = 65)",static,36,57.0,47.0,10.0,Bukayo Saka,0,0.0,567.0
+"ARIMA (0,0,1, Budget = 65)",static,37,57.0,55.0,2.0,Bukayo Saka,0,0.0,624.0
+"ARIMA (0,0,1, Budget = 65)",static,38,34.0,32.0,2.0,Ollie Watkins,2,8.0,658.0
+Hybrid ICT Score (Budget = 65),static,27,79.0,66.0,13.0,Ollie Watkins,1,7.0,79.0
+Hybrid ICT Score (Budget = 65),static,28,44.0,42.0,2.0,Ollie Watkins,1,2.0,123.0
+Hybrid ICT Score (Budget = 65),static,29,8.0,6.0,2.0,Ollie Watkins,0,0.0,131.0
+Hybrid ICT Score (Budget = 65),static,30,54.0,53.0,1.0,Ollie Watkins,1,3.0,185.0
+Hybrid ICT Score (Budget = 65),static,31,48.0,46.0,2.0,Dominic Solanke,2,5.0,233.0
+Hybrid ICT Score (Budget = 65),static,32,63.0,50.0,13.0,Ollie Watkins,1,8.0,296.0
+Hybrid ICT Score (Budget = 65),static,33,80.0,73.0,7.0,Ollie Watkins,2,2.0,376.0
+Hybrid ICT Score (Budget = 65),static,34,97.0,88.0,9.0,Ollie Watkins,3,29.0,473.0
+Hybrid ICT Score (Budget = 65),static,35,40.0,38.0,2.0,Ollie Watkins,0,0.0,513.0
+Hybrid ICT Score (Budget = 65),static,36,44.0,42.0,2.0,Ollie Watkins,0,0.0,557.0
+Hybrid ICT Score (Budget = 65),static,37,76.0,71.0,5.0,Ollie Watkins,0,0.0,633.0
+Hybrid ICT Score (Budget = 65),static,38,29.0,27.0,2.0,Ollie Watkins,1,6.0,662.0
+"ARIMA (0,0,1, Budget = 70)",static,27,77.0,70.0,7.0,Bukayo Saka,0,0.0,77.0
+"ARIMA (0,0,1, Budget = 70)",static,28,32.0,30.0,2.0,Bukayo Saka,0,0.0,109.0
+"ARIMA (0,0,1, Budget = 70)",static,29,7.0,5.0,2.0,Ollie Watkins,0,0.0,116.0
+"ARIMA (0,0,1, Budget = 70)",static,30,58.0,55.0,3.0,Bukayo Saka,1,7.0,174.0
+"ARIMA (0,0,1, Budget = 70)",static,31,63.0,63.0,0.0,,1,2.0,237.0
+"ARIMA (0,0,1, Budget = 70)",static,32,69.0,59.0,10.0,Bukayo Saka,1,2.0,306.0
+"ARIMA (0,0,1, Budget = 70)",static,33,69.0,67.0,2.0,Bukayo Saka,2,8.0,375.0
+"ARIMA (0,0,1, Budget = 70)",static,34,110.0,101.0,9.0,Bukayo Saka,2,18.0,485.0
+"ARIMA (0,0,1, Budget = 70)",static,35,62.0,50.0,12.0,Bukayo Saka,1,2.0,547.0
+"ARIMA (0,0,1, Budget = 70)",static,36,63.0,53.0,10.0,Bukayo Saka,0,0.0,610.0
+"ARIMA (0,0,1, Budget = 70)",static,37,75.0,73.0,2.0,Bukayo Saka,0,0.0,685.0
+"ARIMA (0,0,1, Budget = 70)",static,38,39.0,37.0,2.0,Ollie Watkins,3,8.0,724.0
+Hybrid ICT Score (Budget = 70),static,27,62.0,49.0,13.0,Ollie Watkins,0,0.0,62.0
+Hybrid ICT Score (Budget = 70),static,28,47.0,45.0,2.0,Ollie Watkins,0,0.0,109.0
+Hybrid ICT Score (Budget = 70),static,29,5.0,3.0,2.0,Ollie Watkins,0,0.0,114.0
+Hybrid ICT Score (Budget = 70),static,30,51.0,50.0,1.0,Ollie Watkins,1,3.0,165.0
+Hybrid ICT Score (Budget = 70),static,31,67.0,67.0,0.0,,2,22.0,232.0
+Hybrid ICT Score (Budget = 70),static,32,67.0,54.0,13.0,Ollie Watkins,0,0.0,299.0
+Hybrid ICT Score (Budget = 70),static,33,68.0,61.0,7.0,Ollie Watkins,1,2.0,367.0
+Hybrid ICT Score (Budget = 70),static,34,116.0,107.0,9.0,Ollie Watkins,2,18.0,483.0
+Hybrid ICT Score (Budget = 70),static,35,44.0,42.0,2.0,Ollie Watkins,0,0.0,527.0
+Hybrid ICT Score (Budget = 70),static,36,55.0,53.0,2.0,Ollie Watkins,0,0.0,582.0
+Hybrid ICT Score (Budget = 70),static,37,70.0,65.0,5.0,Ollie Watkins,0,0.0,652.0
+Hybrid ICT Score (Budget = 70),static,38,44.0,42.0,2.0,Ollie Watkins,2,21.0,696.0
+"ARIMA (0,0,1, Budget = 75)",static,27,74.0,67.0,7.0,Bukayo Saka,0,0.0,74.0
+"ARIMA (0,0,1, Budget = 75)",static,28,61.0,59.0,2.0,Bukayo Saka,1,7.0,135.0
+"ARIMA (0,0,1, Budget = 75)",static,29,11.0,9.0,2.0,Ollie Watkins,2,3.0,146.0
+"ARIMA (0,0,1, Budget = 75)",static,30,67.0,64.0,3.0,Bukayo Saka,1,10.0,213.0
+"ARIMA (0,0,1, Budget = 75)",static,31,71.0,71.0,0.0,,2,7.0,284.0
+"ARIMA (0,0,1, Budget = 75)",static,32,71.0,61.0,10.0,Bukayo Saka,1,1.0,355.0
+"ARIMA (0,0,1, Budget = 75)",static,33,52.0,50.0,2.0,Bukayo Saka,1,0.0,407.0
+"ARIMA (0,0,1, Budget = 75)",static,34,99.0,90.0,9.0,Bukayo Saka,0,0.0,506.0
+"ARIMA (0,0,1, Budget = 75)",static,35,73.0,61.0,12.0,Bukayo Saka,1,13.0,579.0
+"ARIMA (0,0,1, Budget = 75)",static,36,64.0,54.0,10.0,Bukayo Saka,0,0.0,643.0
+"ARIMA (0,0,1, Budget = 75)",static,37,75.0,73.0,2.0,Bukayo Saka,0,0.0,718.0
+"ARIMA (0,0,1, Budget = 75)",static,38,53.0,51.0,2.0,Ollie Watkins,2,15.0,771.0
+Hybrid ICT Score (Budget = 75),static,27,75.0,62.0,13.0,Ollie Watkins,0,0.0,75.0
+Hybrid ICT Score (Budget = 75),static,28,33.0,31.0,2.0,Ollie Watkins,1,2.0,108.0
+Hybrid ICT Score (Budget = 75),static,29,7.0,5.0,2.0,Ollie Watkins,0,0.0,115.0
+Hybrid ICT Score (Budget = 75),static,30,45.0,44.0,1.0,Ollie Watkins,1,1.0,160.0
+Hybrid ICT Score (Budget = 75),static,31,50.0,50.0,0.0,,3,5.0,210.0
+Hybrid ICT Score (Budget = 75),static,32,56.0,43.0,13.0,Ollie Watkins,2,1.0,266.0
+Hybrid ICT Score (Budget = 75),static,33,46.0,39.0,7.0,Ollie Watkins,3,13.0,312.0
+Hybrid ICT Score (Budget = 75),static,34,103.0,94.0,9.0,Ollie Watkins,3,22.0,415.0
+Hybrid ICT Score (Budget = 75),static,35,53.0,51.0,2.0,Ollie Watkins,2,6.0,468.0
+Hybrid ICT Score (Budget = 75),static,36,47.0,45.0,2.0,Ollie Watkins,1,1.0,515.0
+Hybrid ICT Score (Budget = 75),static,37,58.0,53.0,5.0,Ollie Watkins,0,0.0,573.0
+Hybrid ICT Score (Budget = 75),static,38,38.0,36.0,2.0,Ollie Watkins,2,8.0,611.0
+"ARIMA (0,0,1, Budget = 80)",static,27,70.0,63.0,7.0,Bukayo Saka,1,4.0,70.0
+"ARIMA (0,0,1, Budget = 80)",static,28,40.0,38.0,2.0,Bukayo Saka,1,2.0,110.0
+"ARIMA (0,0,1, Budget = 80)",static,29,10.0,8.0,2.0,Ollie Watkins,2,5.0,120.0
+"ARIMA (0,0,1, Budget = 80)",static,30,57.0,54.0,3.0,Bukayo Saka,1,0.0,177.0
+"ARIMA (0,0,1, Budget = 80)",static,31,65.0,65.0,0.0,,3,5.0,242.0
+"ARIMA (0,0,1, Budget = 80)",static,32,74.0,64.0,10.0,Bukayo Saka,2,6.0,316.0
+"ARIMA (0,0,1, Budget = 80)",static,33,61.0,59.0,2.0,Bukayo Saka,3,14.0,377.0
+"ARIMA (0,0,1, Budget = 80)",static,34,113.0,104.0,9.0,Bukayo Saka,3,15.0,490.0
+"ARIMA (0,0,1, Budget = 80)",static,35,53.0,41.0,12.0,Bukayo Saka,2,3.0,543.0
+"ARIMA (0,0,1, Budget = 80)",static,36,67.0,57.0,10.0,Bukayo Saka,1,-1.0,610.0
+"ARIMA (0,0,1, Budget = 80)",static,37,70.0,68.0,2.0,Bukayo Saka,0,0.0,680.0
+"ARIMA (0,0,1, Budget = 80)",static,38,39.0,37.0,2.0,Ollie Watkins,1,1.0,719.0
+Hybrid ICT Score (Budget = 80),static,27,73.0,60.0,13.0,Ollie Watkins,1,1.0,73.0
+Hybrid ICT Score (Budget = 80),static,28,39.0,37.0,2.0,Ollie Watkins,1,1.0,112.0
+Hybrid ICT Score (Budget = 80),static,29,5.0,3.0,2.0,Ollie Watkins,0,0.0,117.0
+Hybrid ICT Score (Budget = 80),static,30,56.0,55.0,1.0,Ollie Watkins,1,1.0,173.0
+Hybrid ICT Score (Budget = 80),static,31,63.0,63.0,0.0,,3,3.0,236.0
+Hybrid ICT Score (Budget = 80),static,32,77.0,64.0,13.0,Ollie Watkins,2,6.0,313.0
+Hybrid ICT Score (Budget = 80),static,33,64.0,57.0,7.0,Ollie Watkins,3,12.0,377.0
+Hybrid ICT Score (Budget = 80),static,34,118.0,109.0,9.0,Ollie Watkins,2,20.0,495.0
+Hybrid ICT Score (Budget = 80),static,35,51.0,49.0,2.0,Ollie Watkins,2,11.0,546.0
+Hybrid ICT Score (Budget = 80),static,36,65.0,63.0,2.0,Ollie Watkins,1,5.0,611.0
+Hybrid ICT Score (Budget = 80),static,37,73.0,68.0,5.0,Ollie Watkins,0,0.0,684.0
+Hybrid ICT Score (Budget = 80),static,38,40.0,38.0,2.0,Ollie Watkins,1,2.0,724.0
+ICT Score (Budget = 70),static,27,56.0,49.0,7.0,Bukayo Saka,1,6.0,56.0
+ICT Score (Budget = 70),static,28,60.0,58.0,2.0,Bukayo Saka,1,1.0,116.0
+ICT Score (Budget = 70),static,29,4.0,4.0,0.0,,1,2.0,120.0
+ICT Score (Budget = 70),static,30,46.0,43.0,3.0,Bukayo Saka,3,9.0,166.0
+ICT Score (Budget = 70),static,31,95.0,75.0,20.0,Phil Foden,3,11.0,261.0
+ICT Score (Budget = 70),static,32,73.0,63.0,10.0,Bukayo Saka,3,27.0,334.0
+ICT Score (Budget = 70),static,33,56.0,54.0,2.0,Bukayo Saka,3,7.0,390.0
+ICT Score (Budget = 70),static,34,95.0,86.0,9.0,Bukayo Saka,4,41.0,485.0
+ICT Score (Budget = 70),static,35,56.0,44.0,12.0,Bukayo Saka,3,13.0,541.0
+ICT Score (Budget = 70),static,36,56.0,46.0,10.0,Bukayo Saka,2,10.0,597.0
+ICT Score (Budget = 70),static,37,73.0,71.0,2.0,Bukayo Saka,1,8.0,670.0
+ICT Score (Budget = 70),static,38,66.0,51.0,15.0,Phil Foden,3,4.0,736.0
+ICT Score (Budget = 75),static,27,70.0,63.0,7.0,Bukayo Saka,1,6.0,70.0
+ICT Score (Budget = 75),static,28,49.0,47.0,2.0,Bukayo Saka,1,1.0,119.0
+ICT Score (Budget = 75),static,29,4.0,4.0,0.0,,0,0.0,123.0
+ICT Score (Budget = 75),static,30,34.0,31.0,3.0,Bukayo Saka,2,8.0,157.0
+ICT Score (Budget = 75),static,31,85.0,65.0,20.0,Phil Foden,4,12.0,242.0
+ICT Score (Budget = 75),static,32,69.0,59.0,10.0,Bukayo Saka,3,14.0,311.0
+ICT Score (Budget = 75),static,33,40.0,38.0,2.0,Bukayo Saka,3,12.0,351.0
+ICT Score (Budget = 75),static,34,109.0,100.0,9.0,Bukayo Saka,3,32.0,460.0
+ICT Score (Budget = 75),static,35,53.0,41.0,12.0,Bukayo Saka,3,16.0,513.0
+ICT Score (Budget = 75),static,36,48.0,38.0,10.0,Bukayo Saka,2,10.0,561.0
+ICT Score (Budget = 75),static,37,61.0,59.0,2.0,Bukayo Saka,1,8.0,622.0
+ICT Score (Budget = 75),static,38,71.0,56.0,15.0,Phil Foden,2,3.0,693.0
+ICT Score (Budget = 80),static,27,73.0,66.0,7.0,Bukayo Saka,1,6.0,73.0
+ICT Score (Budget = 80),static,28,51.0,49.0,2.0,Bukayo Saka,1,1.0,124.0
+ICT Score (Budget = 80),static,29,4.0,4.0,0.0,,0,0.0,128.0
+ICT Score (Budget = 80),static,30,35.0,32.0,3.0,Bukayo Saka,2,8.0,163.0
+ICT Score (Budget = 80),static,31,79.0,59.0,20.0,Phil Foden,4,12.0,242.0
+ICT Score (Budget = 80),static,32,76.0,66.0,10.0,Bukayo Saka,3,14.0,318.0
+ICT Score (Budget = 80),static,33,51.0,49.0,2.0,Bukayo Saka,3,12.0,369.0
+ICT Score (Budget = 80),static,34,140.0,131.0,9.0,Bukayo Saka,3,50.0,509.0
+ICT Score (Budget = 80),static,35,55.0,43.0,12.0,Bukayo Saka,3,16.0,564.0
+ICT Score (Budget = 80),static,36,48.0,38.0,10.0,Bukayo Saka,3,12.0,612.0
+ICT Score (Budget = 80),static,37,62.0,60.0,2.0,Bukayo Saka,1,8.0,674.0
+ICT Score (Budget = 80),static,38,68.0,53.0,15.0,Phil Foden,2,3.0,742.0

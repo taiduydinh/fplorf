@@ -1,0 +1,95 @@
+series,GW27_38_total,source_type
+"ARIMA (1,0,1) Sequential (Budget = 80)",777.0,raw-data recomputation
+"ARIMA (1,0,0) Sequential (Budget = 70)",772.0,raw-data recomputation
+"ARIMA (0,0,1, Budget = 75)",771.0,raw-data recomputation
+"ARIMA (1,0,0) Sequential (Budget = 75)",762.0,raw-data recomputation
+"ARIMA (1,0,1, Budget = 80)",758.0,raw-data recomputation
+Simple Avg. Sequential (Budget = 80),754.0,raw-data recomputation
+"ARIMA (1,0,0, Budget = 75)",753.0,raw-data recomputation
+"ARIMA (1,0,0, Budget = 70)",749.0,raw-data recomputation
+"ARIMA (1,0,1) Sequential (Budget = 70)",743.0,raw-data recomputation
+ICT Score (Budget = 80),742.0,raw-data recomputation
+ICT Score (Budget = 70),736.0,raw-data recomputation
+Weighted Avg. Sequential (Budget = 80),735.0,raw-data recomputation
+"ARIMA (0,0,1) Sequential (Budget = 80)",734.0,raw-data recomputation
+Weighted Avg. (Budget = 80),728.0,raw-data recomputation
+"ARIMA (0,0,1, Budget = 70)",724.0,raw-data recomputation
+Hybrid ICT Score (Budget = 80),724.0,raw-data recomputation
+"ARIMA (1,0,0, Budget = 80)",723.0,raw-data recomputation
+Weighted Avg. Sequential,722.0,raw-data recomputation
+Weighted Avg. Sequential (Budget = 70),720.0,raw-data recomputation
+"ARIMA (0,0,1, Budget = 80)",719.0,raw-data recomputation
+"ARIMA (0,0,1) Sequential (Budget = 70)",718.0,raw-data recomputation
+Weighted Avg.,717.0,raw-data recomputation
+Hybrid Weighted 1:2 (Higher Total Points),717.0,raw-data recomputation
+"ARIMA (1,0,1)",717.0,raw-data recomputation
+Simple Avg. (Budget = 80),713.0,raw-data recomputation
+"ARIMA (1,0,1) Sequential",712.0,raw-data recomputation
+Weighted Avg. (Budget = 75),705.0,raw-data recomputation
+"ARIMA (0,0,1) Sequential (Budget = 60)",702.0,raw-data recomputation
+Hybrid Weighted 2:1 (Lower Total Points),701.0,raw-data recomputation
+Hybrid ICT Score (Budget = 70),696.0,raw-data recomputation
+Weighted Avg. (Budget = 70),695.0,raw-data recomputation
+Simple Avg. (Budget = 75),694.0,raw-data recomputation
+Monte Carlo (Budget = 75),694.0,raw-data recomputation
+ICT Score (Budget = 75),693.0,raw-data recomputation
+"ARIMA (1,0,1, Budget = 70)",691.0,raw-data recomputation
+Linear Regression,688.0,raw-data recomputation
+Simple Avg. Sequential (Budget = 70),688.0,raw-data recomputation
+Monte Carlo (Budget = 80),688.0,raw-data recomputation
+Simple Avg. Sequential (Budget = 65),683.0,raw-data recomputation
+Hybrid Linear Regression 1:2 (Higher Total Points),678.0,raw-data recomputation
+Robust ICT Score,676.0,raw-data recomputation
+"ARIMA (1,0,1) Sequential (Budget = 60)",671.0,raw-data recomputation
+Hybrid ARIMA 1:2 (Higher Total Points),669.0,raw-data recomputation
+"ARIMA (0,0,1)",666.0,raw-data recomputation
+Simple Avg. (Budget = 70),665.0,raw-data recomputation
+"ARIMA (0,0,1) Sequential",665.0,raw-data recomputation
+Monte Carlo (Budget = 70),665.0,raw-data recomputation
+"ARIMA (1,0,1, Budget = 75)",663.0,raw-data recomputation
+ICT Score,663.0,raw-data recomputation
+Hybrid ICT Score (Budget = 65),662.0,raw-data recomputation
+Hybrid ICT Score 1:2 (Higher Total Points),658.0,raw-data recomputation
+Hybrid ICT Score 2:1 (Lower Total Points),658.0,raw-data recomputation
+"ARIMA (0,0,1, Budget = 65)",658.0,raw-data recomputation
+Weighted Avg. Sequential (Budget = 60),654.0,raw-data recomputation
+Simple Avg. (Budget = 65),650.0,raw-data recomputation
+Weighted Avg. (Budget = 65),648.0,raw-data recomputation
+Hybrid Linear Regression 2:1 (Lower Total Points),646.0,raw-data recomputation
+"ARIMA (1,0,0) Sequential",643.0,raw-data recomputation
+"ARIMA (1,0,0)",643.0,raw-data recomputation
+Monte Carlo (Budget = 65),640.0,raw-data recomputation
+Monte Carlo (Budget = 60),640.0,raw-data recomputation
+Hybrid ARIMA 2:1 (Lower Total Points),639.0,raw-data recomputation
+"ARIMA (1,0,0, Budget = 60)",639.0,raw-data recomputation
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),634.0,raw-data recomputation
+Hybrid Simple Avg. 2:1 (Lower Total Points),633.0,raw-data recomputation
+Hybrid Simple Avg. 1:2 (Higher Total Points),633.0,raw-data recomputation
+Hybrid Monte Carlo 1:2 (Higher Total Points),633.0,raw-data recomputation
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),633.0,raw-data recomputation
+Simple Avg. (Budget = 60),630.0,raw-data recomputation
+Hybrid Monte Carlo 2:1 (Lower Total Points),630.0,raw-data recomputation
+Robust Weighted Avg.,630.0,raw-data recomputation
+"ARIMA (1,0,1, Budget = 65)",628.0,raw-data recomputation
+Simulation (Non Parametric),626.0,raw-data recomputation
+"ARIMA (1,0,1, Budget = 60)",626.0,raw-data recomputation
+Monte Carlo Simulation,625.0,raw-data recomputation
+Simple Avg.,625.0,raw-data recomputation
+"ARIMA (1,0,0) Sequential (Budget = 60)",625.0,raw-data recomputation
+Weighted Avg. (Budget = 60),623.0,raw-data recomputation
+"ARIMA (1,0,0, Budget = 65)",621.0,raw-data recomputation
+Simple Avg. Sequential,618.0,raw-data recomputation
+Simple Avg. (Budget = 55),617.0,raw-data recomputation
+Hybrid ICT Score (Budget = 75),611.0,raw-data recomputation
+"ARIMA (2,1,1)",553.0,raw-data recomputation
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),552.0,raw-data recomputation
+"ARIMA (1,1,1)",552.0,raw-data recomputation
+"ARIMA (0,1,1)",552.0,raw-data recomputation
+Robust Simple Avg.,544.0,raw-data recomputation
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),544.0,raw-data recomputation
+"ARIMA (2,1,2)",540.0,raw-data recomputation
+"ARIMA (1,1,2)",532.0,raw-data recomputation
+"ARIMA (1,1,0)",514.0,raw-data recomputation
+Exponential Smoothing,494.0,raw-data recomputation
+Robust Exponential Smoothing,459.0,raw-data recomputation
+Involvement,437.0,raw-data recomputation

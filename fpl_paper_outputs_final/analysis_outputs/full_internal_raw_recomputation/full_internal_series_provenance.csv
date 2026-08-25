@@ -1,0 +1,95 @@
+series,source_type,source_file,forecast_method,policy,xi_cap
+Simple Avg.,raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,simple,static,83.5
+Weighted Avg.,raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,weighted,static,83.5
+Simulation (Non Parametric),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,bootstrap,static,83.5
+Monte Carlo Simulation,raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,monte_carlo,static,83.5
+Exponential Smoothing,raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,exponential,static,83.5
+Robust Simple Avg.,raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,robust_simple,static,83.5
+Robust Weighted Avg.,raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,robust_weighted,static,83.5
+Robust Exponential Smoothing,raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,robust_exponential,static,83.5
+"ARIMA (0,0,1)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima001,static,83.5
+"ARIMA (1,0,0)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima100,static,83.5
+"ARIMA (0,1,1)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima011,static,83.5
+"ARIMA (1,0,1)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima101,static,83.5
+"ARIMA (1,1,0)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima110,static,83.5
+"ARIMA (1,1,1)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima111,static,83.5
+"ARIMA (2,1,1)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima211,static,83.5
+"ARIMA (1,1,2)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima112,static,83.5
+"ARIMA (2,1,2)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima212,static,83.5
+ICT Score,raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,ict,static,83.5
+Robust ICT Score,raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,robust_ict,static,83.5
+Involvement,raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,involvement,static,83.5
+Linear Regression,raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,linear,static,83.5
+Hybrid Simple Avg. 1:2 (Higher Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_simple_history2,static,83.5
+Hybrid Simple Avg. 2:1 (Lower Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_simple_ridge2,static,83.5
+Hybrid Weighted 1:2 (Higher Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_weighted_history2,static,83.5
+Hybrid Weighted 2:1 (Lower Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_weighted_ridge2,static,83.5
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_exponential_history2,static,83.5
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_exponential_ridge2,static,83.5
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_bootstrap_history2,static,83.5
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_bootstrap_ridge2,static,83.5
+Hybrid Monte Carlo 1:2 (Higher Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_monte_carlo_history2,static,83.5
+Hybrid Monte Carlo 2:1 (Lower Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_monte_carlo_ridge2,static,83.5
+Hybrid ARIMA 1:2 (Higher Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_arima001_history2,static,83.5
+Hybrid ARIMA 2:1 (Lower Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_arima001_ridge2,static,83.5
+Hybrid ICT Score 1:2 (Higher Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_ict_history2,static,83.5
+Hybrid ICT Score 2:1 (Lower Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_ict_ridge2,static,83.5
+Hybrid Linear Regression 1:2 (Higher Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_linear_history2,static,83.5
+Hybrid Linear Regression 2:1 (Lower Total Points),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_linear_ridge2,static,83.5
+Simple Avg. (Budget = 55),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,simple,static,55.0
+Simple Avg. (Budget = 60),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,simple,static,60.0
+Simple Avg. (Budget = 65),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,simple,static,65.0
+Simple Avg. (Budget = 70),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,simple,static,70.0
+Simple Avg. (Budget = 75),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,simple,static,75.0
+Simple Avg. (Budget = 80),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,simple,static,80.0
+Weighted Avg. (Budget = 60),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,weighted,static,60.0
+Monte Carlo (Budget = 60),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,monte_carlo,static,60.0
+"ARIMA (1,0,0, Budget = 60)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima100,static,60.0
+"ARIMA (1,0,1, Budget = 60)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima101,static,60.0
+Weighted Avg. (Budget = 65),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,weighted,static,65.0
+Monte Carlo (Budget = 65),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,monte_carlo,static,65.0
+"ARIMA (1,0,0, Budget = 65)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima100,static,65.0
+"ARIMA (1,0,1, Budget = 65)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima101,static,65.0
+Weighted Avg. (Budget = 70),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,weighted,static,70.0
+Monte Carlo (Budget = 70),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,monte_carlo,static,70.0
+"ARIMA (1,0,0, Budget = 70)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima100,static,70.0
+"ARIMA (1,0,1, Budget = 70)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima101,static,70.0
+Weighted Avg. (Budget = 75),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,weighted,static,75.0
+Monte Carlo (Budget = 75),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,monte_carlo,static,75.0
+"ARIMA (1,0,0, Budget = 75)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima100,static,75.0
+"ARIMA (1,0,1, Budget = 75)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima101,static,75.0
+Weighted Avg. (Budget = 80),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,weighted,static,80.0
+Monte Carlo (Budget = 80),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,monte_carlo,static,80.0
+"ARIMA (1,0,0, Budget = 80)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima100,static,80.0
+"ARIMA (1,0,1, Budget = 80)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima101,static,80.0
+"ARIMA (0,0,1, Budget = 65)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima001,static,65.0
+Hybrid ICT Score (Budget = 65),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_ict_history2,static,65.0
+"ARIMA (0,0,1, Budget = 70)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima001,static,70.0
+Hybrid ICT Score (Budget = 70),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_ict_history2,static,70.0
+"ARIMA (0,0,1, Budget = 75)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima001,static,75.0
+Hybrid ICT Score (Budget = 75),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_ict_history2,static,75.0
+"ARIMA (0,0,1, Budget = 80)",raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,arima001,static,80.0
+Hybrid ICT Score (Budget = 80),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,hybrid_ict_history2,static,80.0
+ICT Score (Budget = 70),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,ict,static,70.0
+ICT Score (Budget = 75),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,ict,static,75.0
+ICT Score (Budget = 80),raw-data recomputation,/home/taidinh/fpl/merged_gw_2324.csv,ict,static,80.0
+Simple Avg. Sequential,raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,Simple average,fixed-squad sequential lineup updating,83.5
+Simple Avg. Sequential (Budget = 80),raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,Simple average,fixed-squad sequential lineup updating,80.0
+Simple Avg. Sequential (Budget = 70),raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,Simple average,fixed-squad sequential lineup updating,70.0
+Simple Avg. Sequential (Budget = 65),raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,Simple average,fixed-squad sequential lineup updating,65.0
+Weighted Avg. Sequential,raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,Weighted average,fixed-squad sequential lineup updating,83.5
+Weighted Avg. Sequential (Budget = 80),raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,Weighted average,fixed-squad sequential lineup updating,80.0
+Weighted Avg. Sequential (Budget = 70),raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,Weighted average,fixed-squad sequential lineup updating,70.0
+Weighted Avg. Sequential (Budget = 60),raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,Weighted average,fixed-squad sequential lineup updating,60.0
+"ARIMA (0,0,1) Sequential",raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,"ARIMA(0,0,1)",fixed-squad sequential lineup updating,83.5
+"ARIMA (0,0,1) Sequential (Budget = 80)",raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,"ARIMA(0,0,1)",fixed-squad sequential lineup updating,80.0
+"ARIMA (0,0,1) Sequential (Budget = 70)",raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,"ARIMA(0,0,1)",fixed-squad sequential lineup updating,70.0
+"ARIMA (0,0,1) Sequential (Budget = 60)",raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,"ARIMA(0,0,1)",fixed-squad sequential lineup updating,60.0
+"ARIMA (1,0,0) Sequential",raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,"ARIMA(1,0,0)",fixed-squad sequential lineup updating,83.5
+"ARIMA (1,0,0) Sequential (Budget = 75)",raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,"ARIMA(1,0,0)",fixed-squad sequential lineup updating,75.0
+"ARIMA (1,0,0) Sequential (Budget = 70)",raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,"ARIMA(1,0,0)",fixed-squad sequential lineup updating,70.0
+"ARIMA (1,0,0) Sequential (Budget = 60)",raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,"ARIMA(1,0,0)",fixed-squad sequential lineup updating,60.0
+"ARIMA (1,0,1) Sequential",raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,"ARIMA(1,0,1)",fixed-squad sequential lineup updating,83.5
+"ARIMA (1,0,1) Sequential (Budget = 80)",raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,"ARIMA(1,0,1)",fixed-squad sequential lineup updating,80.0
+"ARIMA (1,0,1) Sequential (Budget = 70)",raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,"ARIMA(1,0,1)",fixed-squad sequential lineup updating,70.0
+"ARIMA (1,0,1) Sequential (Budget = 60)",raw-data recomputation,/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design/reviewer1_comment2_weekly_scores.csv,"ARIMA(1,0,1)",fixed-squad sequential lineup updating,60.0

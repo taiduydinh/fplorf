@@ -1,0 +1,45 @@
+{
+  "data": "/home/taidinh/fpl/merged_gw_2324.csv",
+  "output": "/home/taidinh/fpl/fpl_paper_outputs_final/analysis_outputs/roster_design",
+  "methods": [
+    "Simple average",
+    "Weighted average",
+    "ARIMA(0,0,1)",
+    "ARIMA(1,0,0)",
+    "ARIMA(1,0,1)"
+  ],
+  "xi_caps": [
+    55.0,
+    60.0,
+    65.0,
+    70.0,
+    75.0,
+    80.0,
+    83.5
+  ],
+  "pareto_deltas": [
+    0.0,
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "policies": [
+    "static",
+    "sequential"
+  ],
+  "mip_time_limit": 120.0,
+  "mip_gap": 0.0,
+  "availability_gamma": 0.5,
+  "availability_estimator": "Beta(1,1)-smoothed pre-GW27 starting frequency",
+  "forecast_workers": 8,
+  "smoke_test": false,
+  "python": "3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]",
+  "platform": "Linux-5.4.0-131-generic-x86_64-with-glibc2.39",
+  "numpy": "2.4.6",
+  "pandas": "3.0.5",
+  "scipy": "1.17.1",
+  "statsmodels": "0.14.6",
+  "matplotlib": "3.11.0"
+}

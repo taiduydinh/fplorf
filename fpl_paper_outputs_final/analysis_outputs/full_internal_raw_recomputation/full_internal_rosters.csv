@@ -1,0 +1,1111 @@
+series,name,team,position,value,role,is_captain,is_vice_captain,xi_cap,xi_spend,bench_spend,total_spend
+Simple Avg.,Bukayo Saka,Arsenal,MID,9.1,XI,False,True,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,Phil Foden,Man City,MID,8.1,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,Son Heung-min,Spurs,MID,9.6,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,Amari'i Bell,Luton,DEF,3.9,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simple Avg.,Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Weighted Avg.,Bukayo Saka,Arsenal,MID,9.1,XI,True,False,83.5,80.2,16.5,96.7
+Weighted Avg.,Cole Palmer,Chelsea,MID,5.8,XI,False,False,83.5,80.2,16.5,96.7
+Weighted Avg.,Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,80.2,16.5,96.7
+Weighted Avg.,Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,80.2,16.5,96.7
+Weighted Avg.,Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,80.2,16.5,96.7
+Weighted Avg.,Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,80.2,16.5,96.7
+Weighted Avg.,Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,83.5,80.2,16.5,96.7
+Weighted Avg.,Pascal Groß,Brighton,MID,6.5,XI,False,False,83.5,80.2,16.5,96.7
+Weighted Avg.,Phil Foden,Man City,MID,8.1,XI,False,False,83.5,80.2,16.5,96.7
+Weighted Avg.,Virgil van Dijk,Liverpool,DEF,6.4,XI,False,False,83.5,80.2,16.5,96.7
+Weighted Avg.,William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,80.2,16.5,96.7
+Weighted Avg.,Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,80.2,16.5,96.7
+Weighted Avg.,Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,80.2,16.5,96.7
+Weighted Avg.,Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,83.5,80.2,16.5,96.7
+Weighted Avg.,Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,80.2,16.5,96.7
+Simulation (Non Parametric),Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),Mohamed Salah,Liverpool,MID,13.0,XI,False,True,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),Son Heung-min,Spurs,MID,9.6,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),Amari'i Bell,Luton,DEF,3.9,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Simulation (Non Parametric),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Bukayo Saka,Arsenal,MID,9.1,XI,False,True,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Phil Foden,Man City,MID,8.1,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Son Heung-min,Spurs,MID,9.6,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Amari'i Bell,Luton,DEF,3.9,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Monte Carlo Simulation,Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+Exponential Smoothing,Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,66.4,16.5,82.9
+Exponential Smoothing,Chris Richards,Crystal Palace,DEF,3.9,XI,True,False,83.5,66.4,16.5,82.9
+Exponential Smoothing,Cole Palmer,Chelsea,MID,5.8,XI,False,False,83.5,66.4,16.5,82.9
+Exponential Smoothing,Daniel Muñoz,Crystal Palace,DEF,4.5,XI,False,True,83.5,66.4,16.5,82.9
+Exponential Smoothing,Ederson Santana de Moraes,Man City,GK,5.5,XI,False,False,83.5,66.4,16.5,82.9
+Exponential Smoothing,Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,83.5,66.4,16.5,82.9
+Exponential Smoothing,Lewis Dunk,Brighton,DEF,5.1,XI,False,False,83.5,66.4,16.5,82.9
+Exponential Smoothing,Luis Díaz,Liverpool,MID,7.5,XI,False,False,83.5,66.4,16.5,82.9
+Exponential Smoothing,Rasmus Højlund,Man Utd,FWD,7.2,XI,False,False,83.5,66.4,16.5,82.9
+Exponential Smoothing,Richarlison de Andrade,Spurs,MID,7.2,XI,False,False,83.5,66.4,16.5,82.9
+Exponential Smoothing,Taiwo Awoniyi,Nott'm Forest,FWD,6.3,XI,False,False,83.5,66.4,16.5,82.9
+Exponential Smoothing,Ameen Al-Dakhil,Burnley,DEF,3.8,Bench,False,False,83.5,66.4,16.5,82.9
+Exponential Smoothing,Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,66.4,16.5,82.9
+Exponential Smoothing,Cesare Casadei,Chelsea,MID,4.5,Bench,False,False,83.5,66.4,16.5,82.9
+Exponential Smoothing,Jayden Danns,Liverpool,FWD,4.5,Bench,False,False,83.5,66.4,16.5,82.9
+Robust Simple Avg.,Adam Wharton,Crystal Palace,MID,5.0,XI,False,True,83.5,67.8,16.5,84.3
+Robust Simple Avg.,Antonee Robinson,Fulham,DEF,4.5,XI,False,False,83.5,67.8,16.5,84.3
+Robust Simple Avg.,Bukayo Saka,Arsenal,MID,9.1,XI,True,False,83.5,67.8,16.5,84.3
+Robust Simple Avg.,James Ward-Prowse,West Ham,MID,6.0,XI,False,False,83.5,67.8,16.5,84.3
+Robust Simple Avg.,Julián Álvarez,Man City,FWD,6.7,XI,False,False,83.5,67.8,16.5,84.3
+Robust Simple Avg.,Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,67.8,16.5,84.3
+Robust Simple Avg.,Pedro Porro,Spurs,DEF,5.8,XI,False,False,83.5,67.8,16.5,84.3
+Robust Simple Avg.,Thomas Kaminski,Luton,GK,4.5,XI,False,False,83.5,67.8,16.5,84.3
+Robust Simple Avg.,Timo Werner,Spurs,FWD,6.4,XI,False,False,83.5,67.8,16.5,84.3
+Robust Simple Avg.,Vitaly Janelt,Brentford,MID,5.3,XI,False,False,83.5,67.8,16.5,84.3
+Robust Simple Avg.,William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,67.8,16.5,84.3
+Robust Simple Avg.,Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,67.8,16.5,84.3
+Robust Simple Avg.,Ameen Al-Dakhil,Burnley,DEF,3.8,Bench,False,False,83.5,67.8,16.5,84.3
+Robust Simple Avg.,Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,67.8,16.5,84.3
+Robust Simple Avg.,Pape Matar Sarr,Spurs,MID,4.4,Bench,False,False,83.5,67.8,16.5,84.3
+Robust Weighted Avg.,Adam Wharton,Crystal Palace,MID,5.0,XI,False,True,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,Antonee Robinson,Fulham,DEF,4.5,XI,False,False,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,Bukayo Saka,Arsenal,MID,9.1,XI,True,False,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,Gabriel Martinelli Silva,Arsenal,MID,7.7,XI,False,False,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,Pascal Groß,Brighton,MID,6.5,XI,False,False,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,Pedro Porro,Spurs,DEF,5.8,XI,False,False,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,Phil Foden,Man City,MID,8.1,XI,False,False,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,83.5,72.8,16.5,89.3
+Robust Weighted Avg.,Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,72.8,16.5,89.3
+Robust Exponential Smoothing,Adama Traoré,Fulham,MID,4.9,XI,False,False,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Cesare Casadei,Chelsea,MID,4.5,XI,False,False,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Chris Richards,Crystal Palace,DEF,3.9,XI,True,False,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Daniel Muñoz,Crystal Palace,DEF,4.5,XI,False,True,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Ederson Santana de Moraes,Man City,GK,5.5,XI,False,False,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Jayden Danns,Liverpool,FWD,4.5,XI,False,False,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Lewis Dunk,Brighton,DEF,5.1,XI,False,False,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Luis Díaz,Liverpool,MID,7.5,XI,False,False,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Morgan Rogers,Aston Villa,MID,5.0,XI,False,False,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Rodrigo Muniz Carvalho,Fulham,FWD,4.4,Bench,False,False,83.5,58.800000000000004,16.5,75.30000000000001
+Robust Exponential Smoothing,Stefan Ortega Moreno,Man City,GK,3.7,Bench,False,False,83.5,58.800000000000004,16.5,75.30000000000001
+"ARIMA (0,0,1)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",Phil Foden,Man City,MID,8.1,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",Son Heung-min,Spurs,MID,9.6,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (0,0,1)",Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+"ARIMA (1,0,0)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",Phil Foden,Man City,MID,8.1,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",Son Heung-min,Spurs,MID,9.6,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (1,0,0)",Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,83.39999999999999,16.5,99.89999999999999
+"ARIMA (0,1,1)",Alexis Mac Allister,Liverpool,MID,5.8,XI,False,False,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",Chris Richards,Crystal Palace,DEF,3.9,XI,True,False,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",Daniel Muñoz,Crystal Palace,DEF,4.5,XI,False,False,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",Ederson Santana de Moraes,Man City,GK,5.5,XI,False,False,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",Emerson Palmieri dos Santos,West Ham,DEF,4.4,XI,False,True,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",Kai Havertz,Arsenal,MID,7.1,XI,False,False,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",Luis Díaz,Liverpool,MID,7.5,XI,False,False,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",Manuel Akanji,Man City,DEF,4.9,XI,False,False,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",Carney Chukwuemeka,Chelsea,MID,4.2,Bench,False,False,83.5,65.8,16.5,82.3
+"ARIMA (0,1,1)",William Osula,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,65.8,16.5,82.3
+"ARIMA (1,0,1)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Cole Palmer,Chelsea,MID,5.8,XI,False,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Pedro Porro,Spurs,DEF,5.8,XI,False,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Phil Foden,Man City,MID,8.1,XI,False,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Son Heung-min,Spurs,MID,9.6,XI,False,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,0,1)",Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,82.89999999999999,16.5,99.39999999999999
+"ARIMA (1,1,0)",Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",Calvin Bassey,Fulham,DEF,4.4,XI,False,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",Chris Richards,Crystal Palace,DEF,3.9,XI,False,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",Daniel Muñoz,Crystal Palace,DEF,4.5,XI,True,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",Ederson Santana de Moraes,Man City,GK,5.5,XI,False,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",Emerson Palmieri dos Santos,West Ham,DEF,4.4,XI,False,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",Jarrod Bowen,West Ham,MID,7.7,XI,False,True,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",Jordan Ayew,Crystal Palace,MID,5.4,XI,False,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",Kai Havertz,Arsenal,MID,7.1,XI,False,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",Lewis Dunk,Brighton,DEF,5.1,XI,False,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",Divin Mubama,West Ham,FWD,4.2,Bench,False,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",Matt Ritchie,Newcastle,MID,4.3,Bench,False,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,0)",William Osula,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,65.9,16.5,82.4
+"ARIMA (1,1,1)",Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",Chris Richards,Crystal Palace,DEF,3.9,XI,False,False,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",Daniel Muñoz,Crystal Palace,DEF,4.5,XI,True,False,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",Ederson Santana de Moraes,Man City,GK,5.5,XI,False,False,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",João Victor Gomes da Silva,Wolves,MID,4.9,XI,False,False,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",Kai Havertz,Arsenal,MID,7.1,XI,False,True,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",Lewis Dunk,Brighton,DEF,5.1,XI,False,False,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",Luis Díaz,Liverpool,MID,7.5,XI,False,False,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",Rasmus Højlund,Man Utd,FWD,7.2,XI,False,False,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",Callum Hudson-Odoi,Nott'm Forest,MID,4.7,Bench,False,False,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",Calum Chambers,Aston Villa,DEF,3.8,Bench,False,False,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,67.9,16.5,84.4
+"ARIMA (1,1,1)",Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,67.9,16.5,84.4
+"ARIMA (2,1,1)",Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",Chris Richards,Crystal Palace,DEF,3.9,XI,False,True,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",Daniel Muñoz,Crystal Palace,DEF,4.5,XI,True,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",Ederson Santana de Moraes,Man City,GK,5.5,XI,False,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",Jarrod Bowen,West Ham,MID,7.7,XI,False,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",João Victor Gomes da Silva,Wolves,MID,4.9,XI,False,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",Kai Havertz,Arsenal,MID,7.1,XI,False,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",Lewis Dunk,Brighton,DEF,5.1,XI,False,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",Pascal Groß,Brighton,MID,6.5,XI,False,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",Nuno Varela Tavares,Nott'm Forest,DEF,4.0,Bench,False,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (2,1,1)",Rodrigo Muniz Carvalho,Fulham,FWD,4.4,Bench,False,False,83.5,67.4,16.4,83.80000000000001
+"ARIMA (1,1,2)",Alex Iwobi,Fulham,MID,5.3,XI,False,False,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",Chris Richards,Crystal Palace,DEF,3.9,XI,True,False,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",Daniel Muñoz,Crystal Palace,DEF,4.5,XI,False,True,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",Ederson Santana de Moraes,Man City,GK,5.5,XI,False,False,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",João Victor Gomes da Silva,Wolves,MID,4.9,XI,False,False,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",Kai Havertz,Arsenal,MID,7.1,XI,False,False,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",Lewis Dunk,Brighton,DEF,5.1,XI,False,False,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",Rúben Gato Alves Dias,Man City,DEF,5.5,XI,False,False,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",Divin Mubama,West Ham,FWD,4.2,Bench,False,False,83.5,64.0,16.5,80.5
+"ARIMA (1,1,2)",Saša Lukić,Fulham,MID,4.3,Bench,False,False,83.5,64.0,16.5,80.5
+"ARIMA (2,1,2)",Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",Chris Richards,Crystal Palace,DEF,3.9,XI,False,True,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",Daniel Muñoz,Crystal Palace,DEF,4.5,XI,True,False,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",Ederson Santana de Moraes,Man City,GK,5.5,XI,False,False,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",Jordan Ayew,Crystal Palace,MID,5.4,XI,False,False,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",João Victor Gomes da Silva,Wolves,MID,4.9,XI,False,False,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",Kai Havertz,Arsenal,MID,7.1,XI,False,False,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",Lewis Dunk,Brighton,DEF,5.1,XI,False,False,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",Nuno Varela Tavares,Nott'm Forest,DEF,4.0,XI,False,False,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",Rayan Aït-Nouri,Wolves,DEF,4.5,XI,False,False,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",Divin Mubama,West Ham,FWD,4.2,Bench,False,False,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",Elliot Anderson,Newcastle,MID,4.2,Bench,False,False,83.5,62.8,16.5,79.30000000000001
+"ARIMA (2,1,2)",Rodrigo Muniz Carvalho,Fulham,FWD,4.4,Bench,False,False,83.5,62.8,16.5,79.30000000000001
+ICT Score,Alfie Doughty,Luton,DEF,4.6,XI,False,False,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,Bruno Borges Fernandes,Man Utd,MID,8.2,XI,False,False,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,Bukayo Saka,Arsenal,MID,9.1,XI,True,False,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,James Trafford,Burnley,GK,4.5,XI,False,False,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,Martin Ødegaard,Arsenal,MID,8.4,XI,False,False,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,Pascal Groß,Brighton,MID,6.5,XI,False,False,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,Pedro Porro,Spurs,DEF,5.8,XI,False,False,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,Phil Foden,Man City,MID,8.1,XI,False,True,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,83.5,77.89999999999999,16.5,94.39999999999999
+ICT Score,Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,77.89999999999999,16.5,94.39999999999999
+Robust ICT Score,Antonee Robinson,Fulham,DEF,4.5,XI,False,False,83.5,76.2,16.5,92.7
+Robust ICT Score,Bruno Borges Fernandes,Man Utd,MID,8.2,XI,False,False,83.5,76.2,16.5,92.7
+Robust ICT Score,Bukayo Saka,Arsenal,MID,9.1,XI,True,False,83.5,76.2,16.5,92.7
+Robust ICT Score,Daniel Muñoz,Crystal Palace,DEF,4.5,XI,False,False,83.5,76.2,16.5,92.7
+Robust ICT Score,Julián Álvarez,Man City,FWD,6.7,XI,False,False,83.5,76.2,16.5,92.7
+Robust ICT Score,Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,76.2,16.5,92.7
+Robust ICT Score,Martin Ødegaard,Arsenal,MID,8.4,XI,False,False,83.5,76.2,16.5,92.7
+Robust ICT Score,Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,76.2,16.5,92.7
+Robust ICT Score,Pascal Groß,Brighton,MID,6.5,XI,False,False,83.5,76.2,16.5,92.7
+Robust ICT Score,Phil Foden,Man City,MID,8.1,XI,False,True,83.5,76.2,16.5,92.7
+Robust ICT Score,Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,83.5,76.2,16.5,92.7
+Robust ICT Score,Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,76.2,16.5,92.7
+Robust ICT Score,Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,76.2,16.5,92.7
+Robust ICT Score,Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,83.5,76.2,16.5,92.7
+Robust ICT Score,Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,76.2,16.5,92.7
+Involvement,Aymeric Laporte,Man City,DEF,4.9,XI,False,False,83.5,69.7,16.5,86.2
+Involvement,Bukayo Saka,Arsenal,MID,9.1,XI,True,False,83.5,69.7,16.5,86.2
+Involvement,Enes Ünal,Bournemouth,FWD,5.0,XI,False,True,83.5,69.7,16.5,86.2
+Involvement,Erling Haaland,Man City,FWD,14.4,XI,False,False,83.5,69.7,16.5,86.2
+Involvement,Gabriel Martinelli Silva,Arsenal,MID,7.7,XI,False,False,83.5,69.7,16.5,86.2
+Involvement,Hugo Lloris,Spurs,GK,4.7,XI,False,False,83.5,69.7,16.5,86.2
+Involvement,Jake O'Brien,Crystal Palace,DEF,4.0,XI,False,False,83.5,69.7,16.5,86.2
+Involvement,Leandro Trossard,Arsenal,MID,6.5,XI,False,False,83.5,69.7,16.5,86.2
+Involvement,Morgan Rogers,Aston Villa,MID,5.0,XI,False,False,83.5,69.7,16.5,86.2
+Involvement,Oscar Bobb,Man City,MID,4.4,XI,False,False,83.5,69.7,16.5,86.2
+Involvement,Valintino Adedokun,Brentford,DEF,4.0,XI,False,False,83.5,69.7,16.5,86.2
+Involvement,Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,69.7,16.5,86.2
+Involvement,Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,69.7,16.5,86.2
+Involvement,Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,83.5,69.7,16.5,86.2
+Involvement,Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,69.7,16.5,86.2
+Linear Regression,Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Cole Palmer,Chelsea,MID,5.8,XI,False,True,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Conor Bradley,Liverpool,DEF,4.1,XI,False,False,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Daniel Muñoz,Crystal Palace,DEF,4.5,XI,True,False,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Pascal Groß,Brighton,MID,6.5,XI,False,False,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Phil Foden,Man City,MID,8.1,XI,False,False,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Rasmus Højlund,Man Utd,FWD,7.2,XI,False,False,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Richarlison de Andrade,Spurs,MID,7.2,XI,False,False,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Jarrad Branthwaite,Everton,DEF,4.2,Bench,False,False,83.5,71.10000000000001,16.3,87.40000000000002
+Linear Regression,Jayden Danns,Liverpool,FWD,4.5,Bench,False,False,83.5,71.10000000000001,16.3,87.40000000000002
+Hybrid Simple Avg. 1:2 (Higher Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),Julián Álvarez,Man City,FWD,6.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),George Baldock,Sheffield Utd,DEF,3.8,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 1:2 (Higher Total Points),Pape Matar Sarr,Spurs,MID,4.4,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),Julián Álvarez,Man City,FWD,6.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),George Baldock,Sheffield Utd,DEF,3.8,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simple Avg. 2:1 (Lower Total Points),Pape Matar Sarr,Spurs,MID,4.4,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Weighted 1:2 (Higher Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,True,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),Cole Palmer,Chelsea,MID,5.8,XI,False,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),Pascal Groß,Brighton,MID,6.5,XI,False,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),Virgil van Dijk,Liverpool,DEF,6.4,XI,False,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 1:2 (Higher Total Points),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,80.2,16.5,96.7
+Hybrid Weighted 2:1 (Lower Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,True,False,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Cole Palmer,Chelsea,MID,5.8,XI,False,False,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Pascal Groß,Brighton,MID,6.5,XI,False,False,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Trent Alexander-Arnold,Liverpool,DEF,8.6,XI,False,False,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Virgil van Dijk,Liverpool,DEF,6.4,XI,False,False,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Ameen Al-Dakhil,Burnley,DEF,3.8,Bench,False,False,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,83.1,16.5,99.6
+Hybrid Weighted 2:1 (Lower Total Points),Jarrad Branthwaite,Everton,DEF,4.2,Bench,False,False,83.5,83.1,16.5,99.6
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Chris Richards,Crystal Palace,DEF,3.9,XI,False,True,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Cole Palmer,Chelsea,MID,5.8,XI,False,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Conor Bradley,Liverpool,DEF,4.1,XI,False,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Daniel Muñoz,Crystal Palace,DEF,4.5,XI,True,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Ederson Santana de Moraes,Man City,GK,5.5,XI,False,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Lewis Dunk,Brighton,DEF,5.1,XI,False,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Luis Díaz,Liverpool,MID,7.5,XI,False,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Richarlison de Andrade,Spurs,MID,7.2,XI,False,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),Carney Chukwuemeka,Chelsea,MID,4.2,Bench,False,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 1:2 (Higher Total Points),William Osula,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,65.8,16.5,82.3
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Chris Richards,Crystal Palace,DEF,3.9,XI,False,True,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Conor Bradley,Liverpool,DEF,4.1,XI,False,False,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Daniel Muñoz,Crystal Palace,DEF,4.5,XI,True,False,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Ederson Santana de Moraes,Man City,GK,5.5,XI,False,False,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Luis Díaz,Liverpool,MID,7.5,XI,False,False,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Richarlison de Andrade,Spurs,MID,7.2,XI,False,False,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),Carney Chukwuemeka,Chelsea,MID,4.2,Bench,False,False,83.5,68.2,16.5,84.7
+Hybrid Exponential Smoothing 2:1 (Lower Total Points),William Osula,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,68.2,16.5,84.7
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Julián Álvarez,Man City,FWD,6.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Ameen Al-Dakhil,Burnley,DEF,3.8,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 1:2 (Higher Total Points),Pape Matar Sarr,Spurs,MID,4.4,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Julián Álvarez,Man City,FWD,6.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Mohamed Salah,Liverpool,MID,13.0,XI,False,True,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Ameen Al-Dakhil,Burnley,DEF,3.8,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Simulation (Non Parametric) 2:1 (Lower Total Points),Pape Matar Sarr,Spurs,MID,4.4,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Julián Álvarez,Man City,FWD,6.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Ameen Al-Dakhil,Burnley,DEF,3.8,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 1:2 (Higher Total Points),Pape Matar Sarr,Spurs,MID,4.4,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid Monte Carlo 2:1 (Lower Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),Julián Álvarez,Man City,FWD,6.7,XI,False,False,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),Pedro Porro,Spurs,DEF,5.8,XI,False,False,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),Ameen Al-Dakhil,Burnley,DEF,3.8,Bench,False,False,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,83.4,16.5,99.9
+Hybrid Monte Carlo 2:1 (Lower Total Points),Pape Matar Sarr,Spurs,MID,4.4,Bench,False,False,83.5,83.4,16.5,99.9
+Hybrid ARIMA 1:2 (Higher Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,True,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),Mohamed Salah,Liverpool,MID,13.0,XI,False,True,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),Son Heung-min,Spurs,MID,9.6,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),Cameron Archer,Sheffield Utd,FWD,4.3,Bench,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 1:2 (Higher Total Points),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,83.49999999999999,16.5,99.99999999999999
+Hybrid ARIMA 2:1 (Lower Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,True,False,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),Julián Álvarez,Man City,FWD,6.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),Mohamed Salah,Liverpool,MID,13.0,XI,False,True,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),Alphonse Areola,West Ham,GK,4.2,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),George Baldock,Sheffield Utd,DEF,3.8,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid ARIMA 2:1 (Lower Total Points),Pape Matar Sarr,Spurs,MID,4.4,Bench,False,False,83.5,82.8,16.5,99.3
+Hybrid ICT Score 1:2 (Higher Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),Julián Álvarez,Man City,FWD,6.7,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),James McAtee,Sheffield Utd,MID,4.4,Bench,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 1:2 (Higher Total Points),Jarrad Branthwaite,Everton,DEF,4.2,Bench,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),Julián Álvarez,Man City,FWD,6.7,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),Mohamed Salah,Liverpool,MID,13.0,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),William Saliba,Arsenal,DEF,5.7,XI,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),James McAtee,Sheffield Utd,MID,4.4,Bench,False,False,83.5,82.8,16.4,99.2
+Hybrid ICT Score 2:1 (Lower Total Points),Jarrad Branthwaite,Everton,DEF,4.2,Bench,False,False,83.5,82.8,16.4,99.2
+Hybrid Linear Regression 1:2 (Higher Total Points),Alejandro Garnacho,Man Utd,MID,5.0,XI,False,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,False,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Cole Palmer,Chelsea,MID,5.8,XI,False,True,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Conor Bradley,Liverpool,DEF,4.1,XI,False,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Daniel Muñoz,Crystal Palace,DEF,4.5,XI,True,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Jordan Pickford,Everton,GK,4.6,XI,False,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Lewis Dunk,Brighton,DEF,5.1,XI,False,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Rasmus Højlund,Man Utd,FWD,7.2,XI,False,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Richarlison de Andrade,Spurs,MID,7.2,XI,False,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Jayden Danns,Liverpool,FWD,4.5,Bench,False,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 1:2 (Higher Total Points),Rodrigo Muniz Carvalho,Fulham,FWD,4.4,Bench,False,False,83.5,65.9,16.5,82.40000000000002
+Hybrid Linear Regression 2:1 (Lower Total Points),Alejandro Garnacho,Man Utd,MID,5.0,XI,False,False,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Cole Palmer,Chelsea,MID,5.8,XI,False,False,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Conor Bradley,Liverpool,DEF,4.1,XI,False,False,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Daniel Muñoz,Crystal Palace,DEF,4.5,XI,True,False,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Lewis Dunk,Brighton,DEF,5.1,XI,False,False,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Phil Foden,Man City,MID,8.1,XI,False,False,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Rasmus Højlund,Man Utd,FWD,7.2,XI,False,False,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Richarlison de Andrade,Spurs,MID,7.2,XI,False,False,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Thomas Kaminski,Luton,GK,4.5,XI,False,False,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Caoimhin Kelleher,Liverpool,GK,3.7,Bench,False,False,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Jayden Danns,Liverpool,FWD,4.5,Bench,False,False,83.5,65.80000000000001,16.5,82.30000000000003
+Hybrid Linear Regression 2:1 (Lower Total Points),Rodrigo Muniz Carvalho,Fulham,FWD,4.4,Bench,False,False,83.5,65.80000000000001,16.5,82.30000000000003
+Simple Avg. (Budget = 55),Anthony Gordon,Newcastle,MID,6.1,XI,False,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Carlton Morris,Luton,FWD,5.0,XI,False,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Cole Palmer,Chelsea,MID,5.8,XI,False,True,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Conor Bradley,Liverpool,DEF,4.1,XI,False,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Declan Rice,Arsenal,MID,5.4,XI,False,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,True,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Jarrad Branthwaite,Everton,DEF,4.2,XI,False,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Scott McTominay,Man Utd,MID,4.6,XI,False,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Vitalii Mykolenko,Everton,DEF,4.6,XI,False,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Erling Haaland,Man City,FWD,14.4,Bench,False,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Jordan Pickford,Everton,GK,4.6,Bench,False,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 55),Ollie Watkins,Aston Villa,FWD,8.8,Bench,False,False,55.0,55.0,34.7,89.7
+Simple Avg. (Budget = 60),Anthony Gordon,Newcastle,MID,6.1,XI,False,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),Carlton Morris,Luton,FWD,5.0,XI,False,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),Cole Palmer,Chelsea,MID,5.8,XI,False,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),Conor Bradley,Liverpool,DEF,4.1,XI,False,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),Declan Rice,Arsenal,MID,5.4,XI,False,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,True,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),James Tarkowski,Everton,DEF,4.6,XI,False,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,XI,False,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),Vitalii Mykolenko,Everton,DEF,4.6,XI,False,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),Bukayo Saka,Arsenal,MID,9.1,Bench,False,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),Jordan Pickford,Everton,GK,4.6,Bench,False,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 60),William Saliba,Arsenal,DEF,5.7,Bench,False,False,60.0,60.00000000000001,26.3,86.30000000000001
+Simple Avg. (Budget = 65),Anthony Gordon,Newcastle,MID,6.1,XI,False,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),Carlton Morris,Luton,FWD,5.0,XI,False,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),Cole Palmer,Chelsea,MID,5.8,XI,False,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),Jarrad Branthwaite,Everton,DEF,4.2,XI,False,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,XI,False,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),Vitalii Mykolenko,Everton,DEF,4.6,XI,False,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),William Saliba,Arsenal,DEF,5.7,XI,False,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),Jordan Pickford,Everton,GK,4.6,Bench,False,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),Mohamed Salah,Liverpool,MID,13.0,Bench,False,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 65),Trent Alexander-Arnold,Liverpool,DEF,8.6,Bench,False,False,65.0,64.9,33.1,98.0
+Simple Avg. (Budget = 70),Anthony Gordon,Newcastle,MID,6.1,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),Cole Palmer,Chelsea,MID,5.8,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),Vitalii Mykolenko,Everton,DEF,4.6,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),William Saliba,Arsenal,DEF,5.7,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),Jordan Pickford,Everton,GK,4.6,Bench,False,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),Julián Álvarez,Man City,FWD,6.7,Bench,False,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 70),Trent Alexander-Arnold,Liverpool,DEF,8.6,Bench,False,False,70.0,70.0,26.800000000000004,96.8
+Simple Avg. (Budget = 75),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),Cole Palmer,Chelsea,MID,5.8,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),Phil Foden,Man City,MID,8.1,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),William Saliba,Arsenal,DEF,5.7,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),Jordan Pickford,Everton,GK,4.6,Bench,False,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),Julián Álvarez,Man City,FWD,6.7,Bench,False,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),Trent Alexander-Arnold,Liverpool,DEF,8.6,Bench,False,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 75),Vitalii Mykolenko,Everton,DEF,4.6,Bench,False,False,75.0,74.3,24.5,98.79999999999998
+Simple Avg. (Budget = 80),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),Cole Palmer,Chelsea,MID,5.8,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),Mohamed Salah,Liverpool,MID,13.0,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),Phil Foden,Man City,MID,8.1,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),William Saliba,Arsenal,DEF,5.7,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),Carlton Morris,Luton,FWD,5.0,Bench,False,False,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),Jordan Pickford,Everton,GK,4.6,Bench,False,False,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),Pedro Porro,Spurs,DEF,5.8,Bench,False,False,80.0,79.60000000000001,20.0,99.6
+Simple Avg. (Budget = 80),Vitalii Mykolenko,Everton,DEF,4.6,Bench,False,False,80.0,79.60000000000001,20.0,99.6
+Weighted Avg. (Budget = 60),Bukayo Saka,Arsenal,MID,9.1,XI,True,False,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Carlton Morris,Luton,FWD,5.0,XI,False,False,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Cole Palmer,Chelsea,MID,5.8,XI,False,True,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Conor Bradley,Liverpool,DEF,4.1,XI,False,False,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Emerson Palmieri dos Santos,West Ham,DEF,4.4,XI,False,False,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Jarrad Branthwaite,Everton,DEF,4.2,XI,False,False,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Jordan Pickford,Everton,GK,4.6,XI,False,False,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Leon Bailey,Aston Villa,MID,5.6,XI,False,False,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Pascal Groß,Brighton,MID,6.5,XI,False,False,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Dominic Solanke,Bournemouth,FWD,7.0,Bench,False,False,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Ederson Santana de Moraes,Man City,GK,5.5,Bench,False,False,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Ollie Watkins,Aston Villa,FWD,8.8,Bench,False,False,60.0,60.0,27.700000000000003,87.7
+Weighted Avg. (Budget = 60),Virgil van Dijk,Liverpool,DEF,6.4,Bench,False,False,60.0,60.0,27.700000000000003,87.7
+Monte Carlo (Budget = 60),Anthony Gordon,Newcastle,MID,6.1,XI,False,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),Carlton Morris,Luton,FWD,5.0,XI,False,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),Cole Palmer,Chelsea,MID,5.8,XI,False,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),Conor Bradley,Liverpool,DEF,4.1,XI,False,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),Declan Rice,Arsenal,MID,5.4,XI,False,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,True,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),James Ward-Prowse,West Ham,MID,6.0,XI,False,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),Jarrad Branthwaite,Everton,DEF,4.2,XI,False,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),Vitalii Mykolenko,Everton,DEF,4.6,XI,False,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),Erling Haaland,Man City,FWD,14.4,Bench,False,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),Jordan Pickford,Everton,GK,4.6,Bench,False,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+Monte Carlo (Budget = 60),William Saliba,Arsenal,DEF,5.7,Bench,False,False,60.0,60.00000000000001,31.599999999999998,91.60000000000001
+"ARIMA (1,0,0, Budget = 60)",Anthony Gordon,Newcastle,MID,6.1,XI,False,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",Carlton Morris,Luton,FWD,5.0,XI,False,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",Chris Richards,Crystal Palace,DEF,3.9,XI,False,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",Cole Palmer,Chelsea,MID,5.8,XI,False,True,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",Emerson Palmieri dos Santos,West Ham,DEF,4.4,XI,False,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",Hwang Hee-chan,Wolves,MID,5.6,XI,False,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,XI,False,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",Jordan Pickford,Everton,GK,4.6,Bench,False,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",Ollie Watkins,Aston Villa,FWD,8.8,Bench,False,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,0, Budget = 60)",William Saliba,Arsenal,DEF,5.7,Bench,False,False,60.0,59.800000000000004,26.0,85.80000000000001
+"ARIMA (1,0,1, Budget = 60)",Anthony Gordon,Newcastle,MID,6.1,XI,False,False,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Carlton Morris,Luton,FWD,5.0,XI,False,False,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Chris Richards,Crystal Palace,DEF,3.9,XI,False,False,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Cole Palmer,Chelsea,MID,5.8,XI,False,True,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Lewis Dunk,Brighton,DEF,5.1,XI,False,False,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,XI,False,False,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Pablo Sarabia,Wolves,MID,4.7,XI,False,False,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Jordan Pickford,Everton,GK,4.6,Bench,False,False,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Ollie Watkins,Aston Villa,FWD,8.8,Bench,False,False,60.0,59.6,26.1,85.7
+"ARIMA (1,0,1, Budget = 60)",Pedro Porro,Spurs,DEF,5.8,Bench,False,False,60.0,59.6,26.1,85.7
+Weighted Avg. (Budget = 65),Bukayo Saka,Arsenal,MID,9.1,XI,True,False,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),Cole Palmer,Chelsea,MID,5.8,XI,False,False,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),Conor Bradley,Liverpool,DEF,4.1,XI,False,False,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),Jarrad Branthwaite,Everton,DEF,4.2,XI,False,False,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),Jordan Pickford,Everton,GK,4.6,XI,False,False,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),Leon Bailey,Aston Villa,MID,5.6,XI,False,False,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,XI,False,False,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),Pascal Groß,Brighton,MID,6.5,XI,False,False,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),Dominic Solanke,Bournemouth,FWD,7.0,Bench,False,False,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),Ederson Santana de Moraes,Man City,GK,5.5,Bench,False,False,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),Virgil van Dijk,Liverpool,DEF,6.4,Bench,False,False,65.0,65.0,24.599999999999998,89.60000000000001
+Weighted Avg. (Budget = 65),William Saliba,Arsenal,DEF,5.7,Bench,False,False,65.0,65.0,24.599999999999998,89.60000000000001
+Monte Carlo (Budget = 65),Anthony Gordon,Newcastle,MID,6.1,XI,False,False,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),Carlton Morris,Luton,FWD,5.0,XI,False,False,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),Cole Palmer,Chelsea,MID,5.8,XI,False,False,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,True,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),Pascal Groß,Brighton,MID,6.5,XI,False,False,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),Vitalii Mykolenko,Everton,DEF,4.6,XI,False,False,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),William Saliba,Arsenal,DEF,5.7,XI,False,False,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),Bukayo Saka,Arsenal,MID,9.1,Bench,False,False,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),Jordan Pickford,Everton,GK,4.6,Bench,False,False,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,65.0,64.7,29.200000000000003,93.89999999999999
+Monte Carlo (Budget = 65),Trent Alexander-Arnold,Liverpool,DEF,8.6,Bench,False,False,65.0,64.7,29.200000000000003,93.89999999999999
+"ARIMA (1,0,0, Budget = 65)",Anthony Gordon,Newcastle,MID,6.1,XI,False,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",Chris Richards,Crystal Palace,DEF,3.9,XI,False,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",Cole Palmer,Chelsea,MID,5.8,XI,False,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",Emerson Palmieri dos Santos,West Ham,DEF,4.4,XI,False,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,XI,False,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",Jordan Pickford,Everton,GK,4.6,Bench,False,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",Mohamed Salah,Liverpool,MID,13.0,Bench,False,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,0, Budget = 65)",William Saliba,Arsenal,DEF,5.7,Bench,False,False,65.0,65.0,30.2,95.2
+"ARIMA (1,0,1, Budget = 65)",Anthony Gordon,Newcastle,MID,6.1,XI,False,False,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Carlton Morris,Luton,FWD,5.0,XI,False,False,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Chris Richards,Crystal Palace,DEF,3.9,XI,False,False,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Cole Palmer,Chelsea,MID,5.8,XI,False,False,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Julián Álvarez,Man City,FWD,6.7,XI,False,False,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Lewis Dunk,Brighton,DEF,5.1,XI,False,False,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Jordan Pickford,Everton,GK,4.6,Bench,False,False,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Mohamed Salah,Liverpool,MID,13.0,Bench,False,False,65.0,64.80000000000001,30.3,95.10000000000001
+"ARIMA (1,0,1, Budget = 65)",Pedro Porro,Spurs,DEF,5.8,Bench,False,False,65.0,64.80000000000001,30.3,95.10000000000001
+Weighted Avg. (Budget = 70),Bukayo Saka,Arsenal,MID,9.1,XI,True,False,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),Cole Palmer,Chelsea,MID,5.8,XI,False,False,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),Conor Bradley,Liverpool,DEF,4.1,XI,False,False,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),Jarrad Branthwaite,Everton,DEF,4.2,XI,False,False,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),Jordan Pickford,Everton,GK,4.6,XI,False,False,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),Pascal Groß,Brighton,MID,6.5,XI,False,False,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),Phil Foden,Man City,MID,8.1,XI,False,False,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),Ederson Santana de Moraes,Man City,GK,5.5,Bench,False,False,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,Bench,False,False,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),Virgil van Dijk,Liverpool,DEF,6.4,Bench,False,False,70.0,68.89999999999999,23.2,92.1
+Weighted Avg. (Budget = 70),William Saliba,Arsenal,DEF,5.7,Bench,False,False,70.0,68.89999999999999,23.2,92.1
+Monte Carlo (Budget = 70),Anthony Gordon,Newcastle,MID,6.1,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),Cole Palmer,Chelsea,MID,5.8,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),Vitalii Mykolenko,Everton,DEF,4.6,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),William Saliba,Arsenal,DEF,5.7,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),Jordan Pickford,Everton,GK,4.6,Bench,False,False,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),Julián Álvarez,Man City,FWD,6.7,Bench,False,False,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,70.0,70.0,26.800000000000004,96.8
+Monte Carlo (Budget = 70),Trent Alexander-Arnold,Liverpool,DEF,8.6,Bench,False,False,70.0,70.0,26.800000000000004,96.8
+"ARIMA (1,0,0, Budget = 70)",Anthony Gordon,Newcastle,MID,6.1,XI,False,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",Chris Richards,Crystal Palace,DEF,3.9,XI,False,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",Cole Palmer,Chelsea,MID,5.8,XI,False,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",Phil Foden,Man City,MID,8.1,XI,False,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",William Saliba,Arsenal,DEF,5.7,XI,False,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",Emerson Palmieri dos Santos,West Ham,DEF,4.4,Bench,False,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",Erling Haaland,Man City,FWD,14.4,Bench,False,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",Jordan Pickford,Everton,GK,4.6,Bench,False,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,0, Budget = 70)",Pedro Porro,Spurs,DEF,5.8,Bench,False,False,70.0,69.7,29.2,98.9
+"ARIMA (1,0,1, Budget = 70)",Anthony Gordon,Newcastle,MID,6.1,XI,False,False,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Cole Palmer,Chelsea,MID,5.8,XI,False,False,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Julián Álvarez,Man City,FWD,6.7,XI,False,False,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Lewis Dunk,Brighton,DEF,5.1,XI,False,False,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Pedro Porro,Spurs,DEF,5.8,XI,False,False,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Phil Foden,Man City,MID,8.1,XI,False,False,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Erling Haaland,Man City,FWD,14.4,Bench,False,False,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Jordan Pickford,Everton,GK,4.6,Bench,False,False,70.0,69.8,29.799999999999997,99.60000000000001
+"ARIMA (1,0,1, Budget = 70)",Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,70.0,69.8,29.799999999999997,99.60000000000001
+Weighted Avg. (Budget = 75),Bukayo Saka,Arsenal,MID,9.1,XI,True,False,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),Cole Palmer,Chelsea,MID,5.8,XI,False,False,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),Jordan Pickford,Everton,GK,4.6,XI,False,False,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),Pascal Groß,Brighton,MID,6.5,XI,False,False,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),Phil Foden,Man City,MID,8.1,XI,False,False,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),Virgil van Dijk,Liverpool,DEF,6.4,XI,False,False,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),William Saliba,Arsenal,DEF,5.7,XI,False,False,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),Ederson Santana de Moraes,Man City,GK,5.5,Bench,False,False,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),Jarrad Branthwaite,Everton,DEF,4.2,Bench,False,False,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,Bench,False,False,75.0,72.7,23.9,96.6
+Weighted Avg. (Budget = 75),Trent Alexander-Arnold,Liverpool,DEF,8.6,Bench,False,False,75.0,72.7,23.9,96.6
+Monte Carlo (Budget = 75),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),Cole Palmer,Chelsea,MID,5.8,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),Phil Foden,Man City,MID,8.1,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),William Saliba,Arsenal,DEF,5.7,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),Jordan Pickford,Everton,GK,4.6,Bench,False,False,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),Julián Álvarez,Man City,FWD,6.7,Bench,False,False,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),Trent Alexander-Arnold,Liverpool,DEF,8.6,Bench,False,False,75.0,74.3,24.5,98.79999999999998
+Monte Carlo (Budget = 75),Vitalii Mykolenko,Everton,DEF,4.6,Bench,False,False,75.0,74.3,24.5,98.79999999999998
+"ARIMA (1,0,0, Budget = 75)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",Cole Palmer,Chelsea,MID,5.8,XI,False,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",Emerson Palmieri dos Santos,West Ham,DEF,4.4,XI,False,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",Julián Álvarez,Man City,FWD,6.7,XI,False,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",Phil Foden,Man City,MID,8.1,XI,False,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",Son Heung-min,Spurs,MID,9.6,XI,False,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",William Saliba,Arsenal,DEF,5.7,XI,False,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",Jarrod Bowen,West Ham,MID,7.7,Bench,False,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",Jordan Pickford,Everton,GK,4.6,Bench,False,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,0, Budget = 75)",Pedro Porro,Spurs,DEF,5.8,Bench,False,False,75.0,74.89999999999999,25.000000000000004,99.89999999999999
+"ARIMA (1,0,1, Budget = 75)",Anthony Gordon,Newcastle,MID,6.1,XI,False,False,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",Cole Palmer,Chelsea,MID,5.8,XI,False,False,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",Lewis Dunk,Brighton,DEF,5.1,XI,False,False,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",Mohamed Salah,Liverpool,MID,13.0,XI,False,False,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",Pedro Porro,Spurs,DEF,5.8,XI,False,False,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",Jordan Pickford,Everton,GK,4.6,Bench,False,False,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",Julián Álvarez,Man City,FWD,6.7,Bench,False,False,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,75.0,75.0,23.900000000000002,98.9
+"ARIMA (1,0,1, Budget = 75)",William Saliba,Arsenal,DEF,5.7,Bench,False,False,75.0,75.0,23.900000000000002,98.9
+Weighted Avg. (Budget = 80),Bukayo Saka,Arsenal,MID,9.1,XI,True,False,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),Cole Palmer,Chelsea,MID,5.8,XI,False,False,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),Jordan Pickford,Everton,GK,4.6,XI,False,False,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),Mohamed Salah,Liverpool,MID,13.0,XI,False,False,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),Phil Foden,Man City,MID,8.1,XI,False,False,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),Virgil van Dijk,Liverpool,DEF,6.4,XI,False,False,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),William Saliba,Arsenal,DEF,5.7,XI,False,False,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),Ederson Santana de Moraes,Man City,GK,5.5,Bench,False,False,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),Jarrad Branthwaite,Everton,DEF,4.2,Bench,False,False,80.0,79.2,19.4,98.6
+Weighted Avg. (Budget = 80),Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,Bench,False,False,80.0,79.2,19.4,98.6
+Monte Carlo (Budget = 80),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),Cole Palmer,Chelsea,MID,5.8,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),Mohamed Salah,Liverpool,MID,13.0,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),Phil Foden,Man City,MID,8.1,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),William Saliba,Arsenal,DEF,5.7,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),Jordan Pickford,Everton,GK,4.6,Bench,False,False,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),Julián Álvarez,Man City,FWD,6.7,Bench,False,False,80.0,79.60000000000001,20.0,99.6
+Monte Carlo (Budget = 80),Vitalii Mykolenko,Everton,DEF,4.6,Bench,False,False,80.0,79.60000000000001,20.0,99.6
+"ARIMA (1,0,0, Budget = 80)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",Chris Richards,Crystal Palace,DEF,3.9,XI,False,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",Cole Palmer,Chelsea,MID,5.8,XI,False,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",Emerson Palmieri dos Santos,West Ham,DEF,4.4,XI,False,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",Mohamed Salah,Liverpool,MID,13.0,XI,False,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",Phil Foden,Man City,MID,8.1,XI,False,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",Son Heung-min,Spurs,MID,9.6,XI,False,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",William Saliba,Arsenal,DEF,5.7,XI,False,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",Jakub Kiwior,Arsenal,DEF,4.3,Bench,False,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",Jarrad Branthwaite,Everton,DEF,4.2,Bench,False,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",Jordan Pickford,Everton,GK,4.6,Bench,False,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,0, Budget = 80)",Julián Álvarez,Man City,FWD,6.7,Bench,False,False,80.0,79.89999999999999,19.8,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Cole Palmer,Chelsea,MID,5.8,XI,False,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Jakub Kiwior,Arsenal,DEF,4.3,XI,False,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Lewis Dunk,Brighton,DEF,5.1,XI,False,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,XI,False,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Mohamed Salah,Liverpool,MID,13.0,XI,False,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Pedro Porro,Spurs,DEF,5.8,XI,False,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Phil Foden,Man City,MID,8.1,XI,False,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Son Heung-min,Spurs,MID,9.6,XI,False,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Chris Richards,Crystal Palace,DEF,3.9,Bench,False,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Daniel Muñoz,Crystal Palace,DEF,4.5,Bench,False,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Dominic Solanke,Bournemouth,FWD,7.0,Bench,False,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (1,0,1, Budget = 80)",Jordan Pickford,Everton,GK,4.6,Bench,False,False,80.0,79.69999999999999,20.0,99.69999999999999
+"ARIMA (0,0,1, Budget = 65)",Anthony Gordon,Newcastle,MID,6.1,XI,False,False,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",Carlton Morris,Luton,FWD,5.0,XI,False,False,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",Cole Palmer,Chelsea,MID,5.8,XI,False,False,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",Emerson Palmieri dos Santos,West Ham,DEF,4.4,XI,False,False,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",Joachim Andersen,Crystal Palace,DEF,4.7,XI,False,False,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",Jordan Pickford,Everton,GK,4.6,XI,False,False,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,XI,False,False,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",André Onana,Man Utd,GK,4.8,Bench,False,False,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",Mohamed Salah,Liverpool,MID,13.0,Bench,False,False,65.0,64.8,30.4,95.2
+"ARIMA (0,0,1, Budget = 65)",William Saliba,Arsenal,DEF,5.7,Bench,False,False,65.0,64.8,30.4,95.2
+Hybrid ICT Score (Budget = 65),Alphonse Areola,West Ham,GK,4.2,XI,False,False,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),Anthony Gordon,Newcastle,MID,6.1,XI,False,False,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),Cole Palmer,Chelsea,MID,5.8,XI,False,False,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,True,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),James Tarkowski,Everton,DEF,4.6,XI,False,False,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,XI,False,False,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),Pascal Groß,Brighton,MID,6.5,XI,False,False,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),William Saliba,Arsenal,DEF,5.7,XI,False,False,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),Bukayo Saka,Arsenal,MID,9.1,Bench,False,False,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),Jordan Pickford,Everton,GK,4.6,Bench,False,False,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),Trent Alexander-Arnold,Liverpool,DEF,8.6,Bench,False,False,65.0,65.0,28.699999999999996,93.69999999999999
+Hybrid ICT Score (Budget = 65),Virgil van Dijk,Liverpool,DEF,6.4,Bench,False,False,65.0,65.0,28.699999999999996,93.69999999999999
+"ARIMA (0,0,1, Budget = 70)",Anthony Gordon,Newcastle,MID,6.1,XI,False,False,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",Cole Palmer,Chelsea,MID,5.8,XI,False,False,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",Emerson Palmieri dos Santos,West Ham,DEF,4.4,XI,False,False,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",Jordan Pickford,Everton,GK,4.6,XI,False,False,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",Julián Álvarez,Man City,FWD,6.7,XI,False,False,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",Phil Foden,Man City,MID,8.1,XI,False,False,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",William Saliba,Arsenal,DEF,5.7,XI,False,False,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",André Onana,Man Utd,GK,4.8,Bench,False,False,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",Dominic Solanke,Bournemouth,FWD,7.0,Bench,False,False,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,70.0,70.0,27.300000000000004,97.3
+"ARIMA (0,0,1, Budget = 70)",Trent Alexander-Arnold,Liverpool,DEF,8.6,Bench,False,False,70.0,70.0,27.300000000000004,97.3
+Hybrid ICT Score (Budget = 70),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),Cole Palmer,Chelsea,MID,5.8,XI,False,False,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),Joachim Andersen,Crystal Palace,DEF,4.7,XI,False,False,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),Jordan Pickford,Everton,GK,4.6,XI,False,False,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),Julián Álvarez,Man City,FWD,6.7,XI,False,False,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),Pascal Groß,Brighton,MID,6.5,XI,False,False,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),William Saliba,Arsenal,DEF,5.7,XI,False,False,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),Ederson Santana de Moraes,Man City,GK,5.5,Bench,False,False,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),Phil Foden,Man City,MID,8.1,Bench,False,False,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),Trent Alexander-Arnold,Liverpool,DEF,8.6,Bench,False,False,70.0,69.60000000000001,28.6,98.2
+Hybrid ICT Score (Budget = 70),Virgil van Dijk,Liverpool,DEF,6.4,Bench,False,False,70.0,69.60000000000001,28.6,98.2
+"ARIMA (0,0,1, Budget = 75)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",Cole Palmer,Chelsea,MID,5.8,XI,False,False,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",Emerson Palmieri dos Santos,West Ham,DEF,4.4,XI,False,False,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",Jordan Pickford,Everton,GK,4.6,XI,False,False,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",Julián Álvarez,Man City,FWD,6.7,XI,False,False,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",Phil Foden,Man City,MID,8.1,XI,False,False,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",Son Heung-min,Spurs,MID,9.6,XI,False,False,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",William Saliba,Arsenal,DEF,5.7,XI,False,False,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",Jarrod Bowen,West Ham,MID,7.7,Bench,False,False,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",Kieran Trippier,Newcastle,DEF,6.9,Bench,False,False,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",Pedro Porro,Spurs,DEF,5.8,Bench,False,False,75.0,75.0,24.900000000000002,99.9
+"ARIMA (0,0,1, Budget = 75)",Đorđe Petrović,Chelsea,GK,4.5,Bench,False,False,75.0,75.0,24.900000000000002,99.9
+Hybrid ICT Score (Budget = 75),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),Jarrod Bowen,West Ham,MID,7.7,XI,False,False,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),Pascal Groß,Brighton,MID,6.5,XI,False,False,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),Phil Foden,Man City,MID,8.1,XI,False,False,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),William Saliba,Arsenal,DEF,5.7,XI,False,False,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),Đorđe Petrović,Chelsea,GK,4.5,XI,False,False,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),Jarrad Branthwaite,Everton,DEF,4.2,Bench,False,False,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),Jordan Pickford,Everton,GK,4.6,Bench,False,False,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,Bench,False,False,75.0,75.0,20.8,95.8
+Hybrid ICT Score (Budget = 75),Virgil van Dijk,Liverpool,DEF,6.4,Bench,False,False,75.0,75.0,20.8,95.8
+"ARIMA (0,0,1, Budget = 80)",Bukayo Saka,Arsenal,MID,9.1,XI,True,False,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",Cole Palmer,Chelsea,MID,5.8,XI,False,False,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",Jordan Pickford,Everton,GK,4.6,XI,False,False,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",Mohamed Salah,Liverpool,MID,13.0,XI,False,False,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",Ollie Watkins,Aston Villa,FWD,8.8,XI,False,True,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",Phil Foden,Man City,MID,8.1,XI,False,False,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",William Saliba,Arsenal,DEF,5.7,XI,False,False,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",Alphonse Areola,West Ham,GK,4.2,Bench,False,False,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",Emerson Palmieri dos Santos,West Ham,DEF,4.4,Bench,False,False,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",Joachim Andersen,Crystal Palace,DEF,4.7,Bench,False,False,80.0,79.69999999999999,20.0,99.7
+"ARIMA (0,0,1, Budget = 80)",Julián Álvarez,Man City,FWD,6.7,Bench,False,False,80.0,79.69999999999999,20.0,99.7
+Hybrid ICT Score (Budget = 80),Bukayo Saka,Arsenal,MID,9.1,XI,False,True,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),Cole Palmer,Chelsea,MID,5.8,XI,False,False,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),Douglas Luiz Soares de Paulo,Aston Villa,MID,5.5,XI,False,False,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,XI,False,False,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),Jordan Pickford,Everton,GK,4.6,XI,False,False,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),Mohamed Salah,Liverpool,MID,13.0,XI,False,False,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),Ollie Watkins,Aston Villa,FWD,8.8,XI,True,False,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),Phil Foden,Man City,MID,8.1,XI,False,False,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),William Saliba,Arsenal,DEF,5.7,XI,False,False,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),Conor Bradley,Liverpool,DEF,4.1,Bench,False,False,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),Ederson Santana de Moraes,Man City,GK,5.5,Bench,False,False,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),Jarrad Branthwaite,Everton,DEF,4.2,Bench,False,False,80.0,79.69999999999999,19.4,99.09999999999998
+Hybrid ICT Score (Budget = 80),Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,Bench,False,False,80.0,79.69999999999999,19.4,99.09999999999998
+ICT Score (Budget = 70),Alejandro Garnacho,Man Utd,MID,5.0,XI,False,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),Alfie Doughty,Luton,DEF,4.6,XI,False,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),Bukayo Saka,Arsenal,MID,9.1,XI,True,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),Cole Palmer,Chelsea,MID,5.8,XI,False,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),James Trafford,Burnley,GK,4.5,XI,False,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),Julián Álvarez,Man City,FWD,6.7,XI,False,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),Pascal Groß,Brighton,MID,6.5,XI,False,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),Pedro Porro,Spurs,DEF,5.8,XI,False,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),Phil Foden,Man City,MID,8.1,XI,False,True,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,Bench,False,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),Jordan Pickford,Everton,GK,4.6,Bench,False,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),Ollie Watkins,Aston Villa,FWD,8.8,Bench,False,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 70),Virgil van Dijk,Liverpool,DEF,6.4,Bench,False,False,70.0,70.0,25.0,95.0
+ICT Score (Budget = 75),Alejandro Garnacho,Man Utd,MID,5.0,XI,False,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),Alfie Doughty,Luton,DEF,4.6,XI,False,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),Bukayo Saka,Arsenal,MID,9.1,XI,True,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),James Trafford,Burnley,GK,4.5,XI,False,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),Martin Ødegaard,Arsenal,MID,8.4,XI,False,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),Pascal Groß,Brighton,MID,6.5,XI,False,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),Pedro Porro,Spurs,DEF,5.8,XI,False,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),Phil Foden,Man City,MID,8.1,XI,False,True,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,Bench,False,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),Jordan Pickford,Everton,GK,4.6,Bench,False,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,Bench,False,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 75),Virgil van Dijk,Liverpool,DEF,6.4,Bench,False,False,75.0,74.7,21.8,96.5
+ICT Score (Budget = 80),Alfie Doughty,Luton,DEF,4.6,XI,False,False,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),Bruno Borges Fernandes,Man Utd,MID,8.2,XI,False,False,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),Bukayo Saka,Arsenal,MID,9.1,XI,True,False,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),Dominic Solanke,Bournemouth,FWD,7.0,XI,False,False,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),James Trafford,Burnley,GK,4.5,XI,False,False,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),Kieran Trippier,Newcastle,DEF,6.9,XI,False,False,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),Martin Ødegaard,Arsenal,MID,8.4,XI,False,False,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),Ollie Watkins,Aston Villa,FWD,8.8,XI,False,False,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),Pascal Groß,Brighton,MID,6.5,XI,False,False,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),Pedro Porro,Spurs,DEF,5.8,XI,False,False,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),Phil Foden,Man City,MID,8.1,XI,False,True,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),Gabriel dos Santos Magalhães,Arsenal,DEF,5.2,Bench,False,False,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),Jarrad Branthwaite,Everton,DEF,4.2,Bench,False,False,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),Jordan Pickford,Everton,GK,4.6,Bench,False,False,80.0,77.89999999999999,19.6,97.49999999999999
+ICT Score (Budget = 80),Matheus Santos Carneiro Da Cunha,Wolves,FWD,5.6,Bench,False,False,80.0,77.89999999999999,19.6,97.49999999999999
